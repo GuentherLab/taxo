@@ -1,0 +1,51 @@
+AddVariance             Adds variance
+AssignMAMBAC            Assigns variables to input/output for MAMBAC
+                        procedure
+AssignMAXEIG            Assigns variables to input/output for MAXEIG
+                        procedure
+CalculateBaseRates      Calculates and returns base rate estimates for
+                        taxometric analysis
+CalculateCCFI           Calculates CCFIs
+CalculateCCFIs          Calculates CCFIs for profiles
+CalculateCCFIsProfile   Calculates CCFIs for profiles
+CalculateFitDensities   Calculates fit
+CalculateKurtosis       Calculates kurtosis
+CalculateLModeCCFI      Calculates L-Mode CCFI
+CalculateMAMBAC         Calculates MAMBAC curve
+CalculateMAXEIG         Calculates MAXEIG curve
+CalculateMAXSLOPE       Calculates MAXSLOPE curve
+CalculateProfileOutput
+                        Provides aggregated CCFIs and base rate
+                        estimates for CCFI profile
+CalculateSkew           Calculates skew
+CalculateValidity       Calculates Validity
+CheckClassification     Checks classification
+CheckData               Checks supplied data set
+CheckParameters         Checks parameters
+ClassifyCases           Assigns cases to groups
+CreateData              Creates a data set
+CreateSample            Creates sample of data
+CreateVariable          Creates a variable
+DisplayPanels           Displays panels of graphs
+DisplayProfiles         Plots CCFI Profiles
+EstimateLMode           Estimates L-Mode base rate
+EstimateMAMBAC          Estimates MAMBAC base rate
+EstimateMAXEIG          Estimates MAXEIG base rate
+EstimateMAXSLOPE        Estimates MAXSLOPE base rate
+GenerateData            Generates comparison data
+GetSpecifications       Provides analytic specifications
+PlotPanel               Plots a panel of curves
+ProcessProfile          Calculates CCFIs and base rates for CCFI
+                        profile
+RemoveMissingData       Removes missing data
+RunCCFIProfile          Performs taxometric analyses to generate a CCFI
+                        profile
+RunFactorAnalysis       Performs factor analysis
+RunLMode                Performs L-Mode
+RunMAMBAC               Performs MAMBAC
+RunMAXEIG               Performs MAXEIG
+RunMAXSLOPE             Performs MAXSLOPE
+RunProcedures           Runs taxometric procedures for empirical data
+RunProceduresComp       Runs taxometric procedures for comparison data
+RunTaxometrics          Taxometric analysis for a sample of data
+SummarizeDist           Summarizes distribution
