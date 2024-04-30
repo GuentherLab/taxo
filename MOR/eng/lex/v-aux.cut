@@ -1,0 +1,21 @@
+@UTF8
+a' {[scat aux]} "aprog" %dialectal progressive
+ain't {[scat aux][tense pres] [agr 1S] [vform OR prog perf]} "be&1S~neg|not"
+am {[scat aux] [tense pres] [agr 1S] [vform OR prog perf]} "be&1S"
+are {[scat aux] [tense pres] [agr OR 2S 1P 2P 3P] [vform OR prog perf]} "be&PRES"
+be {[scat aux] [ir y] [vform OR prog perf]}
+been {[scat aux] [tense perf] [vform OR prog perf]} "be&PASTP"
+being {[scat aux][tense pres][vform prog]} "be-PRESP"
+had {[scat aux] [tense past] [vform perf]} "have&PAST"
+has {[scat aux] [tense pres] [agr 3S] [vform perf]} "have&3S"
+hath {[scat aux] [tense pres] [agr 3S] [vform perf]} "have&3S"
+have {[scat aux] [ir y] [vform perf]}
+having {[scat aux] [ir y] [vform perf]} "have-PRESP"
+is {[scat aux] [tense pres] [agr 3S] [vform OR prog perf]} "be&3S"
+was {[scat aux] [tense past] [agr OR 1S 3S] [vform OR prog perf]} "be&PAST&13S"
+were {[scat aux][tense past] [agr OR 2S 1P 2P 3P] [vform OR prog perf]} "be&PAST"
+got {[scat aux][tense past]} "get&PAST"
+get {[scat aux][tense pres]}
+gets {[scat aux][tense pres]} "get-3S"
+getting {[scat aux][tense prog]} "get-PRESP"
+gotten {[scat aux][tense perf]} "get&PASTP"

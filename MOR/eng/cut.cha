@@ -1,0 +1,15 @@
+@UTF8
+@Window:	0_0_0_0_-1_-1_345_0_345_0
+RULENAME: v-geminate-monosyllabic
+LEX-ENTRY:
+LEXSURF = $O$V$C
+LEXCAT = [scat v], ![tense OR past perf], ![bare yes]  % to block putting
+ALLO:
+ALLOSURF = $O$V$C$C
+ALLOCAT = LEXCAT, ADD [allo vHb], ADD [bare no]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vHa]
+ALLO:
+ALLOSURF = $O$V$C_$O$V$C
+ALLOCAT = LEXCAT, ADD [allo v0], ADD [gen DUP]

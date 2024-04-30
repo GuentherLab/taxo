@@ -1,0 +1,15 @@
+@UTF8
+best {[scat adj] [degree sp]} "good&SP"
+best {[scat adv] [degree sp]} "good&SP"
+better {[scat adj] [degree cp]} "good&CP"
+better {[scat adv] [degree cp]} "good&CP"
+elder {[scat adj] [degree cp]}
+eldest {[scat adj] [degree sp]}
+farther {[scat adj] [degree cp]} "far-CP"
+farthest {[scat adj] [degree sp]} "far-SP"
+furthest {[scat adj] [degree sp]} "far-SP"
+least {[scat adj] [degree sp]}
+less {[scat adj] [degree cp][block OR un ie]}
+next {[scat adj] [qn +]}
+worse {[scat adj] [degree cp]} "bad&CP"
+worst {[scat adj] [degree sp]} "bad&SP"

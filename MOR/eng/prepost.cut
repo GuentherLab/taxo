@@ -1,0 +1,125 @@
+@UTF8
+@Window:	412_162_789_722_-1_-1_794_0_794_0
+#*************************************
+# Instructions:
+# '~'	in the rule means clitic in the utterance is not treated as space, otherwise it is
+# !	used before element refers to the whole element
+# ,!	used within element after "," refers only to that choice
+# $-	means copy whatever search pattern matched in full and unchanged to the output
+# (...)	means match choices within zero or any number of times; the "to" part must be ()
+# [...]	means match choices within zero or only one time; the "to" part must be []
+# pro:*|*,n|*,!pro:dem|*	means match "pro:*|" or "n|" once, but fail at "pro:dem|";
+# 				the "to" part must be $-
+# !part|*P*P	means match only if part|*P*P not found; the "to" part must be !-
+# \	means the rule continues on the next line
+#*************************************
+
+# Alexa command
+n:prop|Alexa n*|*^v*|* => n:prop|Alexa v*|*
+
+# noun to verb, choose verb after aux and inf|to, "has to change"
+aux|*^* inf|to^prep|to n|*^v|* => aux|* inf|to v|*
+
+# noun to verb, after contracted modal "gonna play"
+part|*~inf|to n|*^v|* => part|*~inf|to v|*
+
+# noun to verb, after go "let's go play"
+v|go n|*^v|* => v|go v|*
+
+# noun to verb, "want to play"
+v|* inf|to^prep|to n|*^v|* => v|* inf|to v|*
+
+# bare co
+$b co|*^* $e => $b co|* $e
+
+# daddy ‡ clean the floor.
+beg|beg v|*^adj|* det*|* => $- v|* det*|*
+
+# might have been sitting
+mod|*^* aux|*^* cop|*^aux|* part|*^* => mod|* aux|* aux|* part|*
+
+# might have been
+mod|*^* aux|*^* cop|*^* => mod|* aux|* cop|*
+
+# may have destroyed
+ mod|*^* aux|*^* part|*^* => mod|* aux|* part|*
+
+# do you know
+mod|*^v|* pro:per|* => mod|* pro:per|*
+mod|*^v|* pro:sub|* => mod|* pro:sub|*
+
+# might sleep
+mod|*^* v|*^* => mod|* v|*
+
+# what did the baby like
+pro:int|*^* mod|do*^* => pro:int|* mod|do*
+
+# verb to noun
+det:art|*,adj|* v|*-3S^n|*-PL => $- n|*-PL
+det:art|*,adj|* v|*^n|* => $- n|*
+
+# can fit into
+mod|*^* v|*^* prep|* => mod|* v|* prep|*
+
+# here, there POBJ
+prep|*^!conj|*^* adv|here^* => prep|* $-n|here
+prep|*^!conj|*^* adv|there^* => prep|* $-n|there
+
+# POSS  (order before AUX/V)
+# Ben's foot, nobody's foot
+#n|*~aux|be&3S^* adv|back^* => n|*~aux|be&3S adv|back
+n:prop|*~aux|be&3S^* (adv|*^*) part|*-PRESP^* => n:prop|*~aux|be&3S (adv|*^*) part|*-PRESP
+n*|*~cop|*^* adv|up^prep|up => n*|*~cop|* adv|up
+n*|*~cop|*^* adv|in^prep|in det*|* => n*|*~cop|* prep|in det*|*
+
+n*|*~aux|*^n*|*~cop|*^adj|*-POSS^* prep|*^adv|* n|* => n*|*~cop|* prep|* n|*
+n*|*~aux|*^n*|*~cop|*^adj|*-POSS^* prep|*^adv|* det:*|* n|* => n*|*~cop|* prep|* $-  n|*
+
+n*|*~aux|*^n*|*~cop|*^adj|*-POSS^* adv|*^* adv|*^* part|*PRESP^* => n*|*~aux|* adv|* adv|* part|*PRESP
+n*|*~aux|*^n*|*~cop|*^adj|*-POSS^* adv|*^* part|*PRESP^* => n*|*~aux|* adv|* part|*PRESP
+n*|*~aux|*^n*|*~cop|*^adj|*-POSS^* prep|*^adv|* prep|*^adv|* n|* => n*|*~cop|* adv|* prep|* n|*
+n*|*~aux|*^n*|*~cop|*^adj|*-POSS^* prep|*^adv|* prep|*^adv|* det:*|* n|* => n*|*~cop|* adv|* prep|* $-  n|*
+
+n*|*~aux|*^n*|*~cop|*^adj|*-POSS^* n|*^* prep|*^adv|* => adj|*-POSS n|* prep|*
+n*|*~aux|*^n*|*~cop|*^adj|*-POSS^* n|*^* => adj|*-POSS n|*
+n*|*~aux|*^n*|*~cop|*^adj|*-POSS^* adj|*^* n|*^* => adj|*-POSS adj|* n|*
+n*|*~aux|*^n*|*~cop|*^adj|*-POSS^* det:num|* n|*^* => adj|*-POSS $- n|*
+
+# two daughters of her own
+det:poss|*^* adj|own^v|own => det:poss|* adj|own
+
+# this beautiful dress
+det:dem|*^* adj|* => det:dem|* adj|*
+
+# their romping around
+det:poss|* n:gerund|*-PRESP^part|*-PRESP adv|*^* => det:poss|* n:gerund|*-PRESP adv|*
+
+# he's going
+pro:*|*~cop|*^* part|*^* => pro:*|*~cop|* part|*
+
+# done eating
+part|* n:gerund|*-PRESP^part|*-PRESP => part|* n:gerund|*-PRESP
+
+# her mean stepmother
+det:poss|*^* adj|*^v|* n|*^* => det:poss|* adj|* n|*
+
+# back home
+n|back^adv|back^adj|back^v|back n|home^adv|home => adv|back adv|home
+
+# were frightened or scared
+aux|*^* part|frighten-PASTP^v|frighten-PAST coord|* part|scare-PASTP^v|scare-PAST => aux|* part|frighten-PASTP coord|* part|scare-PASTP
+
+# AUX/COP => AUX
+# there was a ball, there is something
+$b adv|there^pro:exist|there aux|*^cop|* => $b pro:exist|there cop|*
+
+#AUX/COP => AUX
+# is he coming?
+$b aux|*^cop|* pro:*|* part|*^* => $b aux|* pro:*|* part|*
+$b aux|*^cop|* n|* part|*^* => $b aux|* n|* part|*
+$b aux|*^cop|* n:*|* part|*^* => $b aux|* n:*|* part|*
+
+
+
+
+

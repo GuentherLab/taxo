@@ -1,0 +1,161 @@
+@UTF8
+
+%**********
+%  ADJECTIVES
+%**********
+
+% these next two make [scat adj] versions of the [scat part] forms in virr.cut
+RULENAME:	adj-PASTP
+LEX-ENTRY:
+LEXSURF = $X
+LEXCAT = [scat part], [bare yes], [adj yes]
+ALLO:
+ALLOSURF = $X
+ALLOCAT = LEXCAT
+ALLO:
+ALLOSURF = $X
+ALLOCAT = DEL [scat], ADD [scat adj]
+
+RULENAME:	adj-PRESP
+LEX-ENTRY:
+LEXSURF = $X
+LEXCAT = [scat part], [bare yes], [adj yes]
+ALLO:
+ALLOSURF = $X
+ALLOCAT = LEXCAT
+ALLO:
+ALLOSURF = $X
+ALLOCAT = DEL [scat], ADD [scat adj]
+
+RULENAME:	adj-ble
+LEX-ENTRY:
+LEXSURF = $Xble  % probable/probably/probability
+LEXCAT = [scat adj]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo a0]
+ALLO:
+ALLOSURF = $Xbil	% probability
+ALLOCAT = LEXCAT, ADD [allo aLb]
+ALLO:
+ALLOSURF = $Xbl		% probably
+ALLOCAT = LEXCAT, ADD [allo aLc]
+
+RULENAME:	adj-little
+LEX-ENTRY:
+LEXSURF = $X$Cle  % little
+LEXCAT = [scat adj]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo aLa]
+ALLO:
+ALLOSURF = $X$C
+ALLOCAT = LEXCAT, ADD [allo aLb]
+ALLO:
+ALLOSURF = $X$Cl
+ALLOCAT = LEXCAT, ADD [allo aLc]
+ALLO:
+ALLOSURF = $X$Cle_$X$Cle
+ALLOCAT = LEXCAT, ADD [allo a0], ADD [gen DUP]
+
+RULENAME:	adj-blue
+LEX-ENTRY:
+LEXSURF = $We
+LEXCAT = [scat adj]
+ALLO:
+ALLOSURF = $W
+ALLOCAT = LEXCAT, ADD [allo aVEb]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo aVEa]
+ALLO:
+ALLOSURF = $We_$We
+ALLOCAT = LEXCAT, ADD [allo a0], ADD [gen DUP]
+
+RULENAME:	adj-white
+LEX-ENTRY:
+LEXSURF = $Xe
+LEXCAT = [scat adj]
+ALLO:
+ALLOSURF = $X
+ALLOCAT = LEXCAT, ADD [allo aHb]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo aHa]
+ALLO:
+ALLOSURF = $Xe_$Xe
+ALLOCAT = LEXCAT, ADD [allo aHa], ADD [gen DUP]
+
+RULENAME:	adj-sly
+LEX-ENTRY:
+LEXSURF = $Yy
+LEXCAT = [scat adj], [allo a0]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT
+ALLO:
+ALLOSURF = $Yy_$Yy
+ALLOCAT = LEXCAT, ADD [allo a0], ADD [gen DUP]
+
+RULENAME:	adj-happy
+LEX-ENTRY:
+LEXSURF = $Yy
+LEXCAT = [scat adj]
+ALLO:
+ALLOSURF = $Yi
+ALLOCAT = LEXCAT, ADD [allo aYb]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo aYa]
+ALLO:
+ALLOSURF = $Yy_$Yy
+ALLOCAT = LEXCAT, ADD [allo a0], ADD [gen DUP]
+
+RULENAME:	adj-big
+LEX-ENTRY:
+LEXSURF = $O$V$C
+LEXCAT = [scat adj]
+ALLO:
+ALLOSURF = $O$V$C$C
+ALLOCAT = LEXCAT, ADD [allo aHb]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo aHa]  	% removed ADD [block y]
+ALLO:
+ALLOSURF = $O$V$C_$O$V$C
+ALLOCAT = LEXCAT, ADD [allo a0], ADD [gen DUP]
+
+RULENAME:	adj-comic
+LEX-ENTRY:
+LEXSURF = $Xic
+LEXCAT = [scat adj]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo alCa]
+ALLO:
+ALLOSURF = $Xic_$Xic
+ALLOCAT = LEXCAT, ADD [allo a0], ADD [gen DUP]
+
+RULENAME:	qn-dup
+LEX-ENTRY:
+LEXSURF = $X
+LEXCAT = [scat qn]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo n0]
+ALLO:
+ALLOSURF = $X_$X
+ALLOCAT = LEXCAT, ADD [allo a0], ADD [gen DUP]
+
+RULENAME:	adj-other
+LEX-ENTRY:
+LEXSURF = $X
+LEXCAT = [scat adj], ![deriv adj], ![bare no]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo a0]
+ALLO:
+ALLOSURF = $X_$X
+ALLOCAT = LEXCAT, ADD [allo a0], ADD [gen DUP]
+
+

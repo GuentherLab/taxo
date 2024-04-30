@@ -1,0 +1,16 @@
+@UTF8
+% these should be inserted with &-, as in &-um, throughout and thereby processed as disfluencies and not as words
+eh {[scat fil]}  
+er {[scat fil]}   watch out for German "er"
+uh {[scat fil]}
+um {[scat fil]}
+
+uhm-> um
+erh-> er
+erm-> er
+
+I have not yet removed *@fp, particularly from Spanish and Dutch
+
+Also, I have not yet converted bare "uh" and "um" to &-uh and &-um.
+
+chstring +s"um" "&-um" +s"uh" "&-uh" +re *.cha

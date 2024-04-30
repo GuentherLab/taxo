@@ -1,0 +1,233 @@
+@UTF8
+@Window:	75_1206_770_1024_-1_-1_4068_0_4068_0
+%********
+%* NOUNS
+%********
+
+RULENAME: n:let
+% these get [allo n0]
+LEX-ENTRY:
+LEXCAT = [scat n:let]
+LEXSURF = $X
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo n0], ADD [block let]
+
+RULENAME: n-plurale-tantum
+% don't change plurale tantum nouns
+LEX-ENTRY:
+LEXCAT = [scat n:pt]
+LEXSURF = $X
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo n0]
+ALLO:
+ALLOSURF = $X_$X
+ALLOCAT = LEXCAT, ADD [allo n0], ADD [gen DUP]
+
+RULENAME: n-um
+LEX-ENTRY:
+LEXCAT = [scat n], [pl a]
+LEXSURF = $Xum
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo n0]
+ALLO:
+ALLOSURF = $Xa
+ALLOCAT = LEXCAT, ADD [allo n0], ADD [gen PL]
+
+RULENAME: n-us
+LEX-ENTRY:
+LEXCAT = [scat n], [pl i]
+LEXSURF = $Xus
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo n0]
+ALLO:
+ALLOSURF = $Xi
+ALLOCAT = LEXCAT, ADD [allo n0], ADD [gen PL]
+
+RULENAME: n-man
+LEX-ENTRY:
+LEXSURF = $Xman
+LEXCAT = [scat n], ![men no]
+ALLO:
+ALLOSURF = $Xmen
+ALLOCAT = LEXCAT, ADD [num pl], ADD [allo nM]
+ALLOSTEM = $Xman&PL
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo nM], ADD [pl -]
+ALLO:
+ALLOSURF = $Xman_$Xman
+ALLOCAT = LEXCAT, ADD [allo n0], ADD [gen DUP]
+
+RULENAME: n-chief
+LEX-ENTRY:
+LEXSURF = $Xf
+LEXCAT = [scat n], [allo nV]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, DEL [allo], ADD [allo n0]
+ALLO:
+ALLOSURF = $Xv
+ALLOCAT = LEXCAT, DEL [allo], ADD [allo nVb]
+ALLO:
+ALLOSURF = $Xf_$Xf
+ALLOCAT = LEXCAT, ADD [allo n0], ADD [gen DUP]
+
+RULENAME: n-wife
+LEX-ENTRY:
+LEXSURF = $Xfe
+LEXCAT = [scat n], [allo nV]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, DELl [allo], ADD [allo n0]
+ALLO:
+ALLOSURF = $Xf
+ALLOCAT = LEXCAT, DEL [allo], ADD [allo nVa]
+ALLO:
+ALLOSURF = $Xv
+ALLOCAT = LEXCAT, DEL [allo], ADD [allo nVb]
+ALLO:
+ALLOSURF = $Xfe_$Xfe
+ALLOCAT = LEXCAT, ADD [allo n0], ADD [gen DUP]
+
+RULENAME: n-cry
+LEX-ENTRY:
+LEXSURF = $Yy
+LEXCAT = [scat OR n det:num]
+ALLO:
+ALLOSURF = $Yi
+ALLOCAT = LEXCAT, ADD [allo nYb], ADD [bare no]
+ALLO:
+ALLOSURF = $Y
+ALLOCAT = LEXCAT, ADD [allo nYc], ADD [bare no]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo nYa]
+ALLO:
+ALLOSURF = $Yy_$Yy
+ALLOCAT = LEXCAT, ADD [allo n0], ADD [gen DUP]
+
+RULENAME: on-not-geminates
+LEX-ENTRY:
+LEXSURF = $Xon
+LEXCAT = [scat n]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo n0]
+ALLO:
+ALLOSURF = $Xon_$Xon
+ALLOCAT = LEXCAT, ADD [allo n0], ADD [gen DUP]
+
+RULENAME: et-not-geminates
+LEX-ENTRY:
+LEXSURF = $Xet
+LEXCAT = [scat n]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo n0]
+ALLO:
+ALLOSURF = $Xet_$Xet
+ALLOCAT = LEXCAT, ADD [allo n0], ADD [gen DUP]
+
+RULENAME: n-geminates
+LEX-ENTRY:
+LEXSURF = $X$O$V$B
+LEXCAT = [scat OR on n]
+ALLO:
+ALLOSURF = $X$O$V$B$B
+ALLOCAT = LEXCAT, ADD [allo nGb]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo nGa]
+ALLO:
+ALLOSURF = $X$O$V$B_$X$O$V$B
+ALLOCAT = LEXCAT, ADD [allo n0], ADD [gen DUP]
+
+RULENAME: n-gg+
+LEX-ENTRY:
+LEXSURF = $X$C
+LEXCAT = [scat OR on n], [gg +]
+ALLO:
+ALLOSURF = $X$C$C
+ALLOCAT = LEXCAT, ADD [allo nGb]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo nGa]
+ALLO:
+ALLOSURF = $X$C_$X$C
+ALLOCAT = LEXCAT, ADD [allo n0], ADD [gen DUP]
+
+RULENAME: n-affricates
+LEX-ENTRY:
+LEXSURF = $X$S
+LEXCAT = [scat OR n det:num on], ![ch -]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo nSa]
+ALLO:
+ALLOSURF = $X$S_$X$S
+ALLOCAT = LEXCAT, ADD [allo n0], ADD [gen DUP]
+
+RULENAME: n-final-e
+LEX-ENTRY:
+LEXSURF = $X$De %  nose, home, juice
+LEXCAT = [scat OR on n], ![n temloc]
+ALLO:
+ALLOSURF = $X$D
+ALLOCAT = LEXCAT, ADD [allo nHb]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo nHa]
+ALLO:
+ALLOSURF = $X$De_$X$De
+ALLOCAT = LEXCAT, ADD [allo n0], ADD [gen DUP]
+
+RULENAME: n-tomatoes
+LEX-ENTRY:
+LEXSURF = $Xo
+LEXCAT = [scat n], [stem nPOT]
+ALLO:
+ALLOSURF = $Xoe
+ALLOCAT = LEXCAT, ADD [allo nPOT]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo n0]
+ALLO:
+ALLOSURF = $Xo_$Xo
+ALLOCAT = LEXCAT, ADD [allo n0], ADD [gen DUP]
+
+RULENAME:	on-duplication
+LEX-ENTRY:
+LEXSURF = $X
+LEXCAT = [scat on]
+ALLO:
+ALLOSURF = $X
+ALLOCAT = LEXCAT, ADD [allo n0]
+ALLO:
+ALLOSURF = $X_$X
+ALLOCAT = LEXCAT, ADD [allo n0], ADD [gen DUP]
+
+RULENAME:	n-duplication
+LEX-ENTRY:
+LEXSURF = $X
+LEXCAT = [scat n]
+ALLO:
+ALLOSURF = $X
+ALLOCAT = LEXCAT, ADD [allo n0]
+ALLO:
+ALLOSURF = $X_$X
+ALLOCAT = LEXCAT, ADD [allo n0], ADD [gen DUP]
+
+% nouns which don't undergo stem changes  -> allo n0
+% adding n0 lets numbers and pronouns behave like nouns for cliticization
+
+RULENAME: allo-n0
+LEX-ENTRY:
+LEXCAT = [scat OR co co:voc det:num post pro:indef pro:int pro:refl]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo n0]
+

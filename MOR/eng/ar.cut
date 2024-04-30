@@ -1,0 +1,20 @@
+@UTF8
+@Window:	601_913_613_738_-1_-1_708_0_708_0
+X = .*     % anything
+T = ...*     % anything at least 3 letters long
+W = .*[aeiou]  % any string ending in a vowel
+Y = .*[^aeiou]  % any string not ending in a vowel
+Z = .*[ey]  % any string ending in 'e' or 'y'
+% possible initial consonant cluster combinations in English
+%mple formulation:  1, 2, or three things that are not vowels
+O = [^aeiou] | [^aeiou][^aeiou] | [^aeiou][^aeiou][^aeiou] | qu | squ
+V = [aeiou] % vowels
+C = [pbcmtdnrlkgzvs]   % consonants which geminate
+B = [pbcmtdnkgz]    % consonants which geminate, less s, r and l
+D = [bcdfghjklmnpqrstvwxz]   % all consonants
+S = [sxz] | ch | sh  %  affricates, sibilants
+
+% default rule-  copy input to output
+RULENAME: default
+LEX-ENTRY:
+ALLO:

@@ -1,0 +1,582 @@
+@UTF8
+abide {[scat v][block ed]}
+abode {[scat v][bare yes]} "abide&PAST"
+arise {[scat v][block ed]}
+arose {[scat v][bare yes]} "arise&PAST"
+arisen {[scat part]} "arise&PASTP"
+awake {[scat v][block ed]}
+awoke {[scat v][bare yes]} "awake&PAST"
+awoken {[scat part]} "awake&PASTP"
+bear {[scat v][block OR y ed]}
+bore {[scat v][bare yes]} "bear&PAST"
+borne {[scat part]} "bear&PASTP"
+beat {[scat v][bare no][block ed]}
+beat {[scat v][bare yes]} "beat&ZERO"
+beaten {[scat part][bare yes]} "beat&PASTP"
+befall {[scat v][block ed]}
+befell {[scat v][bare yes]} "befall&PAST"
+befallen {[scat part]} "befall&PASTP"
+begin {[scat v][gg +]}
+began {[scat v][bare yes]} "begin&PAST"
+begun {[scat part]} "begin&PASTP"
+beget {[scat v][gg +]}
+begot {[scat v][bare yes]} "beget&PAST"
+begotten {[scat part][bare yes]} "beget&PASTP"
+behold {[scat v][block ed]}
+beheld {[scat v][bare yes]} "behold&PAST"
+beholden {[scat part]} "behold&PASTP"
+bend {[scat v][block ed]}
+bent {[scat v][bare yes]} "bend&PAST"
+bent {[scat part][bare yes]} "bend&PASTP"
+bereave {[scat v][block ed]}
+bereft {[scat v][bare yes]} "bereave&PAST"
+bereft {[scat part]} "bereave&PASTP"
+beseek {[scat v][block ed]}
+besought {[scat v][bare yes]} "beseech&PAST"
+bet {[scat v][bare no][block OR ed er][gg +]}
+bet {[scat v][bare yes][block OR er ed]} "bet&ZERO"
+betake {[scat v][block ed]}
+betook {[scat v][bare yes]} "betake&PAST"
+betaken {[scat part]} "betake&PASTP"
+bid {[scat v][bare no][block ed]}
+bid {[scat v][bare yes]} "bid&ZERO"
+bid {[scat part]} "bid&PASTP"
+bade {[scat v][bare yes]} "bid&PAST"
+bidden {[scat part]} "bid&PASTP"
+bind {[scat v][block ed]}
+bound {[scat v][bare yes]} "bind&PAST"
+bound {[scat part][bare yes]} "bind&PASTP"
+bite {[scat v][block ed]}
+bit {[scat v][bare yes]} "bite&PAST"
+bitten {[scat part][bare yes]} "bite&PASTP"
+bleed {[scat v][block ed]}
+bled {[scat v][bare yes]} "bleed&PAST"
+bled {[scat part]} "bleed&PASTP"
+blow {[scat v][block ed]}
+blew {[scat v][bare yes]} "blow&PAST"
+blown {[scat part][bare yes]} "blow&PASTP"
+break {[scat v][block OR ed er]}
+broke {[scat v][block er][bare yes]} "break&PAST"
+broken {[scat part][bare yes]} "break&PASTP"
+breed {[scat v][block ed]}
+bred {[scat v][bare yes]} "breed&PAST"
+bred {[scat part]} "breed&PASTP"
+bring {[scat v][block ed]}
+brought {[scat v][bare yes]} "bring&PAST"
+brought {[scat part]} "bring&PASTP"
+build {[scat v][block ed]}
+built {[scat v][bare yes]} "build&PAST"
+built {[scat part]} "build&PASTP"
+burn {[scat v][block ed]}
+burned {[scat v][bare yes]} "burn-PAST"
+burnt {[scat v][bare yes]} "burn&PAST"
+burned {[scat part][bare yes]} "burn-PASTP"
+burnt {[scat part][bare yes]} "burn&PASTP"
+burst {[scat v][bare no][block ed]}
+burst {[scat v][bare yes]} "burst&ZERO"
+burst {[scat part][bare yes]} "burst&PASTP"
+buy {[scat v][block ed]}
+bought {[scat v][bare yes]} "buy&PAST"
+bought {[scat part]} "buy&PASTP"
+cast {[scat v][bare no][block ed]}
+cast {[scat v][bare yes]} "cast&ZERO"
+cast {[scat part][bare yes]} "cast&PASTP"
+catch {[scat v][block ed]}
+caught {[scat v][bare yes]} "catch&PAST"
+caught {[scat part]} "catch&PASTP"
+choose {[scat v][block ed]}
+chose {[scat v][bare yes]} "choose&PAST"
+chosen {[scat part][bare yes]} "choose&PASTP"
+cleave {[scat v][block ed]}
+cleft {[scat v][bare yes]} "cleave&PAST"
+clove {[scat v][block er][bare yes]} "cleave&PAST"
+cloven {[scat part][bare yes]} "cleave&PASTP"
+cling {[scat v][block ed]}
+clung {[scat v][bare yes]} "cling&PAST"
+clung {[scat part]} "cling&PASTP"
+come {[scat v][block ed]}
+came {[scat v][bare yes]} "come&PAST"
+come {[scat part]} "come&PASTP"
+cost {[scat v][bare no][block ed]}
+cost {[scat v][bare yes]} "cost&ZERO"
+cost {[scat part]} "cost&PASTP"
+creep {[scat v][block OR y ed]}
+crept {[scat v][bare yes]} "creep&PAST"
+crept {[scat part]} "creep&PASTP"
+cut {[scat v][bare no][block ed]}
+cut {[scat v][bare yes]} "cut&ZERO"
+cut {[scat part][bare yes]} "cut&PASTP"
+deal {[scat v][block ed]}
+dealt {[scat v][bare yes]} "deal&PAST"
+dealt {[scat part]} "deal&PASTP"
+dig {[scat v][block ed]}
+dug {[scat v][bare yes]} "dig&PAST"
+dug {[scat part]} "dig&PASTP"
+do {[scat v][block ed]}
+did {[scat v][bare yes]} "do&PAST"
+does {[scat v][block ed][bare yes]} "do&3S"
+done {[scat part]} "do&PASTP"
+dove {[scat v][bare yes]} "dive&PAST"
+drink {[scat v][block ed]}
+drank {[scat v][bare yes]} "drink&PAST"
+drunk {[scat part]} "drink&PASTP"
+draw {[scat v][block OR ed er]}
+drew {[scat v][block ed][bare yes]} "draw&PAST"
+drawn {[scat part]} "draw&PASTP"
+dream {[scat v][block OR y ed]}
+dreamt {[scat v][bare yes]} "dream&PAST"
+dreamt {[scat part]} "dream&PASTP"
+drive {[scat v][block ed]}
+driven {[scat part][bare yes]} "drive&PASTP"
+drove {[scat v][bare yes]} "drive&PAST"
+dwell {[scat v][block ed]}
+dwelt {[scat v][bare yes]} "dwell&PAST"
+dwelt {[scat part]} "dwell&PASTP"
+eat {[scat v][block ed]}
+ate {[scat v][bare yes]} "eat&PAST"
+eaten {[scat part][bare yes]} "eat&PASTP"
+fall {[scat v][block ed]}
+fell {[scat v][block er][bare yes]} "fall&PAST"
+fallen {[scat part][bare yes]} "fall&PASTP"
+feed {[scat v][block ed]}
+fed {[scat v][bare yes]} "feed&PAST"
+fed {[scat part]} "feed&PASTP"
+feel {[scat v][block ed]}
+felt {[scat v][bare yes]} "feel&PAST"
+felt {[scat part]} "feel&PASTP"
+fight {[scat v][block ed]}
+fought {[scat v][bare yes]} "fight&PAST"
+fought {[scat part]} "fight&PASTP"
+find {[scat v][block ed]}
+found {[scat v][bare yes]} "find&PAST"
+found {[scat part]} "find&PASTP"
+fit {[scat v][bare no][block OR ed out]}
+fit {[scat v][bare yes][block out]} "fit&ZERO"
+fit {[scat part][block out]} "fit&PASTP"
+flee {[scat v][block ed]}
+fled {[scat v][bare yes]} "flee&PAST"
+fled {[scat part]} "flee&PASTP"
+fly {[scat v][block ed]}
+flew {[scat v][bare yes]} "fly&PAST"
+flown {[scat part]} "fly&PASTP"
+fling {[scat v][block ed]}
+flung {[scat v][bare yes]} "fling&PAST"
+flung {[scat part]} "fling&PASTP"
+forbid {[scat v][block ed]}
+forbade {[scat v][bare yes]} "forbid&PAST"
+forbidden {[scat part][bare yes]} "forbid&PASTP"
+forbear {[scat v][block ed]}
+forbore {[scat v][bare yes]} "forbear&PAST"
+forborne {[scat part]} "forbear&PASTP"
+forecast {[scat v][bare no][block ed]}
+forecast {[scat v][bare yes]} "forecast&ZERO"
+forecast {[scat part]} "forecast&PASTP"
+forego {[scat v][block ed][bare yes]}
+forewent {[scat v][bare yes]} "forego&PAST"
+foregone {[scat part][bare yes]} "forego&PASTP"
+forget {[scat v][gg +][block ed]}
+forgot {[scat v][bare yes]} "forget&PAST"
+forgotten {[scat part][bare yes]} "forget&PASTP"
+foresee {[scat v][block ed]}
+foresaw {[scat v][bare yes]} "foresee&PAST"
+foreseen {[scat part]} "foresee&PASTP"
+foretell {[scat v][block ed]}
+foretold {[scat v][bare yes]} "foretell&PAST"
+foretold {[scat part]} "foretell&PASTP"
+forgive {[scat v][block ed]}
+forgave {[scat v][bare yes]} "forgive&PAST"
+forgiven {[scat part][bare yes]} "forgive&PASTP"
+forsake {[scat v][block ed]}
+forsook {[scat v][bare yes]} "forsake&PAST"
+forsaken {[scat part][bare yes]} "forsake&PASTP"
+forswear {[scat v][block ed]}
+forswore {[scat v][bare yes]} "forswear&PAST"
+forsworn {[scat part]} "forswear&PASTP"
+freeze {[scat v][block ed]}
+froze {[scat v][bare yes]} "freeze&PAST"
+frozen {[scat part][bare yes]} "freeze&PASTP"
+give {[scat v][block ed]}
+gave {[scat v][bare yes]} "give&PAST"
+given {[scat part][bare yes]} "give&PASTP"
+get {[scat v][block ed]}
+got {[scat v][bare yes]} "get&PAST"
+got {[scat part]} "get&PASTP"
+gotten {[scat part]} "get&PASTP"
+go {[scat v][block ed]}
+goes {[scat v][block ed][bare yes]} "go-3S"
+went {[scat v][bare yes]} "go&PAST"
+gone {[scat part]} "go&PASTP"
+grind {[scat v][block ed]}
+ground {[scat v][block er][bare yes]} "grind&PAST"
+ground {[scat part][bare yes]} "grind&PASTP"
+grow {[scat v][block ed]}
+grew {[scat v][bare yes]} "grow&PAST"
+grown {[scat part]} "grow&PASTP"
+have {[scat v][block ed]}
+has {[scat v][agr 3S][bare yes]} "have&3S"
+had {[scat v][bare yes]} "have&PAST"
+had {[scat part]} "have&PASTP"
+hamstring {[scat v][block ed]}
+hamstrung {[scat v][bare yes]} "hamstring&PAST"
+hear {[scat v][block ed]}
+heard {[scat v][bare yes]} "hear&PAST"
+heard {[scat part][bare yes]} "hear&PASTP"
+hew {[scat v][block ed]}
+hewed {[scat v][bare yes]} "hew&PAST"
+hewn {[scat part][bare yes]} "hew&PASTP"
+hold {[scat v][block ed]}
+held {[scat v][bare yes]} "hold&PAST"
+held {[scat part]} "hold&PASTP"
+hide {[scat v][block ed]}
+hid {[scat v][bare yes]} "hide&PAST"
+hidden {[scat part][bare yes]} "hide&PASTP"
+hit {[scat v][bare no][block ed]}
+hit {[scat v][bare yes]} "hit&ZERO"
+hit {[scat part]} "hit&PASTP"
+hang {[scat v][block ed]}
+hung {[scat v][block er][bare yes]} "hang&PAST"
+hung {[scat part][bare yes]} "hang&PASTP"
+hurt {[scat v][bare no][block ed]}
+hurt {[scat v][bare yes]} "hurt&ZERO"
+hurt {[scat part][bare yes]} "hurt&PASTP"
+inset {[scat v][bare no][block ed]}
+inset {[scat v][bare yes]} "inset&ZERO"
+inset {[scat part]} "inset&PASTP"
+keep {[scat v][block ed]}
+kept {[scat v][bare yes]} "keep&PAST"
+kept {[scat part]} "keep&PASTP"
+kneel {[scat v][block ed]}
+knelt {[scat v][bare yes]} "kneel&PAST"
+knelt {[scat part]} "kneel&PASTP"
+know {[scat v][block ed]}
+knew {[scat v][bare yes]} "know&PAST"
+known {[scat part][bare yes]} "know&PASTP"
+knit {[scat v][bare no][block ed]}
+knit {[scat v][bare yes]} "knit&ZERO"
+knit {[scat part][bare yes]} "knit&PASTP"
+lay {[scat v][block OR de er re]}
+laid {[scat v][bare yes]} "lay&PAST"
+laid {[scat part][bare yes]} "lay&PASTP"
+lain {[scat part]} "lie&PASTP"
+lead {[scat v][block ed]}
+led {[scat v][bare yes]} "lead&PAST"
+led {[scat part]} "lead&PASTP"
+leap {[scat v][block ed]}
+lept {[scat v][bare yes]} "leap&PAST"
+lept {[scat part]} "leap&PASTP"
+learnt {[scat v][bare yes]} "learn&PAST"
+learnt {[scat part]} "learn&PASTP"
+leave {[scat v][block ed]}
+left {[scat v][bare yes]} "leave&PAST"
+left {[scat part][bare yes]} "leave&PASTP"
+lend {[scat v][block ed]}
+lent {[scat v][bare yes]} "lend&PAST"
+lent {[scat part]} "lend&PASTP"
+let {[scat v][bare no][block OR de ed er]}
+let {[scat v][bare yes][block ed]} "let&ZERO"
+let {[scat part]} "let&PASTP"
+light {[scat v][block de]}
+lit {[scat v][block er][bare yes]} "light&PAST"
+lit {[scat part]} "light&PASTP"
+lose {[scat v][block ed]}
+lost {[scat v][bare yes]} "lose&PAST"
+lost {[scat part][bare yes]} "lose&PASTP"
+make {[scat v][block ed]}
+made {[scat v][bare yes]} "make&PAST"
+made {[scat part]} "make&PASTP"
+mean {[scat v][block OR de ed]}
+meant {[scat v][bare yes]} "mean&PAST"
+meant {[scat part]} "mean&PASTP"
+meet {[scat v][block ed]}
+met {[scat v][bare yes]} "meet&PAST"
+met {[scat part]} "meet&PASTP"
+mown {[scat part]} "mow&PASTP"
+offset {[scat v][bare no][block ed]}
+offset {[scat v][bare yes]} "offset&ZERO"
+offset {[scat part][gg +][bare yes]} "offset&PASTP"
+pay {[scat v][block ed]}
+paid {[scat v][bare yes]} "pay&PAST"
+paid {[scat part][bare yes]} "pay&PASTP"
+partake {[scat v][block ed]}
+partaken {[scat part]} "partake&PASTP"
+partook {[scat v][bare yes]} "partake&PAST"
+plead {[scat v][block ed]}
+pled {[scat v][bare yes]} "plead&PAST"
+pled {[scat part]} "plead&PASTP"
+prove {[scat v][block ed]}
+proved {[scat part][bare yes]} "prove&PAST"
+proven {[scat part]} "prove&PASTP"
+put {[scat v][bare no][block OR ed er in re]}
+put {[scat v][bare yes][block OR ed in re]} "put&ZERO"
+put {[scat part][block OR ed in re]} "put&PASTP"
+quit {[scat v][bare no][block ed]}
+quit {[scat v][bare yes]} "quit&ZERO"
+quit {[scat part]} "quit&PASTP"
+read {[scat v][bare no][block OR ed y]}
+read {[scat v][bare yes][block OR ed ing y]} "read&ZERO"
+read {[scat perf][bare yes]} "read&PASTP"
+recast {[scat v][bare no][block ed]}
+recast {[scat v][bare yes]} "recast&ZERO"
+recast {[scat part]} "recast&PASTP"
+reset {[scat v][bare yes]} "re#set&ZERO"
+reset {[scat part][bare yes]} "re#set&PASTP"
+rid {[scat v][bare no][block OR er ed]}
+rid {[scat v][bare yes]} "rid&ZERO"
+rid {[scat part][bare yes]} "rid&PASTP"
+ride {[scat v][block ed]}
+rode {[scat v][bare yes]} "ride&PAST"
+ridden {[scat part]} "ride&PASTP"
+ring {[scat v][block ed]}
+rang {[scat v][bare yes][block de]} "ring&PAST"
+rung {[scat part]} "ring&PASTP"
+rise {[scat v][block ed]}
+rose {[scat v][bare yes]} "rise&PAST"
+risen {[scat part][bare yes]} "rise&PASTP"
+run {[scat v][block ed]}
+ran {[scat v][bare yes]} "run&PAST"
+run {[scat part]} "run&PASTP"
+say {[scat v][block OR es ed]}
+says {[scat v][bare yes]} "say&3S"
+said {[scat v][bare yes]} "say&PAST"
+said {[scat part]} "say&PASTP"
+see {[scat v][block ed]}
+saw {[scat v][bare yes]} "see&PAST"
+seen {[scat part]} "see&PASTP"
+seek {[scat v][block ed]}
+sought {[scat v][bare yes]} "seek&PAST"
+sought {[scat part]} "seek&PASTP"
+sell {[scat v][block ed]}
+sold {[scat part][bare yes]} "sell&PASTP"
+sold {[scat v][bare yes]} "sell&PAST"
+send {[scat v][block ed]}
+sent {[scat v][bare yes][block OR pre re]} "send&PAST"
+sent {[scat part][bare yes][block OR pre re]} "send&PASTP"
+set {[scat v][bare no][block OR ed up]}
+set {[scat v][bare yes][block up]} "set&ZERO"
+set {[scat part][bare yes][block up]} "set&PASTP"
+sew {[scat v][block er]}
+sewn {[scat part][bare yes]} "sew&PASTP"
+shake {[scat v][block ed]}
+shook {[scat v][bare yes]} "shake&PAST"
+shave {[scat v][block ed]}
+shaken {[scat part][bare yes]} "shake&PASTP"
+shaven {[scat part][bare yes]} "shave&PASTP"
+shed {[scat v][bare no][block ed]}
+shed {[scat v][bare yes]} "shed&ZERO"
+shed {[scat part]} "shed&PASTP"
+shew {[scat v][block ed][bare yes]} "show"
+shewed {[scat v][bare yes]} "show&PAST"
+shewn {[scat part]} "show&PASTP"
+shit {[scat v][bare no][block OR y ed]}
+shit {[scat v][bare yes]} "shit&ZERO"
+shat {[scat v][bare yes]} "shit&PAST"
+shine {[scat v][block OR ed y]}
+shone {[scat v][bare yes]} "shine&PAST"
+shone {[scat part]} "shine&PASTP"
+shoot {[scat v][block ed]}
+shot {[scat v][bare yes]} "shoot&PAST"
+shot {[scat part]} "shoot&PASTP"
+shear {[scat v][block ed]}
+shorn {[scat part]} "shear&PASTP"
+show {[scat v][block er]}
+shown {[scat part]} "show&PASTP"
+shrink {[scat v][block ed]}
+shrank {[scat v][bare yes]} "shrink&PAST"
+shrunk {[scat part][bare yes]} "shrink&PASTP"
+shred {[scat v][bare no][block ed]}
+shred {[scat v][bare yes]} "shred&ZERO"
+shriven {[scat part]} "shrive&PASTP"
+shrive {[scat v][block ed]}
+shrove {[scat v][bare yes]} "shrive&PAST"
+shrove {[scat part]} "shrive&PASTP"
+shut {[scat v][bare no][block OR ed er][gg +]}
+shut {[scat v][bare yes]} "shut&ZERO"
+shut {[scat part][bare yes]} "shut&PASTP"
+sing {[scat v][block OR dis ed]}
+sang {[scat v][bare yes]} "sing&PAST"
+sung {[scat part]} "sing&PASTP"
+sink {[scat v][block ed]}
+sank {[scat v][bare yes]} "sink&PAST"
+sunk {[scat v][bare yes]} "sink&PAST"
+sunken {[scat v][bare yes]} "sink&PAST"
+sit {[scat v][block ed][gg +]}
+sat {[scat v][bare yes]} "sit&PAST"
+sat {[scat part]} "sit&PASTP"
+slay {[scat v][block ed]}
+slayed {[scat v][bare yes]} "slay&PAST"
+slew {[scat v][bare yes]} "slay&PAST"
+slain {[scat part]} "slay&PASTP"
+sleep {[scat v][block OR ed y]}
+slept {[scat v][bare yes]} "sleep&PAST"
+slept {[scat part]} "sleep&PASTP"
+slide {[scat v][block ed]}
+slid {[scat v][bare yes]} "slide&PAST"
+slid {[scat part]} "slide&PASTP"
+sling {[scat v][block ed]}
+slung {[scat v][bare yes]} "sling&PAST"
+slung {[scat part]} "sling&PASTP"
+slink {[scat v][block ed]}
+slunk {[scat v][bare yes]} "slink&PAST"
+slunk {[scat part]} "slink&PASTP"
+slit {[scat v][bare no][block OR ed er]}
+slit {[scat v][bare yes]} "slit&ZERO"
+slit {[scat part]} "slit&PASTP"
+smell {[scat v][block ed]}
+smelt {[scat v][bare yes]} "smell&PAST"
+smite {[scat v][block ed]}
+smitten {[scat part]} "smite&PASTP"
+smote {[scat v][bare yes]} "smite&PAST"
+snuck {[scat v][bare yes]} "sneak&PAST"
+sow {[scat v][block ed]}
+sown {[scat part]} "sow&PASTP"
+spin {[scat v][block ed]}
+spun {[scat v][bare yes]} "spin&PAST"
+spun {[scat part][bare yes]} "spin&PASTP"
+speak {[scat v][block ed]}
+spoke {[scat v][bare yes]} "speak&PAST"
+spoken {[scat part][bare yes]} "speak&PASTP"
+speed {[scat v][block OR y ed]}
+sped {[scat v][bare yes]} "speed&PAST"
+sped {[scat part]} "speed&PASTP"
+spell {[scat v][block ed]}
+spelt {[scat v][bare yes]} "spell&PAST"
+spelt {[scat part]} "spell&PASTP"
+spend {[scat v][block ed]}
+spent {[scat v][bare yes]} "spend&PAST"
+spent {[scat part][bare yes]} "spend&PASTP"
+spilt {[scat v][bare yes]} "spill&PAST"
+spilt {[scat part]} "spill&PASTP"
+spin {[scat v][block ed]}
+spun {[scat part]} "spin&PASTP"
+spun {[scat v][bare yes]} "spin&PAST"
+spit {[scat v][block ed]}
+spat {[scat v][block er][bare yes]} "spit&PAST"
+spat {[scat part]} "spit&PASTP"
+split {[scat v][bare no][block ed]}
+split {[scat v][bare yes]} "split&ZERO"
+split {[scat part][bare yes]} "split&PASTP"
+spoil {[scat v][block de]}
+spoilt {[scat v][bare yes]} "spoil&PAST"
+spoilt {[scat part][bare yes]} "spoil&PASTP"
+spread {[scat v][bare no][block ed]}
+spread {[scat v][bare yes]} "spread&ZERO"
+spread {[scat part][bare yes]} "spread&PASTP"
+spring {[scat v][block ed]}
+sprang {[scat v][bare yes]} "spring&PAST"
+sprung {[scat part]} "spring&PASTP"
+stand {[scat v][block under]}
+stood {[scat v][block under][bare yes]} "stand&PAST"
+steal {[scat v][block ed]}
+stole {[scat v][bare yes]} "steal&PAST"
+stolen {[scat part][bare yes]} "steal&PASTP"
+stick {[scat v][block OR ed y]}
+stuck {[scat v][bare yes]} "stick&PAST"
+stuck {[scat part]} "stick&PASTP"
+sting {[scat v][block OR y ed]}
+stung {[scat v][bare yes]} "sting&PAST"
+stung {[scat part]} "sting&PASTP"
+stink {[scat v][block OR ed y]}
+stank {[scat v][bare yes]} "stink&PAST"
+stunk {[scat part]} "stink&PASTP"
+strew {[scat v][block ed]}
+strewn {[scat part]} "strew&PASTP"
+stride {[scat v][block ed]}
+strode {[scat v][bare yes]} "stride&PAST"
+stridden {[scat part]} "stride&PASTP"
+strike {[scat v][block ed]}
+struck {[scat v][bare yes]} "strike&PAST"
+struck {[scat part]} "strike&PASTP"
+string {[scat v][block OR y ed]}
+strung {[scat v][bare yes]} "string&PAST"
+strung {[scat part][bare yes]} "string&PASTP"
+strive {[scat v][block ed]}
+strove {[scat v][bare yes]} "strive&PAST"
+striven {[scat part]} "strive&PASTP"
+swear {[scat v][block ed]}
+swore {[scat v][bare yes]} "swear&PAST"
+sworn {[scat part]} "swear&PASTP"
+sweep {[scat v][block ed]}
+swept {[scat v][bare yes]} "sweep&PAST"
+swept {[scat part][bare yes]} "sweep&PASTP"
+swim {[scat v][block ed]}
+swam {[scat v][bare yes]} "swim&PAST"
+swum {[scat part]} "swim&PASTP"
+swing {[scat v][block ed]}
+swang {[scat v][bare yes]} "swing&PAST"
+swung {[scat part]} "swing&PASTP"
+swell {[scat v][block ed]}
+swollen {[scat part][bare yes]} "swell&PASTP"
+take {[scat v]}
+took {[scat v][bare yes]} "take&PAST"
+taken {[scat part]} "take&PASTP"
+teach {[scat v][block ed]}
+taught {[scat v][bare yes]} "teach&PAST"
+taught {[scat part]} "teach&PASTP"
+tear {[scat v][block ed]}
+tore {[scat v][bare yes]} "tear&PAST"
+torn {[scat part][bare yes]} "tear&PASTP"
+tell {[scat v][block OR ed er]}
+told {[scat v][bare yes]} "tell&PAST"
+told {[scat part]} "tell&PASTP"
+think {[scat v][block ed]}
+thought {[scat v][bare yes]} "think&PAST"
+thought {[scat part]} "think&PASTP"
+thrive {[scat v][block ed]}
+throve {[scat v][bare yes]} "thrive&PAST"
+throw {[scat v][block ed]}
+threw {[scat v][bare yes]} "throw&PAST"
+thrown {[scat part]} "throw&PASTP"
+thrust {[scat v][bare no][block ed]}
+thrust {[scat v][bare yes]} "thrust&ZERO"
+thrust {[scat part]} "thrust&PASTP"
+tread {[scat v][block ed]}
+trod {[scat v][bare yes]} "tread&PAST"
+trodden {[scat part]} "tread&PASTP"
+understand {[scat v][block ed]}
+understood {[scat v][bare yes]} "understand&PAST"
+understood {[scat part]} "understand&PASTP"
+wake {[scat v][block ed]}
+woke {[scat v][bare yes]} "wake&PAST"
+woken {[scat part]} "wake&PASTP"
+waylay {[scat v][block ed]}
+waylaid {[scat v][bare yes]} "waylay&PAST"
+waylaid {[scat part]} "waylay&PASTP"
+wear {[scat v][block OR ed y]}
+wore {[scat v][bare yes]} "wear&PAST"
+worn {[scat part][bare yes]} "wear&PASTP"
+weave {[scat v][block ed]}
+wove {[scat v][bare yes]} "weave&PAST"
+woven {[scat part][bare yes]} "weave&PASTP"
+wed {[scat v][block ed]}
+wed {[scat v][bare yes]} "wed&PAST"
+wed {[scat part]} "wed&PASTP"
+weep {[scat v][block ed]}
+wept {[scat v][bare yes]} "weep&PAST"
+wept {[scat part]} "weep&PASTP"
+wet {[scat v][bare no][block OR y ed]}
+wet {[scat v][bare yes]} "wet&ZERO"
+wet {[scat part][bare yes]} "wet&PASTP"
+win {[scat v][block ed]}
+won {[scat v][bare yes]} "win&PAST"
+won {[scat part]} "win&PASTP"
+wind {[scat v][block OR y ed]}
+wound {[scat v][bare yes]} "wind&PAST"
+wound {[scat part][bare yes]} "wind&PASTP"
+withdraw {[scat v][block ed]}
+withdrew {[scat v][bare yes]} "withdraw&PAST"
+withdrawn {[scat part][bare yes]} "withdraw&PASTP"
+withhold {[scat v][block ed]}
+withheld {[scat v][bare yes]} "withhold&PAST"
+withheld {[scat part]} "withhold&PASTP"
+withstand {[scat v][block ed]}
+withstood {[scat v][bare yes]} "withstand&PAST"
+withstood {[scat part]} "withstand&PASTP"
+wring {[scat v][block ed]}
+wrung {[scat v][bare yes]} "wring&PAST"
+wrung {[scat part]} "wring&PASTP"
+write {[scat v][block ed]}
+written {[scat part][bare yes]} "write&PASTP"
+wrote {[scat v][bare yes]} "write&PAST"
+wrought {[scat v]} "wreak&PAST"
+wrought {[scat part][bare yes]} "wreak&PASTP"
+xxing {[scat v][bare yes]} "xx-PROG"

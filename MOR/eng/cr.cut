@@ -1,0 +1,762 @@
+@UTF8
+% variables
+S = .*sh|.*ch|.*[zxs]  % strings that end in affricates, sibilants
+X = .*  % any string
+L = .  % any single letter
+
+% ******************************************************
+% CONCATENATION RULES
+% ******************************************************
+
+% these words mostly don't get any further inflection
+
+RULENAME: bare-start
+CTYPE: START
+ if
+NEXTCAT = [scat OR bab chi dia fam n:let \
+	neo on phon meta L2 sing sign sas test uni unk w wplay beg end cm \
+	adj:pred co comp conj coord \
+	det:art det:dem det:int det:num det:poss \
+        inf mod n:gerund neg post prep qn \
+	pro:dem pro:exist pro:indef pro:int pro:obj pro:per pro:poss pro:rel pro:refl pro:sub pro \
+	0adj 0adv 0aux 0conj 0cop 0det:art 0inf 0mod 0n 0neg 0part  \
+	0prep 0pro 0rel 0v 0zero ]
+ then
+ RESULTCAT = NEXTCAT
+ RULEPACKAGE = {n-pl, denom-deriv}
+
+% other starts in later rules:
+% adj adv adv:tem aux n:gerund n:prop n:pt n
+% part pro:per pro:dem pro:indef pro:int pro:exist qn v
+
+% ******** *
+% PREFIXES *
+% ******** *
+
+RULENAME: pfx-start
+CTYPE: START
+ if
+ NEXTCAT = [scat pfx]
+ then
+ RESULTCAT = NEXTCAT
+ RULEPACKAGE = {pfx-v, pfx-adj, pfx-adj:n, pfx-n, pfx-part}
+
+RULENAME: pfx-v
+CTYPE: #
+% first blocking
+if
+ STARTCAT = [pcat v]
+ NEXTCAT = [scat v]
+ MATCHCAT [block]
+ then
+ RESULTCAT = ADD [scat pfx]    %  poison pill
+ RULEPACKAGE = {}
+% then general
+ if
+ STARTCAT = [pcat v]
+ NEXTCAT = [scat v]
+ then
+ RESULTCAT = NEXTCAT, DEL [drv]
+ RULEPACKAGE = {v-conj, v-past, participials, adj:v-deriv, n:v-deriv}
+
+RULENAME: pfx-adj
+CTYPE: #
+% first blocking
+ if
+ STARTCAT = [pcat adj]
+ NEXTCAT = [scat OR adj part]
+ MATCHCAT [block]
+ then
+ RESULTCAT = ADD [scat pfx]
+ RULEPACKAGE = {}
+% then general
+ if
+ STARTCAT = [pcat adj ]
+ NEXTCAT = [scat OR adj adj:pred part]
+ then
+ RESULTCAT = ADD [scat adj], DEL [allo], ADD [allo a0]
+ RULEPACKAGE = {adj-degree, adj-v-degree, adj-suffix, adj-deriv, adv-ly}
+
+RULENAME: pfx-adj:n
+CTYPE: #
+% first blocking
+ if
+ STARTCAT = [pcat adj:n]
+ NEXTCAT = [scat n]
+ MATCHCAT [block]
+ then
+ RESULTCAT = ADD [scat pfx]
+ RULEPACKAGE = {}
+% then general
+ if
+ STARTCAT = [pcat adj:n]
+ NEXTCAT = [scat n],
+ then
+ RESULTCAT = ADD [scat adj], ADD [deriv dn]
+ RULEPACKAGE = {adj-degree, adv-ly, n-pl}
+
+RULENAME: pfx-n
+CTYPE: #
+% first blocking
+ if
+ STARTCAT = [pcat n]
+ NEXTCAT = [scat OR n n:pt]
+ MATCHCAT [block]
+ then
+ RESULTCAT = ADD [scat pfx]
+ RULEPACKAGE = {}
+% then general
+ if
+ STARTCAT = [pcat n]
+ NEXTCAT = [scat OR n n:pt]
+ then
+ RESULTCAT = NEXTCAT, DEL [drv]
+ RULEPACKAGE = {n-pl, n-cl, denom-deriv}
+
+RULENAME: pfx-part
+CTYPE: #
+% first blocking
+ if
+ STARTCAT = [pcat part]
+ NEXTCAT = [scat part]
+ MATCHCAT [block]
+ then
+ RESULTCAT = ADD [scat pfx]
+ RULEPACKAGE = {}
+% then general
+ if
+ STARTCAT = [pcat part]
+ NEXTCAT = [scat part]
+ then
+ RESULTCAT = NEXTCAT
+ RULEPACKAGE = {}
+
+% ******************
+%  VERBS
+% ******************
+
+RULENAME: v-start
+CTYPE: START
+
+% irregular pasts like "cost" end here
+ if
+ NEXTCAT = [scat v], [bare yes]
+ then
+ RESULTCAT = NEXTCAT
+ RULEPACKAGE = {}
+
+% also irregular participles
+ if
+ NEXTCAT = [scat part]
+ then
+ RESULTCAT = NEXTCAT
+ RULEPACKAGE = {}
+
+% most forms go onwards
+ if
+ NEXTCAT = [scat OR cop v]
+ then
+ RESULTCAT = NEXTCAT
+ RULEPACKAGE = {v-neg, v-past, v-conj, adj:v-deriv, participials, n:v-deriv}
+
+% auxiliaries
+ if
+ NEXTCAT = [scat OR aux mod]
+ then
+ RESULTCAT = NEXTCAT
+ RULEPACKAGE = {v-neg}
+
+RULENAME: v-neg
+CTYPE: ~
+ if
+ STARTCAT = [scat OR aux mod cop]
+ NEXTCAT = [scat v-cl], [neg +]
+ then
+ RESULTCAT = STARTCAT, DEL [allo], ADD [neg +]
+ RULEPACKAGE = {}
+% have clitics on modals
+ if
+ NEXTCAT = [scat n-cl]
+ NEXTSURF = 've|-'ve
+ then
+ RESULTCAT = STARTCAT, DEL [allo], NEXTCAT [vform], ADD [neg +]
+ RULEPACKAGE = {}
+
+RULENAME: v-past
+CTYPE: -
+
+% first blocking
+ if
+STARTCAT = [scat OR cop v]
+NEXTCAT = [scat vsfx], [tense past]
+MATCHCAT [block]
+then
+RESULTCAT = ADD [scat pfx]
+RULEPACKAGE = {}
+
+ if
+ STARTCAT = [gg +]    		% differed with nHa
+ NEXTCAT = [tense past], ![scat OR part adj n:gerund]
+ MATCHCAT [allo]
+then
+ RESULTCAT = STARTCAT, NEXTCAT [tense], DEL [allo], DEL [bare]
+ RULEPACKAGE = {}
+
+ if
+ NEXTCAT = [tense past], ![scat OR part adj n:gerund]
+ MATCHCAT [allo]
+then
+ RESULTCAT = STARTCAT, NEXTCAT [tense], DEL [allo], DEL [bare]
+ RULEPACKAGE = {}
+
+RULENAME: v-conj
+CTYPE: -
+% first blocking
+ if
+STARTCAT = [scat v]
+NEXTCAT = [scat vsfx]
+MATCHCAT [block]
+then
+RESULTCAT = ADD [scat pfx]
+RULEPACKAGE = {}
+
+ if
+ STARTCAT = [scat v]
+ STARTSURF = $Xo      %  ending in "o" like "do"
+ NEXTSURF = es
+ NEXTCAT =  [scat vsfx]
+ MATCHCAT [allo]
+ then
+ RESULTCAT = STARTCAT, NEXTCAT [tense], DEL [allo], DEL [bare]
+ RULEPACKAGE = {}
+
+% clause 2 - general case conjugation, except for tense
+ if
+ STARTCAT = [scat OR cop v], ![bare yes], ![bare el]
+ NEXTCAT = [scat vsfx], ![tense past]
+ MATCHCAT [allo]
+ then
+ RESULTCAT = STARTCAT, DEL [allo], DEL [bare]
+ RULEPACKAGE = {}
+
+% **************   *
+%  NOUNS         *
+% **************   *
+
+RULENAME: n-start
+CTYPE: START
+ if
+ NEXTCAT = [scat OR co n n:let n:prop n:pt on]
+ then
+ RESULTCAT = NEXTCAT
+ RULEPACKAGE = {n-pl, n-cl, participials, denom-deriv}
+
+ if
+NEXTCAT = [scat OR adv:tem pro:per pro:dem pro:exist pro:obj pro:rel pro:sub]
+ then
+ RESULTCAT = NEXTCAT
+ RULEPACKAGE = {n-cl}
+
+ if
+ NEXTCAT = [scat OR det:num pro:indef pro:refl pro:int post]
+ then
+ RESULTCAT = NEXTCAT
+ RULEPACKAGE = {n-cl, denom-deriv}
+
+% *********************************  *
+%   DERIVATIONALS   and CONVERTORS
+%  all convertors should be listed here for all parts of speech
+% *********************************  *
+
+RULENAME: adj:v-deriv
+CTYPE: -
+% first blocking
+ if
+STARTCAT = [scat v]
+NEXTCAT = [dcat adj:v]
+MATCHCAT [block]
+then
+RESULTCAT = ADD [scat pfx]
+RULEPACKAGE = {}
+
+% then basic case for  -able, -less, -ier, -iest, -y
+ if
+STARTCAT = [scat v]
+NEXTCAT = [dcat adj:v], [deriv dv], ![bare no]
+MATCHCAT [allo]
+ then
+ RESULTCAT = STARTCAT [comp], ADD [scat adj], DEL [allo], ADD [allo a0], ADD [deriv dv]
+ RULEPACKAGE = {adj-ab-ly, adj-degree, adv-ly, adj-deriv, n-pl}
+
+% finally    -i, -ab
+ if
+STARTCAT = [scat v]
+NEXTCAT = [dcat adj:v], [deriv dv], [bare no]
+MATCHCAT [allo]
+ then
+ RESULTCAT = STARTCAT [comp], ADD [scat adj], DEL [allo], ADD [allo a0], ADD [deriv dv], ADD [bare no]
+ RULEPACKAGE = {adj-degree, adj-deriv, n-pl, adv-ly}
+
+RULENAME: participials
+CTYPE: -
+%1 first blocking
+ if
+ STARTCAT = [scat OR n v]
+ NEXTCAT = [scat OR adj part n:gerund]
+ MATCHCAT [block]
+ then
+ RESULTCAT = ADD [scat pfx]
+ RULEPACKAGE = {}
+
+%2 denominal -ed adjectives, like blurb-ed
+ if
+ STARTCAT = [scat n], ![gg +], ![block pp]
+ NEXTCAT = [scat part]
+ NEXTSURF = ed
+ MATCHCAT [allo]
+ then
+ RESULTCAT = NEXTCAT, STARTCAT [comp], NEXTCAT [tense], DEL [allo], ADD [allo a0], DEL [bare]
+ RULEPACKAGE = {adv-ly, adj-deriv, denom-deriv}
+
+%3 deverbal -ed adjectives, like started or supposed(ly)
+ if
+ STARTCAT = [gg +], ![block OR ed pp]	% needed to allow differed with nHa
+ NEXTCAT = [scat part]
+ NEXTSURF = ed
+ MATCHCAT [allo]
+ then
+RESULTCAT = NEXTCAT, STARTCAT [comp], NEXTCAT [tense], DEL [allo], ADD [allo a0], DEL [bare]
+ RULEPACKAGE = {adv-ly, adj-deriv, denom-deriv}
+
+%4
+ if
+ STARTCAT = [scat v]
+ NEXTCAT = [scat part]
+ NEXTSURF = ed
+ MATCHCAT [allo]
+ then
+ RESULTCAT = NEXTCAT, STARTCAT [comp], NEXTCAT [tense], DEL [allo], ADD [allo a0], DEL [bare]
+ RULEPACKAGE = {adv-ly, adj-deriv, denom-deriv}
+
+%5 deverbal gerunds, including compounds like baby+sitting or hop+scotching
+ if
+ STARTCAT = [scat OR n v], ![gen DUP]
+ NEXTCAT = [scat n:gerund]
+ MATCHCAT [allo]
+ then
+ RESULTCAT = NEXTCAT, STARTCAT [comp], NEXTCAT [tense], DEL [allo], ADD [allo n0], DEL [bare]
+ RULEPACKAGE = {n-pl, n-cl, adj-deriv, denom-deriv}
+
+%6 denominal gerunds with gg +, including compounds like roller+skating
+ if
+ STARTCAT = [scat n], [gg +], ![block pp]	% needed to allow differing with nHa
+ NEXTCAT = [scat n:gerund]
+ NEXTSURF = ing
+ then
+ RESULTCAT = NEXTCAT, STARTCAT [comp], NEXTCAT [tense], DEL [allo], ADD [allo n0], DEL [bare]
+ RULEPACKAGE = {n-pl, n-cl, adj-deriv, denom-deriv}
+
+%7 the rest of the denominal gerunds, first handle [gen DUP]
+if
+ STARTCAT = [scat n], [gen DUP], ![block pp]
+ NEXTCAT = [scat n:gerund]
+ MATCHCAT [allo]
+ then
+ RESULTCAT = NEXTCAT, STARTCAT [comp], NEXTCAT [tense], DEL [allo], ADD [allo n0], DEL [bare], ADD [gen DUP]
+ RULEPACKAGE = {n-pl, n-cl, adj-deriv, denom-deriv}
+
+%8 others that are not [gen DUP]
+ if
+ STARTCAT = [scat OR n v], ![block pp]
+ NEXTCAT = [scat n:gerund]
+ MATCHCAT [allo]
+ then
+ RESULTCAT = NEXTCAT, STARTCAT [comp], NEXTCAT [tense], DEL [allo], ADD [allo n0], DEL [bare]
+ RULEPACKAGE = {n-pl, n-cl, adj-deriv, denom-deriv}
+
+%9 deverbal participles, including compounds like baby+sitting
+ if
+ STARTCAT = [scat OR cop v], ![gen DUP], ![block pp]
+ NEXTCAT = [scat part]
+ NEXTSURF = ing
+ MATCHCAT [allo]
+ then
+ RESULTCAT = NEXTCAT, STARTCAT [comp], NEXTCAT [tense], DEL [allo], ADD [allo a0], DEL [bare]
+ RULEPACKAGE = {adv-ly, adj-deriv, denom-deriv}
+
+%10 denominal participles, including compounds like roller+skating
+ if
+ STARTCAT = [scat n], [gg +], ![gen DUP], ![block pp]	% needed to allow differing with nHa
+ NEXTCAT = [scat part]
+ NEXTSURF = ing
+ then
+ RESULTCAT = NEXTCAT, STARTCAT [comp], NEXTCAT [tense], DEL [allo], ADD [allo a0], DEL [bare]
+ RULEPACKAGE = {adv-ly, adj-deriv, denom-deriv}
+
+%11  the rest of the participles, but first [gen DUP]
+ if
+ STARTCAT = [scat n], [gen DUP], ![block pp]
+ NEXTCAT = [scat part]
+ NEXTSURF = ing
+ MATCHCAT [allo]
+ then
+ RESULTCAT = NEXTCAT, STARTCAT [comp], NEXTCAT [tense], DEL [allo], ADD [allo a0], DEL [bare], ADD [gen DUP]
+ RULEPACKAGE = {adv-ly, adj-deriv, denom-deriv}
+
+%12 then the rest of the participles
+ if
+ STARTCAT = [scat n], ![block pp]
+ NEXTCAT = [scat part]
+ NEXTSURF = ing
+ MATCHCAT [allo]
+ then
+ RESULTCAT = NEXTCAT, STARTCAT [comp], NEXTCAT [tense], DEL [allo], ADD [allo a0], DEL [bare]
+ RULEPACKAGE = {adv-ly, adj-deriv, denom-deriv}
+
+RULENAME: n:v-deriv
+CTYPE:	-
+
+% first blocking
+ if
+ STARTCAT = [scat v]
+ NEXTCAT = [dcat n:v]
+ MATCHCAT [block]
+ then
+ RESULTCAT = ADD [scat pfx]
+ RULEPACKAGE = {}
+
+% then general case
+ if
+ STARTCAT = [scat v]
+ NEXTCAT = [dcat n:v], [deriv dv]		% this is just for -er
+ MATCHCAT [allo]
+ then
+ RESULTCAT = ADD [scat n], ADD [allo n0], ADD [deriv dv], STARTCAT [comp]
+ RULEPACKAGE = {n-pl, n-cl, denom-deriv}
+
+RULENAME: denom-deriv
+CTYPE: -
+
+% #1 blocking dcats
+ if
+ STARTCAT = [scat OR n n:pt pro:indef pro:int det:num]
+ NEXTCAT = [dcat OR adj:n adv:n n:adj v:n]
+ MATCHCAT [block]
+ then
+ RESULTCAT = ADD [scat pfx]
+ RULEPACKAGE = {}
+
+% #2 blocking scats
+if
+ STARTCAT = [scat OR n det:num]
+ NEXTCAT = [scat OR ndsfx ndimsfx n-cl]
+ MATCHCAT [block]
+ then
+ RESULTCAT = ADD [scat pfx]
+ RULEPACKAGE = {}
+
+% #3 basic adj:n rule for -al -ish, -less, -like, -full -ly -y  -'s and s' but only for nouns
+if
+ STARTCAT = [scat OR n n:pt n:prop det:num post pro:refl pro:indef pro:int], ![n temloc]
+ NEXTCAT =  [dcat adj:n], ![bare no], ![block posspl]
+ MATCHCAT [allo]
+ then
+ RESULTCAT =  STARTCAT [comp], ADD [scat adj], ADD [allo a0], ADD [deriv dn]
+ RULEPACKAGE = {n-pl, adj-deriv, adv-ly, adj-degree, denom-deriv}
+
+% #4 same as #3, but for adv:n as in "clockwise"
+if
+ STARTCAT = [scat OR n n:pt n:prop], ![n temloc]
+ NEXTCAT =  [dcat adv:n], ![bare no], ![block posspl]
+ MATCHCAT [allo]
+ then
+ RESULTCAT =  ADD [scat adv], ADD [allo a0], ADD [deriv dn]
+ RULEPACKAGE = {}
+
+% #4 possessive plural % lawyers'
+if
+ STARTCAT = [scat OR n n:prop pro:indef det:num], ![n temloc]
+ NEXTCAT =  [dcat adj:n], [block posspl]
+ then
+ RESULTCAT =  STARTCAT [comp], ADD [scat adj], ADD [allo a0], ADD [deriv dn]
+ RULEPACKAGE = {}
+
+% #6 for -i
+if
+ STARTCAT = [scat OR n det:num]
+ NEXTCAT =  [dcat adj:n], [bare no]
+ MATCHCAT [allo]
+ then
+ RESULTCAT =  STARTCAT [comp], ADD [bare no], ADD [scat adj], ADD [allo a0], ADD [deriv dn]
+ RULEPACKAGE = {n-pl, adj-deriv, adv-ly, adj-degree, denom-deriv}
+
+%  #7  rule for diminutives and LY
+if
+ STARTCAT = [scat OR adj n n:pt]
+ NEXTCAT = [scat ndimsfx]
+ MATCHCAT [allo]
+ then
+ RESULTCAT = STARTCAT, STARTCAT [comp], DEL [allo], DEL [pl], ADD [allo n0]
+ RULEPACKAGE = {n-pl, n-cl, denom-deriv}
+
+%  #8  -like, -ness, -ist and -sie
+ if
+ STARTCAT = [scat OR n n:pt]
+ NEXTCAT = [scat ndsfx]
+ then
+ RESULTCAT = STARTCAT, STARTCAT [comp], DEL [bare], DEL [allo], ADD [allo n0]
+ RULEPACKAGE = {n-pl, n-cl, denom-deriv}
+
+%  #9  -ness for adjectives to nouns
+ if
+ STARTCAT = [scat adj]
+ NEXTCAT = [dcat n:adj]
+ then
+ RESULTCAT = ADD [scat n], DEL [allo], ADD [allo n0], DEL [bare]
+ RULEPACKAGE = {n-pl, n-cl, denom-deriv}
+
+% # 10 v:n as in computerize
+ if
+ STARTCAT = [scat n]
+ NEXTCAT =  [dcat v:n], [deriv dn]
+ MATCHCAT [allo]
+ then
+ RESULTCAT = ADD [scat v], DEL [allo], ADD [allo v0], ADD [deriv dadj], STARTCAT [comp], DEL [bare]
+ RULEPACKAGE = {v-past, v-conj, participials, n:v-deriv}
+
+% **************   *
+%    PLURALS       *
+% **************   *
+
+RULENAME: n-pl
+CTYPE: -
+
+% first blocking
+if
+ NEXTCAT = [scat npsfx]
+ MATCHCAT [block]
+then
+ RESULTCAT = ADD [scat pfx]
+ RULEPACKAGE = {}
+
+% proper nouns, special forms that have to use -s
+ if
+ STARTCAT = [scat OR n:let n:prop]
+ NEXTSURF = -s
+ NEXTCAT = [scat npsfx]
+ MATCHCAT [allo]
+ then
+ RESULTCAT = STARTCAT, NEXTCAT [num], DEL [bare], STARTCAT [comp]
+ RULEPACKAGE = {denom-deriv}
+
+% adjectives
+ if
+ STARTCAT = [scat adj]
+ NEXTCAT = [scat npsfx]
+ MATCHCAT [allo]
+ then
+ RESULTCAT = STARTCAT, DEL [scat], ADD [scat n:adj], DEL [allo], ADD [allo n0]
+ RULEPACKAGE = {n-cl}
+
+% det-num
+ if
+ STARTCAT = [scat det:num]
+ NEXTCAT = [scat npsfx]
+ MATCHCAT [allo]
+ then
+ RESULTCAT = STARTCAT, DEL [scat], ADD [scat n], DEL [allo], ADD [allo n0], DEL [bare]
+ RULEPACKAGE = {n-cl, denom-deriv}
+
+% general case
+ if
+ STARTCAT = [scat OR det:num n n:gerund n:pt on]
+ NEXTCAT = [scat npsfx]
+ MATCHCAT [allo]
+ then
+ RESULTCAT = STARTCAT, NEXTCAT [num], DEL [allo], DEL [bare], STARTCAT [comp]
+ RULEPACKAGE = {n-cl, denom-deriv}
+
+% **************   *
+%    CLITICS       *
+% **************   *
+
+RULENAME: n-cl
+CTYPE: ~
+% cliticized auxiliary verbs on nouns
+
+% first blocking
+if
+ NEXTCAT = [scat n-cl]
+ MATCHCAT [block]
+then
+ RESULTCAT = ADD [scat pfx]
+ RULEPACKAGE = {}
+
+ if
+ STARTCAT = ![allo OR nVa nYb nHb], ![block co], ![n temloc]  % this is a hack to fix the grandma's n/aux problem
+ NEXTCAT =  [scat n-cl]
+ then
+ RESULTCAT = STARTCAT, DEL [allo], NEXTCAT [vform], NEXTCAT [vcat], STARTCAT [comp]
+ RULEPACKAGE = {}
+
+% ******* *
+%  ADV    *
+% ******* *
+RULENAME: adv-start
+CTYPE: START
+ if
+ NEXTCAT = [scat adv], [allo cp]
+ then
+ RESULTCAT = NEXTCAT
+ RULEPACKAGE = {adv-degree}
+ if
+ NEXTCAT = [scat adv]
+ then
+ RESULTCAT = NEXTCAT
+ RULEPACKAGE = {}
+
+RULENAME: adv-degree
+CTYPE: -
+ if
+ NEXTCAT =  [scat adjsfx], [degree cp]
+ then
+ RESULTCAT = STARTCAT, NEXTCAT [degree], DEL [bare]
+ RULEPACKAGE = {}
+
+% ******* *
+% ADJ    *
+% ******* *
+
+RULENAME: adj-start
+CTYPE: START
+ if
+ NEXTCAT = [scat adj]
+ then
+ RESULTCAT = NEXTCAT
+ RULEPACKAGE = {adj-degree, adj-v-degree, adj-suffix, adv-ly, adj-deriv, n-pl}
+
+RULENAME: adj-degree
+CTYPE: -
+ if
+ STARTCAT = [scat adj], ![block OR est er]
+ NEXTCAT =  [scat adjsfx], [degree OR cp sp]
+ MATCHCAT [allo]
+ then
+ RESULTCAT = STARTCAT, NEXTCAT [degree], DEL [allo], ADD [allo a0], DEL [bare]
+ RULEPACKAGE = {}
+
+RULENAME: adj-v-degree
+CTYPE: -
+ if
+ STARTCAT = [scat v]
+ NEXTCAT =  [scat adj:v], [degree OR cp sp]
+ MATCHCAT [allo]
+ then
+ RESULTCAT = STARTCAT, NEXTCAT [degree], DEL [allo], ADD [allo a0]
+ RULEPACKAGE = {}
+
+RULENAME: adj-suffix
+CTYPE: -
+% blocking scats
+ if
+ STARTCAT = [scat adj]
+ NEXTCAT = [scat adjsfx]
+ MATCHCAT [block]
+ then
+ RESULTCAT = ADD [scat pfx]
+ RULEPACKAGE = {}
+% blocking dcats
+ if
+ STARTCAT = [scat adj]
+ NEXTCAT = [dcat adv:adj]
+ MATCHCAT [block]
+ then
+ RESULTCAT = ADD [scat pfx]
+ RULEPACKAGE = {}
+% general rule
+ if
+ STARTCAT = [scat adj]
+ NEXTCAT = [scat adjsfx], ![bare no], ![degree OR cp sp]
+ MATCHCAT [allo]
+ then
+ RESULTCAT = STARTCAT, DEL [allo], ADD [allo a0]
+ RULEPACKAGE = {adj-degree, adv-ly, denom-deriv}
+% for -i with [bare no]
+ if
+ STARTCAT = [scat adj]
+ NEXTCAT = [scat adjsfx], [bare no]
+ MATCHCAT [allo]
+ then
+ RESULTCAT = STARTCAT, DEL [allo], ADD [allo a0], ADD [bare no]
+ RULEPACKAGE = {adj-degree, adv-ly, denom-deriv}
+
+RULENAME: adj-deriv
+CTYPE: -
+% first blocking
+if
+ STARTCAT = [scat OR adj n part]
+ NEXTCAT =  [dcat OR n:adj v:n v:adj], [deriv dadj]
+ MATCHCAT [block]
+ then
+ RESULTCAT = ADD [scat pfx]
+ RULEPACKAGE = {}
+
+% -ness
+ if
+ STARTCAT = [scat OR adj part]
+ NEXTSURF =  ness
+ MATCHCAT [allo]
+ then
+ RESULTCAT = ADD [scat n], DEL [allo], ADD [allo nSa], ADD [deriv dadj], STARTCAT [comp], DEL [bare]
+ RULEPACKAGE = {n-pl, n-cl}
+
+% v:adj as in liberalize
+ if
+ STARTCAT = [scat adj]
+ NEXTCAT =  [dcat v:adj], [deriv dadj], ![block y]
+ MATCHCAT [allo]
+ then
+ RESULTCAT = ADD [scat v], DEL [allo], ADD [allo v0], ADD [deriv dadj], STARTCAT [comp], DEL [bare]
+ RULEPACKAGE = {v-past, v-conj, participials, n:v-deriv}
+
+% then general case
+ if
+ STARTCAT = [scat OR adj part]
+ NEXTCAT =  [dcat n:adj], [deriv dadj]
+ MATCHCAT [allo]
+ then
+ RESULTCAT = ADD [scat n], DEL [allo], ADD [allo n0], ADD [deriv dadj], STARTCAT [comp], DEL [bare]
+ RULEPACKAGE = {n-pl, n-cl, denom-deriv}
+
+RULENAME: adv-ly
+CTYPE: -
+ if
+ STARTCAT = [scat OR adj part n:gerund]
+ NEXTCAT = [dcat adv:adj], [deriv dadj]
+ MATCHCAT [allo]
+ then
+ RESULTCAT = STARTCAT [comp], ADD [scat adv],  ADD [deriv dadj], DEL [bare no]
+ RULEPACKAGE = {}
+
+RULENAME: adj-ab-ly
+CTYPE: -
+ if
+ NEXTCAT = [dcat adv:adj], [deriv dadj]
+ MATCHCAT [allo]
+ then
+ RESULTCAT = ADD [scat adv],  ADD [deriv dadj], DEL [bare no]
+ RULEPACKAGE = {}
+
+% *************************************************************
+%  ENDRULES  % endrules apply when end of the word is reached *
+%            % used to rule out incomplete parses             *
+% *************************************************************
+
+RULENAME: end-rule
+ CTYPE: END
+ if
+ STARTCAT = ![scat pfx], ![bare no], ![allo OR nGb nHb nYb aHb aVEb aYb aLc aLb aICb]
+ then
+ RESULTCAT = STARTCAT
+ RULEPACKAGE = {}
+

@@ -1,0 +1,178 @@
+@UTF8
+@Window:	447_1013_770_1024_-1_-1_2050_0_2050_0
+%***********
+%   VERBS
+% ***********
+
+RULENAME: v-ate
+LEX-ENTRY:
+LEXSURF = $Tate
+LEXCAT = [scat v]
+ALLO:
+ALLOSURF = $Tat
+ALLOCAT = LEXCAT, ADD [allo vHb], ADD [bare no]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vHa]
+
+RULENAME: v-try
+LEX-ENTRY:
+LEXSURF = $Yy
+LEXCAT = [scat v]
+ALLO:
+ALLOSURF = $Yie
+ALLOCAT = LEXCAT, ADD [allo vYc], ADD [bare no]
+ALLO:
+ALLOSURF = $Yi
+ALLOCAT = LEXCAT, ADD [allo vYb], ADD [bare no]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vYa]
+ALLO:
+ALLOSURF = $Yy_$Yy
+ALLOCAT = LEXCAT, ADD [allo v0], ADD [gen DUP]
+
+RULENAME: v-free
+LEX-ENTRY:
+LEXSURF = $Ze
+LEXCAT = [scat v]
+ALLO:
+ALLOSURF = $Z
+ALLOCAT = LEXCAT, ADD [allo vEEb], ADD [bare no]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vEEa]
+ALLO:
+ALLOSURF = $Ze_$Ze
+ALLOCAT = LEXCAT, ADD [allo vEEa], ADD [gen DUP]
+
+RULENAME: v-tie
+LEX-ENTRY:
+LEXSURF = $Xie
+LEXCAT = [scat v]
+ALLO:
+ALLOSURF = $Xy
+ALLOCAT = LEXCAT, ADD [allo vIEc], ADD [bare no]
+ALLO:
+ALLOSURF = $Xi
+ALLOCAT = LEXCAT, ADD [allo vIEb], ADD [bare no]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vEEa]
+ALLO:
+ALLOSURF = $Xie_$Xie
+ALLOCAT = LEXCAT, ADD [allo v0], ADD [gen DUP]
+
+RULENAME: v-vowel-e    %cue, tiptoeing
+LEX-ENTRY:
+LEXSURF = $We
+LEXCAT = [scat v]
+ALLO:
+ALLOSURF = $W
+ALLOCAT = LEXCAT, ADD [allo vHb], ADD [bare no]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vHb2]
+ALLO:
+ALLOSURF = $We_$We
+ALLOCAT = LEXCAT, ADD [allo v0], ADD [gen DUP]
+
+RULENAME: v-other-final-e
+LEX-ENTRY:
+LEXSURF = $Te
+LEXCAT = [scat v]
+ALLO:
+ALLOSURF = $T
+ALLOCAT = LEXCAT, ADD [allo vHb], ADD [bare no]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vHa]
+ALLO:
+ALLOSURF = $Te_$Te
+ALLOCAT = LEXCAT, ADD [allo v0], ADD [gen DUP]
+
+RULENAME: v-geminate-monosyllabic
+LEX-ENTRY:
+LEXSURF = $O$V$C
+LEXCAT = [scat v], ![tense OR past perf], ![bare yes]  % to block putting
+ALLO:
+ALLOSURF = $O$V$C$C
+ALLOCAT = LEXCAT, ADD [allo vHb], ADD [bare no]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vHa]
+ALLO:
+ALLOSURF = $O$V$C_$O$V$C
+ALLOCAT = LEXCAT, ADD [allo v0], ADD [gen DUP]
+
+RULENAME: v-gg+
+LEX-ENTRY:
+LEXSURF = $X$C   % anything that ends with a consonant which geminates
+LEXCAT = [scat v], [gg +]   % removed ![tense OR past perf]
+ALLO:
+ALLOSURF = $X$C$C
+ALLOCAT = LEXCAT, ADD [allo vHb], ADD [bare no]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vHa]
+ALLO:
+ALLOSURF = $X$C$C_$X$C$C
+ALLOCAT = LEXCAT, ADD [allo v0], ADD [gen DUP]
+
+RULENAME: v-gg-
+LEX-ENTRY:
+LEXSURF = $X$C   % from "star" for allowing starred and blocking stared
+LEXCAT = [scat v], [gg -],  ![tense OR past perf]
+ALLO:
+ALLOSURF = $X$C$C
+ALLOCAT = LEXCAT, ADD [allo vHb], ADD [bare no]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo v0]
+ALLO:
+ALLOSURF = $X$C_$X$C
+ALLOCAT = LEXCAT, ADD [allo v0], ADD [gen DUP]
+
+RULENAME: v-ic
+LEX-ENTRY:
+LEXSURF = $Xic   % mimic, picnic
+LEXCAT = [scat v], [ck +],  ![tense OR past perf]
+ALLO:
+ALLOSURF = $Xick
+ALLOCAT = LEXCAT, ADD [allo vHb], ADD [bare no]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vHa]
+ALLO:
+ALLOSURF = $Xic_$Xic
+ALLOCAT = LEXCAT, ADD [allo v0], ADD [gen DUP]
+
+RULENAME: v-sibilant
+LEX-ENTRY:
+LEXSURF = $X$S
+LEXCAT = [scat v]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo vS]
+
+RULENAME: v-el
+LEX-ENTRY:
+LEXSURF = $Xel
+LEXCAT = [scat v]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo v0], ADD [a 0]
+ALLO:
+ALLOSURF = $Xell
+ALLOCAT = LEXCAT, ADD [allo v0], ADD [bare el], ADD [bare no]
+
+RULENAME: v-no-change
+LEX-ENTRY:
+LEXSURF = $X
+LEXCAT = [scat OR v cop]
+ALLO:
+ALLOSURF = LEXSURF
+ALLOCAT = LEXCAT, ADD [allo v0]
+ALLO:
+ALLOSURF = $X_$X
+ALLOCAT = LEXCAT, ADD [allo v0], ADD [gen DUP]

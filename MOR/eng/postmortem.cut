@@ -1,0 +1,85 @@
+@UTF8
+@Window:	667_664_614_639_-1_-1_0_0_793_0
+#*************************************
+# Instructions:
+# '~'	in the rule means clitic in the utterance is not treated as space, otherwise it is
+# !	used before element refers to the whole element
+# ,!	used within element after "," refers only to that choice
+# $-	means copy whatever search pattern matched in full and unchanged to the output
+# (...)	means match choices within zero or any number of times; the "to" part must be ()
+# [...]	means match choices within zero or only one time; the "to" part must be []
+# pro:*|*,n|*,!pro:dem|*	means match "pro:*|" or "n|" once, but fail at "pro:dem|";
+# 				the "to" part must be $-
+# !part|*P*P	means match only if part|*P*P not found; the "to" part must be !-
+# \	means the rule continues on the next line
+#*************************************
+
+# lexically-specific rules
+$b n|start => $b v|start
+$b conj|so => $b co|so
+$b adv|anyway => $b co|anyway
+pro:per|* n|can => pro:per|* mod|can
+det:*|* pro:indef|one n|* => det:*|* qn|one n|*
+det:*|* adv|way => det:*|* n|way
+v|field n|mouse&PL => n|field n|mouse&PL
+v|perfect v|fit&ZERO => adj|perfect n|fit
+pro:refl|each_other~cop|be&3S n|* => adj|each_other&dn-POSS n|*
+v|pig !*|out => n|pig
+v|pig-3S !*|out => n|pig-PL
+part|hear-PRESP n|aid* => n:gerund|hear-PRESP n|aid*
+part|hear-PRESP n|loss* => n:gerund|hear-PRESP n|loss*
+adj|wont !*|to => n|wont
+*|right *|here => adv|right n|here
+*|right *|there => adv|right n|there
+mod|have~inf|to n|* => $- v|*
+
+pro:*|*,n|*,n:*|* conj|like => $- v|like
+adj|just part|* => adv|just part|*
+
+# rules for "that"
+pro:rel|that . => pro:dem|that .
+pro:rel|that ? => pro:dem|that ?
+pro:rel|that ! => pro:dem|that !
+v|* pro:rel|that => v|* comp|that
+n|* pro:dem|that cop|* => n|* pro:rel|that cop|*
+n|* pro:dem|that aux|* => n|* pro:rel|that aux|*
+n|* pro:dem|that v|* => n|* pro:rel|that v|*
+
+# rules for participles
+part|*-PASTP det:num|* => v|*-PAST det:num|*
+#  the viewing
+det:art|* part|*-PRESP !n|* => det:art|* n:gerund|*-PRESP !-
+# the following day
+det:art|* n:gerund|*-PRESP n|* => det:art|* part|*-PRESP n|*
+
+# rules for "to"
+v*|* prep|to v*|* => v*|* inf|to v*|*
+inf|to n|* => prep|to n|*
+inf|to det:*|* => prep|to det:*|*
+
+# adv:tem -> n
+adv:tem|*~aux|* => adj|*&dn-POSS
+adv:tem|*~cop|* => adj|*&dn-POSS
+
+#*************************************
+# rules (aux, v|*PAST => aux, part|*PASTP)
+pro:*|*,n|*,n:*|*,!pro:exist|*,!pro:dem|* \
+	aux|*&*,aux|have,!aux|be* \
+	(adv|*,adj|*,neg|not,co|*,prep|*,det:art|*) \
+	[n|*,n:*|*,!n|person*] \
+	v|*PAST => $- $- () [] part|*PASTP
+
+# rules (aux, !part|*P*P => cop)
+pro:*|*,n|*,n:*|* aux|be&* (adv|*,adj|*,aux|*,neg|not,post|*,pro:per|*,qn|*,co|*,prep|*,det:art|*,n|*) !part|*P*P => $- cop|be&* () !-
+coord|* aux|be&* (adv|*,adj|*,aux|*,neg|not,post|*,qn|*,co|*,prep|*,det:art|*,n|*) !part|*P*P => $- cop|be&* () !-
+
+# rules (cop, part|*P*P => aux, part|*P*P)
+pro:*|*,n|*,n:*|*,!pro:exist|*,!pro:dem|* cop|be&* (adv|*,neg|not,prep|*,det:art|*) [n|*,n:*|*,!n|person*] part|*P*P => $- aux|be&* () [] $-
+coord|* cop|be&* (adv|*,neg|not,prep|*,det:art|*) [n|*,n:*|*,!n|person*] part|*P*P => coord|* aux|be&* () [] $-
+pro:dem|* cop|be&* (adv|*) [n|*,n:*|*,!n|person*] part|*P*P => pro:dem|* aux|be&* () [] $-
+
+# rule (cop, v|*PAST => aux, part|*PASTP)
+pro:*|*,n|*,n:*|*,!pro:exist|*,!pro:dem|* cop|be&* (adv|*,neg|not,post|*,prep|*,det:art|*) [n|*,n:*|*,!n|person*] v|*PAST \
+	=> $- aux|be&* () [] part|*PASTP
+
+

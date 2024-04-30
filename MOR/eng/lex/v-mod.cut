@@ -1,0 +1,26 @@
+@UTF8
+can {[scat mod]}
+could {[scat mod]}
+dare {[scat mod]}
+did {[scat mod] [tense past] [vform perf]} "do&PAST"
+do {[scat mod] [ir y] [tense pres] [vform perf]}
+does {[scat mod] [tense pres] [agr 3S] [vform perf]} "do&3S"
+may {[scat mod]}
+might {[scat mod]}
+must {[scat mod]}
+need {[scat mod]}
+ought {[scat mod]}
+shall {[scat mod]}
+shalt {[scat mod]}
+should {[scat mod]}
+will {[scat mod]}
+would {[scat mod]} "will&COND"
+
+% irregular negatives of the above
+can't {[scat mod]} "can~neg|not"
+cannot {[scat mod]} "can~neg|not"
+daren't {[scat mod]} "dare~neg|not"
+shan't {[scat mod]} "shall~neg|not"
+won't {[scat mod]} "will~neg|not"
+
+
