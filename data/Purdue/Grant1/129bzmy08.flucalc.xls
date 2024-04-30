@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>15260</WindowHeight>
+  <WindowWidth>25600</WindowWidth>
+  <Date1904/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="RedText">
+    <Font ss:FontName="Calibri" ss:Size="12" ss:Color="#FF0000"/>
+  </Style>
+  <Style ss:ID="TallText">
+    <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="129bzmy08.flucalc.xls">
+  <Table ss:DefaultColumnWidth="105" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell><Data ss:Type="String">File</Data></Cell>
+    <Cell><Data ss:Type="String">Language</Data></Cell>
+    <Cell><Data ss:Type="String">Corpus</Data></Cell>
+    <Cell><Data ss:Type="String">Code</Data></Cell>
+    <Cell><Data ss:Type="String">Age(Month)</Data></Cell>
+    <Cell><Data ss:Type="String">Sex</Data></Cell>
+    <Cell><Data ss:Type="String">Group</Data></Cell>
+    <Cell><Data ss:Type="String">Race</Data></Cell>
+    <Cell><Data ss:Type="String">SES</Data></Cell>
+    <Cell><Data ss:Type="String">Role</Data></Cell>
+    <Cell><Data ss:Type="String">Education</Data></Cell>
+    <Cell><Data ss:Type="String">Custom_field</Data></Cell>
+    <Cell><Data ss:Type="String">mor_Utts</Data></Cell>
+    <Cell><Data ss:Type="String">mor_words</Data></Cell>
+    <Cell><Data ss:Type="String">mor_syllables</Data></Cell>
+    <Cell><Data ss:Type="String">all_words</Data></Cell>
+    <Cell><Data ss:Type="String">words_min</Data></Cell>
+    <Cell><Data ss:Type="String">syllables_min</Data></Cell>
+    <Cell><Data ss:Type="String">all_words_min</Data></Cell>
+    <Cell><Data ss:Type="String">#_Prolongation</Data></Cell>
+    <Cell><Data ss:Type="String">%_Prolongation</Data></Cell>
+    <Cell><Data ss:Type="String">#_Broken_word</Data></Cell>
+    <Cell><Data ss:Type="String">%_Broken_word</Data></Cell>
+    <Cell><Data ss:Type="String">#_Block</Data></Cell>
+    <Cell><Data ss:Type="String">%_Block</Data></Cell>
+    <Cell><Data ss:Type="String">#_PWR</Data></Cell>
+    <Cell><Data ss:Type="String">%_PWR</Data></Cell>
+    <Cell><Data ss:Type="String">#_PWR-RU</Data></Cell>
+    <Cell><Data ss:Type="String">%_PWR-RU</Data></Cell>
+    <Cell><Data ss:Type="String">#_WWR</Data></Cell>
+    <Cell><Data ss:Type="String">%_WWR</Data></Cell>
+    <Cell><Data ss:Type="String">#_mono-WWR</Data></Cell>
+    <Cell><Data ss:Type="String">%_mono-WWR</Data></Cell>
+    <Cell><Data ss:Type="String">#_WWR-RU</Data></Cell>
+    <Cell><Data ss:Type="String">%_WWR-RU</Data></Cell>
+    <Cell><Data ss:Type="String">#_mono-WWR-RU</Data></Cell>
+    <Cell><Data ss:Type="String">%_mono-WWR-RU</Data></Cell>
+    <Cell><Data ss:Type="String">Mean_RU</Data></Cell>
+    <Cell><Data ss:Type="String">#_Phonological_fragment</Data></Cell>
+    <Cell><Data ss:Type="String">%_Phonological_fragment</Data></Cell>
+    <Cell><Data ss:Type="String">#_Phrase_repetitions</Data></Cell>
+    <Cell><Data ss:Type="String">%_Phrase_repetitions</Data></Cell>
+    <Cell><Data ss:Type="String">#_Word_revisions</Data></Cell>
+    <Cell><Data ss:Type="String">%_Word_revisions</Data></Cell>
+    <Cell><Data ss:Type="String">#_Phrase_revisions</Data></Cell>
+    <Cell><Data ss:Type="String">%_Phrase_revisions</Data></Cell>
+    <Cell><Data ss:Type="String">#_Pauses</Data></Cell>
+    <Cell><Data ss:Type="String">%_Pauses</Data></Cell>
+    <Cell><Data ss:Type="String">#_Filled_pauses</Data></Cell>
+    <Cell><Data ss:Type="String">%_Filled_pauses</Data></Cell>
+    <Cell><Data ss:Type="String">#_TD</Data></Cell>
+    <Cell><Data ss:Type="String">%_TD</Data></Cell>
+    <Cell><Data ss:Type="String">#_SLD</Data></Cell>
+    <Cell><Data ss:Type="String">%_SLD</Data></Cell>
+    <Cell><Data ss:Type="String">#_Total_(SLD+TD)</Data></Cell>
+    <Cell><Data ss:Type="String">%_Total_(SLD+TD)</Data></Cell>
+    <Cell><Data ss:Type="String">SLD_Ratio</Data></Cell>
+    <Cell><Data ss:Type="String">Content_words_ratio</Data></Cell>
+    <Cell><Data ss:Type="String">Function_words_ratio</Data></Cell>
+    <Cell><Data ss:Type="String">Content_all_words_ratio</Data></Cell>
+    <Cell><Data ss:Type="String">Function_all_words_ratio</Data></Cell>
+    <Cell><Data ss:Type="String">Weighted_SLD</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">129bzmy08.cha</Data></Cell>
+    <Cell><Data ss:Type="String">eng</Data></Cell>
+    <Cell><Data ss:Type="String">Purdue</Data></Cell>
+    <Cell><Data ss:Type="String">CHI</Data></Cell>
+    <Cell><Data ss:Type="String">4;10.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">Target_Child</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="String">.</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">NA</Data></Cell>
+   </Row>
+   <Row>
+   </Row>
+   <Row>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Interpretation of weighted SLD score: Scores above 4.0 is highly suggestive of clinical diagnosis of stuttering in young children</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Weighted score formula (from Ambrose &amp; Yairi, 1999): ((PWR + mono-WWR) * ((PWR-RU + mono-WWR-RU)/(PWR + mono- WWR))) + (2 * (prologations + blocks))</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="RedText"><Data ss:Type="String">This spreadsheet was run in syllable mode</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>

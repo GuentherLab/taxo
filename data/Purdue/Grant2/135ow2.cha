@@ -16,121 +16,375 @@
 @Comment:	Speech sample begins.
 @Types:	long, interview, CWS
 *CHI:	&-um Guess_Who .
+%mor:	n:prop|Guess_Who .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	&-um no I have not .
+%mor:	co|no pro:sub|I v|have neg|not .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|NEG 5|3|PUNCT
 *CHI:	okay .
+%mor:	co|okay .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	&-uh I can't remember the rules but I know I've played it once .
+%mor:	pro:sub|I mod|can~neg|not v|remember det:art|the n|rule-PL conj|but
+	pro:sub|I v|know pro:sub|I~aux|have part|play-PASTP pro:per|it
+	adv:tem|once .
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|6|DET 6|4|OBJ 7|9|LINK 8|9|SUBJ
+	9|4|CJCT 10|12|SUBJ 11|12|AUX 12|9|COMP 13|12|OBJ 14|12|JCT 15|4|PUNCT
 %com:	CHI Uhhuh .
 *CHI:	&-um at my friends Joyce and Jojo's house .
+%mor:	prep|at det:poss|my n|friend-PL n:prop|Joyce coord|and
+	adj|Jojo&dn-POSS n|house .
+%gra:	1|0|INCROOT 2|3|DET 3|1|POBJ 4|1|POBJ 5|4|CONJ 6|7|MOD 7|5|COORD
+	8|1|PUNCT
 *CHI:	I think .
+%mor:	pro:sub|I v|think .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
 *CHI:	that looks kinda like a cowgirl with the yellow hair .
+%mor:	pro:dem|that cop|look-3S adv|kinda co|like det:art|a
+	n|+n|cow+n|girl prep|with det:art|the n|yellow n|hair .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|2|COM 5|6|DET 6|2|PRED 7|6|NJCT 8|10|DET
+	9|10|MOD 10|7|POBJ 11|2|PUNCT
 *CHI:	right here .
+%mor:	adv|right n|here .
+%gra:	1|2|JCT 2|0|INCROOT 3|2|PUNCT
 %com:	CHI Right here .
 *CHI:	the robot .
+%mor:	det:art|the n|robot .
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
 *CHI:	or like pirate eyes .
+%mor:	coord|or co|like n|pirate n|eye-PL .
+%gra:	1|4|LINK 2|4|COM 3|4|MOD 4|0|INCROOT 5|4|PUNCT
 *CHI:	oh I think it's this one .
+%mor:	co|oh pro:sub|I v|think pro:per|it~cop|be&3S det:dem|this
+	pro:indef|one .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|SUBJ 5|3|COMP 6|7|DET 7|5|PRED 8|3|PUNCT
 *CHI:	<the &~skel> [//] &-uh the skeleton .
+%mor:	det:art|the n|skeleton .
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
 %com:	Child reading names off cards ., CHI Okay .
 *CHI:	so do I hafta try to give you like clues which one yours is ?
+%mor:	co|so mod|do pro:sub|I mod|have~inf|to v|try inf|to v|give
+	pro:per|you co|like n|clue-PL pro:rel|which det:num|one
+	pro:poss|yours cop|be&3S ?
+%gra:	1|6|COM 2|6|AUX 3|6|SUBJ 4|6|AUX 5|6|INF 6|0|ROOT 7|8|INF 8|6|COMP
+	9|15|SUBJ 10|11|COM 11|15|SUBJ 12|13|LINK 13|14|QUANT 14|15|SUBJ 15|8|COMP
+	16|6|PUNCT
 *CHI:	no it's <&~re> [//] looks really funny &=laughs .
+%mor:	co|no pro:per|it~cop|be&3S n|look-PL adv|real&dadj-LY adj|fun&dn-Y
+	.
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|6|JCT 6|4|POSTMOD 7|3|PUNCT
 %com:	CHI Yes .
 *CHI:	&-um is my head in one of these people rows ?
+%mor:	cop|be&3S det:poss|my n|head prep|in det:num|one prep|of
+	det:dem|these n|person&PL n|row-PL ?
+%gra:	1|0|ROOT 2|3|DET 3|1|PRED 4|3|NJCT 5|4|POBJ 6|5|JCT 7|9|DET 8|9|MOD
+	9|6|POBJ 10|1|PUNCT
 %com:	CHI No .
 *CHI:	okay <is mine one of the &~m> [//] is my &-um head one of the
 	monsters ?
+%mor:	co|okay cop|be&3S det:poss|my n|head pro:indef|one prep|of
+	det:art|the n|monster-PL ?
+%gra:	1|2|COM 2|0|ROOT 3|4|DET 4|2|PRED 5|4|NJCT 6|5|NJCT 7|8|DET 8|6|POBJ
+	9|2|PUNCT
 *CHI:	&=laughs now I bet mine's gonna look really &=makes:funny_face .
+%mor:	adv:tem|now pro:sub|I v|bet&ZERO adj|mine&dn-POSS
+	part|go&PRESP~prep|to n|look adv|real&dadj-LY .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|4|XMOD 6|5|JCT 7|6|POBJ 8|7|NJCT
+	9|3|PUNCT
 *CHI:	now I don't think mine is gonna look good at all &=laughs .
+%mor:	adv:tem|now pro:sub|I mod|do~neg|not v|think n|mine aux|be&3S
+	part|go&PRESP~prep|to n|look adj|good prep|at pro:indef|all .
+%gra:	1|5|LINK 2|5|SUBJ 3|5|AUX 4|3|NEG 5|0|ROOT 6|8|SUBJ 7|8|AUX 8|5|COMP
+	9|8|JCT 10|9|POBJ 11|10|POSTMOD 12|11|JCT 13|12|POBJ 14|5|PUNCT
 *CHI:	it's just yours looks really funny .
+%mor:	pro:per|it~cop|be&3S adj|just pro:poss|yours n|look-PL
+	adv|real&dadj-LY adj|fun&dn-Y .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|MOD 4|5|MOD 5|2|PRED 6|7|JCT 7|5|POSTMOD
+	8|2|PUNCT
 %com:	CHI Yes .
 *CHI:	well just <like> [/?] the top part .
+%mor:	adv|well adv|just det:art|the adj|top n|part .
+%gra:	1|5|JCT 2|5|JCT 3|5|DET 4|5|MOD 5|0|INCROOT 6|5|PUNCT
 *CHI:	<okay> [/?] are my eyes an animal ?
+%mor:	cop|be&PRES det:poss|my n|eye-PL det:art|a n|animal ?
+%gra:	1|0|ROOT 2|3|DET 3|1|PRED 4|5|DET 5|3|OBJ 6|1|PUNCT
 %com:	CHI Okay .
 *CHI:	oo I think it's the zombie .
+%mor:	co|oo pro:sub|I v|think pro:per|it~cop|be&3S det:art|the n|zombie .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|SUBJ 5|3|COMP 6|7|DET 7|5|PRED 8|3|PUNCT
 %com:	CHI Yes .
 *CHI:	those are some of the avengers and Spiderman .
+%mor:	pro:dem|those cop|be&PRES pro:indef|some prep|of det:art|the
+	n|avenge&dv-AGT-PL coord|and n:prop|Spiderman .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|3|NJCT 5|6|DET 6|4|POBJ 7|2|CONJ 8|7|COORD
+	9|2|PUNCT
 *CHI:	hulk but I can name so many marvel people .
+%mor:	n|hulk conj|but pro:sub|I mod|can v|name adv|so qn|many n|marvel
+	n|person&PL .
+%gra:	1|0|INCROOT 2|5|LINK 3|5|SUBJ 4|5|AUX 5|1|CJCT 6|9|JCT 7|8|QUANT
+	8|9|MOD 9|5|OBJ 10|1|PUNCT
 *CHI:	well my friend Taylor she is so into marvel she's told me so many
 	of their names .
+%mor:	n|well det:poss|my n|friend n:prop|Taylor pro:sub|she cop|be&3S
+	adv|so prep|into n|marvel pro:sub|she~aux|be&3S part|tell&PASTP
+	pro:obj|me adv|so pro:indef|many prep|of det:poss|their n|name-PL .
+%gra:	1|6|SUBJ 2|3|DET 3|6|JCT 4|3|APP 5|6|SUBJ 6|0|ROOT 7|12|JCT 8|12|JCT
+	9|8|POBJ 10|12|SUBJ 11|12|AUX 12|6|CPRED 13|12|OBJ 14|12|JCT 15|14|POBJ
+	16|15|NJCT 17|18|DET 18|16|POBJ 19|6|PUNCT
 *CHI:	and I know some of their powers .
+%mor:	coord|and pro:sub|I v|know pro:indef|some prep|of det:poss|their
+	n|power-PL .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|4|NJCT 6|7|DET 7|5|POBJ 8|3|PUNCT
 *CHI:	Captain_America he's a super soldier .
+%mor:	n:prop|Captain_America pro:sub|he~cop|be&3S det:art|a adj|super
+	n|soldier .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|3|PRED 7|3|PUNCT
 *CHI:	he has a shield that can never break .
+%mor:	pro:sub|he v|have&3S det:art|a n|shield pro:rel|that mod|can
+	adv:tem|never v|break .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|8|LINK 6|8|AUX 7|8|SUBJ 8|4|CMOD
+	9|2|PUNCT
 %com:	CHI A shield .
 *CHI:	Ironman is just a man in an iron suit .
+%mor:	n:prop|Ironman cop|be&3S adv|just det:art|a n|man prep|in det:art|a
+	adj|iron n|suit .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|JCT 4|5|DET 5|2|PRED 6|5|NJCT 7|9|DET 8|9|MOD
+	9|6|POBJ 10|2|PUNCT
 *CHI:	he [/] he can shoot .
+%mor:	pro:sub|he mod|can v|shoot .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|PUNCT
 *CHI:	he can shoot out lasers .
+%mor:	pro:sub|he mod|can v|shoot adv|out n|laser-PL .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|JCT 5|4|POBJ 6|3|PUNCT
 *CHI:	this is Thor .
+%mor:	pro:dem|this cop|be&3S n:prop|Thor .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
 *CHI:	<he's> [//] &-uh he's from Asgard and he has a hammer that can
 	shoot out lightening .
+%mor:	pro:sub|he~cop|be&3S prep|from n:prop|Asgard coord|and pro:sub|he
+	v|have&3S det:art|a n|hammer comp|that mod|can v|shoot adv|out
+	part|lighten-PRESP .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|3|POBJ 5|7|LINK 6|7|SUBJ 7|2|CJCT 8|9|DET
+	9|7|OBJ 10|12|SUBJ 11|12|AUX 12|7|COMP 13|12|JCT 14|12|XJCT 15|2|PUNCT
 *CHI:	this is Black_Panther .
+%mor:	pro:dem|this cop|be&3S n:prop|Black_Panther .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
 *CHI:	he just has claws .
+%mor:	pro:sub|he adv|just aux|have&3S n|claw-PL .
+%gra:	1|4|SUBJ 2|4|JCT 3|4|MOD 4|0|ROOT 5|4|PUNCT
 *CHI:	this is Hawkeye .
+%mor:	pro:dem|this cop|be&3S n:prop|Hawkeye .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
 *CHI:	↫h↫he just has a bow and arrow and he never misses his shot .
+%mor:	pro:sub|he adv|just v|have&3S det:art|a n|bow coord|and n|arrow
+	coord|and pro:sub|he adv:tem|never v|miss-3S det:poss|his n|shot .
+%gra:	1|3|SUBJ 2|3|JCT 3|0|ROOT 4|5|DET 5|3|OBJ 6|5|CONJ 7|6|COORD 8|11|LINK
+	9|11|SUBJ 10|11|JCT 11|3|CJCT 12|13|DET 13|11|OBJ 14|3|PUNCT
 *CHI:	he has super strength .
+%mor:	pro:sub|he aux|have&3S adj|super n|strength .
+%gra:	1|4|SUBJ 2|4|AUX 3|4|MOD 4|0|INCROOT 5|4|PUNCT
 *CHI:	and Spiderman also has spider sense so like if there's a laser
 	coming up behind him he can just <like> [/?] do a flip .
+%mor:	coord|and n:prop|Spiderman adv|also v|have&3S n|spider n|sense
+	co|so v|like comp|if pro:exist|there~cop|be&3S det:art|a n|laser
+	part|come-PRESP adv|up prep|behind pro:obj|him pro:sub|he mod|can
+	adv|just v|do det:art|a v|flip .
+%gra:	1|4|LINK 2|4|SUBJ 3|4|JCT 4|0|ROOT 5|6|MOD 6|4|OBJ 7|8|COM 8|4|CJCT
+	9|11|LINK 10|11|SUBJ 11|8|COMP 12|13|DET 13|11|PRED 14|13|XMOD 15|14|JCT
+	16|14|JCT 17|16|POBJ 18|21|SUBJ 19|21|AUX 20|21|JCT 21|8|COMP 22|23|DET
+	23|21|OBJ 24|4|PUNCT
 *CHI:	and then it wouldn't hit him .
+%mor:	coord|and adv:tem|then pro:per|it mod|will&COND~neg|not v|hit&ZERO
+	pro:obj|him .
+%gra:	1|6|LINK 2|6|JCT 3|6|SUBJ 4|6|AUX 5|4|NEG 6|0|ROOT 7|6|OBJ 8|6|PUNCT
 *CHI:	and he can climb up walls .
+%mor:	coord|and pro:sub|he mod|can v|climb adv|up n|wall-PL .
+%gra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|JCT 6|5|POBJ 7|4|PUNCT
 %com:	CHI And^
 *CHI:	<and> [/?] he can shoot out spider webs .
+%mor:	pro:sub|he mod|can v|shoot adv|out n|spider n|web-PL .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|JCT 5|6|MOD 6|4|POBJ 7|3|PUNCT
 *CHI:	you probably know that too .
+%mor:	pro:per|you adv|probable&dadj-LY v|know pro:dem|that adv|too .
+%gra:	1|3|SUBJ 2|3|JCT 3|0|ROOT 4|3|OBJ 5|3|JCT 6|3|PUNCT
 *CHI:	&-um <I'm trynna> [//] I've watched a little bit of the second and
 	I think I've watched all the first .
+%mor:	pro:sub|I~aux|have part|watch-PASTP det:art|a adj|little n|bit
+	prep|of det:art|the adj|second coord|and pro:sub|I v|think
+	pro:sub|I~aux|have part|watch-PASTP qn|all det:art|the adj|first .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|6|DET 5|6|MOD 6|3|OBJ 7|6|NJCT 8|9|DET
+	9|7|POBJ 10|12|LINK 11|12|SUBJ 12|3|CJCT 13|15|SUBJ 14|15|AUX 15|12|COMP
+	16|18|QUANT 17|18|DET 18|15|JCT 19|3|PUNCT
 *CHI:	I'm trynna finish the third .
+%mor:	pro:sub|I~aux|be&1S part|try&PRESP~inf|to v|finish det:art|the
+	n|third .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|INF 5|3|COMP 6|7|DET 7|5|OBJ 8|3|PUNCT
 %com:	CHI Mhm .
 *CHI:	do you know that there's a new one coming out called homecoming I
 	think ?
+%mor:	mod|do pro:per|you v|know comp|that pro:exist|there~cop|be&3S
+	det:art|a adj|new pro:indef|one part|come-PRESP adv|out
+	part|call-PASTP n|+n|home+part|coming pro:sub|I v|think ?
+%gra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|6|LINK 5|6|SUBJ 6|3|COMP 7|9|DET 8|9|MOD
+	9|6|PRED 10|9|XMOD 11|10|JCT 12|10|XJCT 13|12|OBJ 14|15|SUBJ 15|3|CJCT
+	16|3|PUNCT
 *CHI:	yeah there's a new Spiderman coming out .
+%mor:	co|yeah pro:exist|there~cop|be&3S det:art|a adj|new
+	n:prop|Spiderman part|come-PRESP adv|out .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|3|PRED 7|6|XMOD 8|7|JCT
+	9|3|PUNCT
 *CHI:	<well &~prob> [//] well in this year but <I don't> [//] I can't
 	remember when .
+%mor:	co|well prep|in det:dem|this n|year conj|but pro:sub|I
+	mod|can~neg|not v|remember pro:int|when .
+%gra:	1|0|INCROOT 2|1|JCT 3|4|DET 4|2|POBJ 5|9|LINK 6|9|SUBJ 7|9|AUX 8|7|NEG
+	9|1|CJCT 10|9|OBJ 11|1|PUNCT
 *CHI:	<and there's a new> [//] &=sighs are you a fan of Star_Wars ?
+%mor:	cop|be&PRES pro:per|you det:art|a n|fan prep|of n:prop|Star_Wars ?
+%gra:	1|0|ROOT 2|1|PRED 3|4|DET 4|2|OBJ 5|4|NJCT 6|5|POBJ 7|1|PUNCT
 *CHI:	well there's a new one coming out .
+%mor:	co|well pro:exist|there~cop|be&3S det:art|a adj|new pro:indef|one
+	part|come-PRESP adv|out .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|3|PRED 7|6|XMOD 8|7|JCT
+	9|3|PUNCT
 *CHI:	have you seen Rogue_One ?
+%mor:	v|have pro:per|you part|see&PASTP n:prop|Rogue_One ?
+%gra:	1|0|ROOT 2|3|SUBJ 3|1|COMP 4|3|OBJ 5|1|PUNCT
 %com:	CHI Yes .
 *CHI:	but it doesn't xxx +/.
+%mor:	conj|but pro:per|it mod|do&3S~neg|not +/.
+%gra:	1|0|INCROOT 2|5|SUBJ 3|5|AUX 4|3|NEG 5|1|PUNCT
 *CHI:	but yeah that's the new one .
+%mor:	conj|but co|yeah pro:dem|that~cop|be&3S det:art|the adj|new
+	pro:indef|one .
+%gra:	1|4|LINK 2|4|COM 3|4|SUBJ 4|0|ROOT 5|7|DET 6|7|MOD 7|4|PRED 8|4|PUNCT
 *CHI:	there's no lightsabers except Darthvader has a lightsaber .
+%mor:	pro:exist|there~cop|be&3S qn|no n|+n|light+n|saber-PL prep|except
+	n:prop|Darthvader v|have&3S det:art|a n|+n|light+n|saber .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|QUANT 4|2|PRED 5|4|NJCT 6|5|POBJ 7|4|ENUM 8|9|DET
+	9|7|OBJ 10|2|PUNCT
 *CHI:	they only have <like> [/?] laser guns in that one .
+%mor:	pro:sub|they adv|only v|have n|laser n|gun-PL prep|in det:dem|that
+	pro:indef|one .
+%gra:	1|3|SUBJ 2|3|JCT 3|0|ROOT 4|5|MOD 5|3|OBJ 6|5|NJCT 7|8|DET 8|6|POBJ
+	9|3|PUNCT
 %com:	CHI Yep .
 *CHI:	<but in the other> [//] <because they're> [//] this one's <like>
 	[/?] in the middle of <like> [/?] where Darthvader is still alive .
+%mor:	pro:dem|this pro:indef|one~cop|be&3S prep|in det:art|the n|middle
+	prep|of pro:int|where n:prop|Darthvader cop|be&3S adv|still
+	adj|alive .
+%gra:	1|2|DET 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|6|DET 6|4|POBJ 7|6|NJCT 8|10|LINK
+	9|10|SUBJ 10|7|CPOBJ 11|12|JCT 12|10|PRED 13|3|PUNCT
 *CHI:	and where they <like> [/?] steal the plans for the Deathstar so
 	Luke Skywalker can go in blow [/] blow it up .
+%mor:	coord|and pro:int|where pro:sub|they v|steal det:art|the n|plan-PL
+	prep|for det:art|the n:prop|Deathstar adv|so n:prop|Luke
+	n:prop|Skywalker mod|can v|go prep|in n|blow pro:per|it adv|up .
+%gra:	1|4|LINK 2|4|LINK 3|4|SUBJ 4|0|ROOT 5|6|DET 6|4|OBJ 7|4|JCT 8|9|DET
+	9|7|POBJ 10|11|JCT 11|4|CJCT 12|14|SUBJ 13|14|AUX 14|11|COMP 15|14|JCT
+	16|15|POBJ 17|14|OBJ 18|17|JCT 19|4|PUNCT
 *CHI:	so it's <like> [/?] in the middle .
+%mor:	adv|so pro:per|it~cop|be&3S prep|in det:art|the n|middle .
+%gra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|6|DET 6|4|POBJ 7|3|PUNCT
 %com:	CHI BBEight {% adult repetition} ?, CHI Oh yeah .
 *CHI:	where Han_Solo died ?
+%mor:	pro:int|where n:prop|Han_Solo v|die-PAST ?
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
 *CHI:	and then they found Skywalker at the end .
+%mor:	coord|and adv:tem|then pro:sub|they v|find&PAST n:prop|Skywalker
+	prep|at det:art|the n|end .
+%gra:	1|4|LINK 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|5|NJCT 7|8|DET 8|6|POBJ
+	9|4|PUNCT
 *CHI:	Chewbacca's still alive .
+%mor:	n:prop|Chewbacca~cop|be&3S adv|still adj|alive .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|2|PUNCT
 *CHI:	Artoo_Detoo is still alive .
+%mor:	n:prop|Artoo_Detoo cop|be&3S adv|still adj|alive .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|PRED 5|2|PUNCT
 *CHI:	so is See_Threepio .
+%mor:	adv|so cop|be&3S n:prop|See_Threepio .
+%gra:	1|2|JCT 2|0|ROOT 3|2|PRED 4|2|PUNCT
 %com:	CHI Uhhuh .
 *CHI:	I love the second one and the first one .
+%mor:	pro:sub|I v|love det:art|the adj|second det:num|one coord|and
+	det:art|the adj|first pro:indef|one .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|OBJ 6|5|CONJ 7|9|DET 8|9|MOD
+	9|6|COORD 10|2|PUNCT
 %com:	CHI Yeah (yeah) .
 *CHI:	<mhm> [/?] my sister likes it my mom also my dad .
+%mor:	det:poss|my n|sister v|like-3S pro:per|it det:poss|my n|mom
+	adv|also det:poss|my n|dad .
+%gra:	1|2|DET 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|6|DET 6|3|OBJ 7|6|NJCT 8|9|DET
+	9|7|POBJ 10|3|PUNCT
 %com:	CHI Yes .
 *CHI:	&-um are my eyes animal eyes ?
+%mor:	cop|be&PRES det:poss|my n|eye-PL n|animal n|eye-PL ?
+%gra:	1|0|ROOT 2|5|DET 3|5|MOD 4|5|MOD 5|1|PRED 6|1|PUNCT
 %com:	CHI Oh .
 *CHI:	&-um <is my> [//] oh so are my eyes cat eyes ?
+%mor:	co|oh co|so cop|be&PRES det:poss|my n|eye-PL n|cat n|eye-PL ?
+%gra:	1|3|COM 2|3|COM 3|0|ROOT 4|7|DET 5|7|MOD 6|7|MOD 7|3|PRED 8|3|PUNCT
 *CHI:	&-uh are my eyes the puppy eyes ?
+%mor:	cop|be&PRES det:poss|my n|eye-PL det:art|the n|puppy n|eye-PL ?
+%gra:	1|0|ROOT 2|3|DET 3|1|PRED 4|6|DET 5|6|MOD 6|3|APP 7|1|PUNCT
 *CHI:	okay puppy and then xxx +...
+%mor:	co|okay n|puppy coord|and adv:tem|then +...
+%gra:	1|2|COM 2|0|INCROOT 3|2|CONJ 4|3|COORD 5|2|PUNCT
 *CHI:	zombie head I have .
+%mor:	n|zombie n|head pro:sub|I v|have .
+%gra:	1|2|MOD 2|0|ROOT 3|4|SUBJ 4|2|CMOD 5|2|PUNCT
 *CHI:	<I really think it &~m> [//] it may be <like> [/?] the robot .
+%mor:	pro:per|it mod|may cop|be det:art|the n|robot .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|DET 5|3|PRED 6|3|PUNCT
 *CHI:	<or it's> [//] I think it's this guy because that would make it
 	look horrible .
+%mor:	pro:sub|I v|think pro:per|it~cop|be&3S det:dem|this n|guy
+	conj|because pro:dem|that mod|will&COND v|make pro:per|it v|look
+	adj|horrible .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|6|DET 6|4|PRED 7|10|LINK
+	8|10|SUBJ 9|10|AUX 10|2|CJCT 11|12|SUBJ 12|10|COMP 13|12|PRED 14|2|PUNCT
 *CHI:	so is this one's the head ?
+%mor:	adv|so cop|be&3S det:dem|this det:num|one~aux|be&3S det:art|the
+	n|head ?
+%gra:	1|2|JCT 2|0|ROOT 3|4|DET 4|7|SUBJ 5|7|AUX 6|7|DET 7|2|PRED 8|2|PUNCT
 %com:	CHI Oh ., CHI Mhm .
 *CHI:	now guess which one .
+%mor:	adv:tem|now n|guess pro:rel|which pro:indef|one .
+%gra:	1|0|INCROOT 2|1|OBJ 3|4|LINK 4|2|CMOD 5|1|PUNCT
 %com:	CHI No .
 *CHI:	is my mouth a people mouth ?
+%mor:	cop|be&3S det:poss|my n|mouth det:art|a n|person&PL v|mouth ?
+%gra:	1|0|ROOT 2|3|DET 3|1|PRED 4|5|DET 5|6|SUBJ 6|3|CMOD 7|1|PUNCT
 *CHI:	okay now you go .
+%mor:	co|okay adv:tem|now pro:per|you v|go .
+%gra:	1|2|COM 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
 %com:	CHI No .
 *CHI:	<are my eyes> [//] &-uh xxx +...
 *CHI:	oh I mean is my mouth &-um a animal mouth ?
+%mor:	co|oh pro:sub|I v|mean cop|be&3S det:poss|my n|mouth det:art|a
+	n|animal n|mouth ?
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|COMP 5|6|DET 6|4|PRED 7|9|DET 8|9|MOD
+	9|6|APP 10|3|PUNCT
 *CHI:	is my mouth a panda mouth ?
+%mor:	cop|be&3S det:poss|my n|mouth det:art|a n|panda n|mouth ?
+%gra:	1|0|ROOT 2|3|DET 3|1|PRED 4|6|DET 5|6|MOD 6|3|APP 7|1|PUNCT
 *CHI:	or a piggy mouth ?
+%mor:	coord|or det:art|a adj|pig&dn-Y n|mouth ?
+%gra:	1|4|LINK 2|4|DET 3|4|MOD 4|0|INCROOT 5|4|PUNCT
 *CHI:	&=laughs it does look horrible !
+%mor:	pro:per|it mod|do&3S v|look adj|horrible !
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|JCT 5|3|PUNCT
 %com:	CHI {% Laughs} ew .
 *CHI:	I'll get it .
+%mor:	pro:sub|I~mod|will aux|get pro:per|it .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|PRED 5|3|PUNCT
 *CHI:	<I wonder> [//] oh there it is .
+%mor:	co|oh adv|there pro:per|it cop|be&3S .
+%gra:	1|4|COM 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
 %com:	CHI Mhm .
 *CHI:	they turn out pretty funny too .
+%mor:	pro:sub|they v|turn adv|out adv|pretty adj|fun&dn-Y adv|too .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|5|JCT 5|2|JCT 6|5|JCT 7|2|PUNCT
 %com:	Speech sample ends .
 @End

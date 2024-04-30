@@ -1,0 +1,1008 @@
+@UTF8
+@PID:	11312/c-00004483-1
+@Begin
+@Languages:	deu
+@Participants:	MUT Mother , CHI Claudia Target_Child
+@ID:	deu|Ulm|CHI|3;09.||||Target_Child|||
+@ID:	deu|Ulm|MUT|||||Mother|||
+@Situation:	Standardspielsituation mit Bauernhof-Spielkloetzchen
+@Types:	cross, tests, CWS
+*MUT:	zwei Kisten .
+%mor:	?|zwei n:prop|Kisten .
+%gra:	1|0|INCROOT 2|1|OBJ 3|1|PUNCT
+*MUT:	jetzt holst du mal raus was wir brauchen he ?
+%mor:	?|jetzt ?|holst ?|du ?|mal ?|raus cop|be&PAST&13S ?|wir ?|brauchen
+	pro:sub|he ?
+%gra:	1|0|INCROOT 2|1|PUNCT 3|2|INCROOT 4|6|LINK 5|6|SUBJ 6|3|ROOT 7|6|PRED
+	8|7|INCROOT 9|8|INCROOT 10|9|PUNCT
+*CHI:	<des brauchmer , des brauchmer> [/] , des brauchmer , so .
+%mor:	cm|cm ?|des ?|brauchmer cm|cm adv|so .
+%gra:	1|0|INCROOT 2|1|ENUM 3|2|ENUM 4|3|LP 5|2|JCT 6|1|PUNCT
+*MUT:	mhm .
+%mor:	co|mhm=yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	mhm .
+%mor:	co|mhm=yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	des brauchmer auch .
+%mor:	?|des ?|brauchmer ?|auch .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|1|PUNCT
+*CHI:	so .
+%mor:	co|so .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	jetzt stellmer mal den .
+%mor:	?|jetzt ?|stellmer ?|mal n|den .
+%gra:	1|4|MOD 2|4|MOD 3|4|MOD 4|0|INCROOT 5|4|PUNCT
+*MUT:	was koennt denn des hier sein , was koennte man da ?
+%mor:	cop|be&PAST&13S ?|koennt adv|then&aaep ?|des ?|hier ?|sein cm|cm
+	cop|be&PAST&13S ?|koennte v|man det:art|the&aae ?
+%gra:	1|0|ROOT 2|1|PUNCT 3|10|JCT 4|10|LINK 5|10|SUBJ 6|5|ENUM 7|6|LP
+	8|10|AUX 9|10|JCT 10|2|ROOT 11|12|DET 12|10|OBJ
+*CHI:	des brauchmer auch .
+%mor:	?|des ?|brauchmer ?|auch .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|1|PUNCT
+*MUT:	Claudia ?
+%mor:	n:prop|Claudia ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	is des vielleicht der Stall ?
+%mor:	cop|be&3S ?|des ?|vielleicht ?|der n:prop|Stall ?
+%gra:	1|0|ROOT 2|1|PRED 3|2|OM 4|3|OM 5|4|OM 6|1|PUNCT
+*CHI:	ja .
+%mor:	co|ja .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	des brauchmer auch .
+%mor:	?|des ?|brauchmer ?|auch .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|1|PUNCT
+*MUT:	was is des hier ?
+%mor:	cop|be&PAST&13S cop|be&3S ?|des ?|hier ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|3|OM 5|2|PUNCT
+*MUT:	wenn mans so zammeschiebt ?
+%mor:	?|wenn v|man-3S adv|so ?|zammeschiebt ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|COMP 5|2|PUNCT
+*MUT:	mhm ?
+%mor:	co|mhm=yes ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	brauchmer auch , gell ?
+%mor:	?|brauchmer ?|auch cm|cm ?|gell ?
+%gra:	1|0|INCROOT 2|1|OM 3|2|LP 4|2|ENUM 5|1|PUNCT
+*MUT:	ja , als was ?
+%mor:	co|ja cm|cm ?|als cop|be&PAST&13S ?
+%gra:	1|4|COM 2|1|LP 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*CHI:	fuer die Kuehe .
+%mor:	?|fuer n|die n:prop|Kuehe .
+%gra:	1|3|MOD 2|3|MOD 3|0|INCROOT 4|3|PUNCT
+*MUT:	fuer die Kuehe ?
+%mor:	?|fuer n|die n:prop|Kuehe ?
+%gra:	1|0|INCROOT 2|3|MOD 3|1|OM 4|1|PUNCT
+*CHI:	ja .
+%mor:	co|ja .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	des brauchmer .
+%mor:	?|des ?|brauchmer .
+%gra:	1|0|INCROOT 2|1|ENUM 3|1|PUNCT
+*CHI:	was is des ?
+%mor:	cop|be&PAST&13S cop|be&3S ?|des ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
+*MUT:	du da steht was drauf , des isch wie bei deine Kloetzle .
+%mor:	?|du det:art|the&aae ?|steht cop|be&PAST&13S ?|drauf cm|cm ?|des
+	?|isch ?|wie ?|bei ?|deine n:prop|Kloetzle .
+%gra:	1|4|LINK 2|3|DET 3|4|SUBJ 4|0|ROOT 5|4|PRED 6|5|LP 7|5|ENUM 8|7|NJCT
+	9|8|POBJ 10|9|NJCT 11|12|MOD 12|10|POBJ 13|4|PUNCT
+*MUT:	da steht Metzgerei drauf .
+%mor:	det:art|the&aae ?|steht n:prop|Metzgerei ?|drauf .
+%gra:	1|4|DET 2|4|MOD 3|4|MOD 4|0|ROOT 5|4|PUNCT
+*MUT:	des isch die Metzgerei .
+%mor:	?|des ?|isch n|die n:prop|Metzgerei .
+%gra:	1|0|INCROOT 2|1|CONJ 3|4|MOD 4|2|COORD 5|1|PUNCT
+*CHI:	nein , des isch der Bauernhof .
+%mor:	?|nein cm|cm ?|des ?|isch ?|der n:prop|Bauernhof .
+%gra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|3|NJCT 5|6|MOD 6|4|POBJ 7|1|PUNCT
+*MUT:	der Bauernhof .
+%mor:	?|der n:prop|Bauernhof .
+%gra:	1|0|INCROOT 2|1|OBJ 3|1|PUNCT
+*MUT:	ja und wenn man dann uns vorstellet hier koennte man ja so Kloetzle
+	hin eine Mauer oder .
+%mor:	co|ja ?|und ?|wenn n|man ?|dann ?|uns ?|vorstellet ?|hier ?|koennte
+	n|man co|ja adv|so n:prop|Kloetzle ?|hin ?|eine n:prop|Mauer ?|oder
+	.
+%gra:	1|2|COM 2|0|ROOT 3|4|MOD 4|2|POBJ 5|4|NJCT 6|5|POBJ 7|6|NJCT 8|7|POBJ
+	9|8|NJCT 10|9|POBJ 11|13|COM 12|13|JCT 13|10|CMOD 14|13|CONJ 15|17|MOD
+	16|17|MOD 17|14|COORD 18|2|PUNCT
+*MUT:	oder einfach abgrenzen mit einem Zaun .
+%mor:	?|oder ?|einfach ?|abgrenzen ?|mit ?|einem n:prop|Zaun .
+%gra:	1|0|INCROOT 2|1|NJCT 3|2|POBJ 4|3|NJCT 5|6|MOD 6|4|POBJ 7|1|PUNCT
+*MUT:	und dann koennte man ausserhalb des Dorf noch machen .
+%mor:	?|und ?|dann ?|koennte n|man ?|ausserhalb ?|des n:prop|Dorf ?|noch
+	?|machen .
+%gra:	1|0|INCROOT 2|1|NJCT 3|4|MOD 4|2|POBJ 5|4|NJCT 6|5|POBJ 7|6|OBJ
+	8|7|CONJ 9|8|COORD 10|1|PUNCT
+*MUT:	mit der Metzgerei und mit viele andre Laeden wenns noch welche drin
+	hat .
+%mor:	?|mit ?|der n:prop|Metzgerei ?|und ?|mit ?|viele ?|andre
+	n:prop|Laeden ?|wenns ?|noch ?|welche ?|drin n|hat .
+%gra:	1|13|MOD 2|13|MOD 3|13|MOD 4|13|MOD 5|13|MOD 6|13|MOD 7|13|MOD 8|13|MOD
+	9|13|MOD 10|13|MOD 11|13|MOD 12|13|MOD 13|0|INCROOT 14|13|PUNCT
+*CHI:	tusch des ?
+%mor:	?|tusch ?|des ?
+%gra:	1|0|INCROOT 2|1|OM 3|1|PUNCT
+*MUT:	soll is mal machen ?
+%mor:	?|soll cop|be&3S ?|mal ?|machen ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|3|OM 5|2|PUNCT
+*CHI:	die brauchmer .
+%mor:	n|die ?|brauchmer .
+%gra:	1|2|MOD 2|0|ROOT 3|2|PUNCT
+*MUT:	willsch dus mal abgrenze ?
+%mor:	?|willsch ?|dus ?|mal ?|abgrenze ?
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|OM 5|1|PUNCT
+*CHI:	mhm .
+%mor:	co|mhm=yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	dass man sieht wo der Bauernhof isch .
+%mor:	?|dass n|man ?|sieht ?|wo ?|der n:prop|Bauernhof ?|isch .
+%gra:	1|2|MOD 2|0|INCROOT 3|7|MOD 4|7|MOD 5|7|MOD 6|7|MOD 7|2|CMOD 8|2|PUNCT
+*MUT:	und wo dann die andern Laeden sind .
+%mor:	?|und ?|wo ?|dann n|die ?|andern n:prop|Laeden ?|sind .
+%gra:	1|0|INCROOT 2|1|ENUM 3|4|MOD 4|7|MOD 5|7|MOD 6|7|MOD 7|2|COMP 8|1|PUNCT
+*CHI:	des isch der Bauernhof .
+%mor:	?|des ?|isch ?|der n:prop|Bauernhof .
+%gra:	1|0|INCROOT 2|1|NJCT 3|4|MOD 4|2|POBJ 5|1|PUNCT
+*MUT:	des isch der Bauernhof .
+%mor:	?|des ?|isch ?|der n:prop|Bauernhof .
+%gra:	1|0|INCROOT 2|1|NJCT 3|4|MOD 4|2|POBJ 5|1|PUNCT
+*CHI:	so .
+%mor:	co|so .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	mhm .
+%mor:	co|mhm=yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	des isch der Bauernhof .
+%mor:	?|des ?|isch ?|der n:prop|Bauernhof .
+%gra:	1|0|INCROOT 2|1|NJCT 3|4|MOD 4|2|POBJ 5|1|PUNCT
+*CHI:	dass die nicht rauskoennen .
+%mor:	?|dass n|die ?|nicht ?|rauskoennen .
+%gra:	1|0|INCROOT 2|1|OBJ 3|2|CONJ 4|3|COORD 5|1|PUNCT
+*CHI:	die Schweine und Kuh .
+%mor:	n|die n:prop|Schweine ?|und n:prop|Kuh .
+%gra:	1|2|MOD 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*MUT:	ach so .
+%mor:	co|ach co|so .
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*CHI:	so macht man des .
+%mor:	adv|so ?|macht n|man ?|des .
+%gra:	1|2|JCT 2|0|INCROOT 3|4|MOD 4|2|PRED 5|2|PUNCT
+*MUT:	aha .
+%mor:	co|aha .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	dass die nit rauskoenn , isch ja gut , ja .
+%mor:	?|dass n|die n|nit ?|rauskoenn cm|cm ?|isch co|ja n|gut cm|cm co|ja
+	.
+%gra:	1|3|MOD 2|3|MOD 3|0|INCROOT 4|3|ENUM 5|4|LP 6|3|ENUM 7|8|COM 8|6|ENUM
+	9|8|LP 10|3|COM 11|3|PUNCT
+*CHI:	jetzt stellmer die xxx auf die Pfosten hoch .
+%mor:	?|jetzt ?|stellmer n|die ?|auf n|die n:prop|Pfosten ?|hoch .
+%gra:	1|7|LINK 2|7|MOD 3|7|MOD 4|7|MOD 5|7|MOD 6|7|MOD 7|0|ROOT 8|7|PUNCT
+*MUT:	ja .
+%mor:	co|ja .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	so !
+%mor:	co|so !
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	muesstmer wahrscheinlich eine Tuere freilassen .
+%mor:	?|muesstmer ?|wahrscheinlich ?|eine n:prop|Tuere ?|freilassen .
+%gra:	1|5|LINK 2|5|MOD 3|5|MOD 4|5|MOD 5|0|ROOT 6|5|PUNCT
+*MUT:	dass der Bauer auch reinkann und die Schweine fuettern , he ?
+%mor:	?|dass ?|der n:prop|Bauer ?|auch ?|reinkann ?|und n|die
+	n:prop|Schweine ?|fuettern cm|cm pro:sub|he ?
+%gra:	1|0|INCROOT 2|1|OM 3|4|SUBJ 4|2|CONJ 5|4|COORD 6|5|CONJ 7|8|MOD
+	8|6|COORD 9|8|PRED 10|9|LP 11|9|ENUM 12|1|PUNCT
+*CHI:	ja .
+%mor:	co|ja .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	gell ?
+%mor:	?|gell ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	mhm .
+%mor:	co|mhm=yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	des brauch .
+%mor:	?|des ?|brauch .
+%gra:	1|0|INCROOT 2|1|ENUM 3|1|PUNCT
+*MUT:	wo hat der jetzt die Tuere , der Bauer ?
+%mor:	?|wo n|hat ?|der ?|jetzt n|die n:prop|Tuere cm|cm ?|der
+	n:prop|Bauer ?
+%gra:	1|0|INCROOT 2|1|OBJ 3|2|NJCT 4|3|CONJ 5|6|MOD 6|4|COORD 7|6|LP 8|6|ENUM
+	9|8|OM 10|1|PUNCT
+*MUT:	hier ?
+%mor:	?|hier ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	ja .
+%mor:	co|ja .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	da kann man rein .
+%mor:	det:art|the&aae ?|kann n|man n|rein .
+%gra:	1|4|DET 2|4|MOD 3|4|MOD 4|0|INCROOT 5|4|PUNCT
+*MUT:	so eine dicke Mauer ?
+%mor:	adv|so ?|eine ?|dicke n:prop|Mauer ?
+%gra:	1|2|JCT 2|0|INCROOT 3|2|PRED 4|3|OM 5|2|PUNCT
+*CHI:	&~ha die wo gar nich rauskoennen xxx an .
+%mor:	v|die ?|wo ?|gar ?|nich ?|rauskoennen det:art|a .
+%gra:	1|0|ROOT 2|1|PUNCT 3|2|INCROOT 4|3|INCROOT 5|4|INCROOT 6|7|DET
+	7|5|PUNCT
+*CHI:	die duerfen doch nich rauskoennen .
+%mor:	v|die ?|duerfen ?|doch ?|nich ?|rauskoennen .
+%gra:	1|0|ROOT 2|1|OBJ 3|2|POSTMOD 4|3|CONJ 5|4|COORD 6|1|PUNCT
+*MUT:	die Schweine ?
+%mor:	n|die n:prop|Schweine ?
+%gra:	1|2|MOD 2|0|ROOT 3|2|PUNCT
+*MUT:	was waer denn wenn die rauskaemen ?
+%mor:	cop|be&PAST&13S ?|waer adv|then&aaep ?|wenn n|die ?|rauskaemen ?
+%gra:	1|0|ROOT 2|1|PRED 3|4|JCT 4|2|CONJ 5|6|MOD 6|4|COORD 7|1|PUNCT
+*CHI:	dann haetten se irgend da reingebissen in den xxx xxx .
+%mor:	?|dann ?|haetten ?|se ?|irgend det:art|the&aae ?|reingebissen
+	prep|in n|den .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|6|DET 6|4|COORD 7|6|JCT
+	8|7|POBJ 9|1|PUNCT
+*MUT:	ach so .
+%mor:	co|ach co|so .
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*CHI:	des isch doch nix .
+%mor:	?|des ?|isch ?|doch v|nix .
+%gra:	1|4|SUBJ 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*MUT:	vielleicht wuerdet se au bloss weglaufe , gell ?
+%mor:	?|vielleicht ?|wuerdet ?|se ?|au ?|bloss ?|weglaufe cm|cm ?|gell ?
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|5|OM 7|6|LP
+	8|6|ENUM 9|1|PUNCT
+*CHI:	ja , des waer au nix .
+%mor:	co|ja cm|cm ?|des ?|waer ?|au v|nix .
+%gra:	1|6|COM 2|1|LP 3|6|SUBJ 4|6|AUX 5|6|SUBJ 6|0|ROOT 7|6|PUNCT
+*MUT:	auf die Strasse und so .
+%mor:	?|auf n|die n:prop|Strasse ?|und co|so .
+%gra:	1|4|LINK 2|3|MOD 3|4|SUBJ 4|0|ROOT 5|4|COM 6|4|PUNCT
+*MUT:	da wuerd dann viel passiere und man koennt sie nicht richtig
+	einfange .
+%mor:	det:art|the&aae ?|wuerd ?|dann ?|viel ?|passiere ?|und n|man
+	?|koennt ?|sie ?|nicht ?|richtig ?|einfange .
+%gra:	1|2|DET 2|0|INCROOT 3|2|CONJ 4|3|COORD 5|4|CONJ 6|7|MOD 7|5|COORD
+	8|7|CONJ 9|8|COORD 10|9|CONJ 11|12|MOD 12|10|COORD 13|2|PUNCT
+*MUT:	hast scho recht .
+%mor:	?|hast ?|scho ?|recht .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|1|PUNCT
+*MUT:	aber da unte seh ich no so schoene Sache hmh ?
+%mor:	?|aber det:art|the&aae ?|unte ?|seh ?|ich co|no adv|so ?|schoene
+	n:prop|Sache ?|hmh ?
+%gra:	1|0|INCROOT 2|3|DET 3|1|CONJ 4|3|COORD 5|4|CONJ 6|8|COM 7|8|JCT
+	8|5|COORD 9|8|PRED 10|9|OM 11|1|PUNCT
+*MUT:	xxx .
+*CHI:	xxx .
+*CHI:	guck mal .
+%mor:	co|guck ?|mal .
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*MUT:	xxx .
+*CHI:	Metzger .
+%mor:	n:prop|Metzger .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	die Kiste hoch .
+%mor:	n|die n:prop|Kiste ?|hoch .
+%gra:	1|3|MOD 2|3|MOD 3|0|ROOT 4|3|PUNCT
+*MUT:	dann koennmer da besser reingreifen mhm ?
+%mor:	?|dann ?|koennmer det:art|the&aae ?|besser ?|reingreifen co|mhm=yes
+	?
+%gra:	1|0|INCROOT 2|1|OM 3|4|DET 4|2|OM 5|4|PRED 6|5|COM 7|1|PUNCT
+*CHI:	guck mal Metzgerei .
+%mor:	co|guck ?|mal n:prop|Metzgerei .
+%gra:	1|3|COM 2|3|MOD 3|0|INCROOT 4|3|PUNCT
+*MUT:	oh , schoen .
+%mor:	co|oh cm|cm ?|schoen .
+%gra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|1|PUNCT
+*MUT:	toll , da haengt die Wurst im Fenster , gell ?
+%mor:	n|toll cm|cm det:art|the&aae ?|haengt n|die n:prop|Wurst ?|im
+	n:prop|Fenster cm|cm ?|gell ?
+%gra:	1|0|INCROOT 2|1|LP 3|5|DET 4|5|MOD 5|1|ENUM 6|5|APP 7|6|CONJ 8|7|COORD
+	9|8|LP 10|8|ENUM 11|1|PUNCT
+*MUT:	hm ?
+%mor:	co|hm ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	xxx .
+*MUT:	meinsch die ham au Schweine ?
+%mor:	?|meinsch n|die n|ham ?|au n:prop|Schweine ?
+%gra:	1|3|MOD 2|3|MOD 3|0|INCROOT 4|5|MOD 5|3|APP 6|3|PUNCT
+*MUT:	sin da Schweine drin ?
+%mor:	v|sin det:art|the&aae n:prop|Schweine ?|drin ?
+%gra:	1|0|ROOT 2|4|DET 3|4|MOD 4|1|OBJ 5|1|PUNCT
+*CHI:	xxx .
+*CHI:	kuck mal !
+%mor:	?|kuck ?|mal !
+%gra:	1|0|INCROOT 2|1|OM 3|1|PUNCT
+*MUT:	xxx .
+*CHI:	xxx .
+*MUT:	komm jetzt machmer do bissle zurueck .
+%mor:	?|komm ?|jetzt ?|machmer v|do ?|bissle ?|zurueck .
+%gra:	1|0|INCROOT 2|4|LINK 3|4|SUBJ 4|1|COMP 5|4|OBJ 6|4|OBJ 7|1|PUNCT
+*MUT:	so .
+%mor:	co|so .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	des sin die Schweine .
+%mor:	?|des n|sin n|die n:prop|Schweine .
+%gra:	1|3|MOD 2|3|MOD 3|0|INCROOT 4|3|APP 5|3|PUNCT
+*CHI:	ich bau en Bauernhof .
+%mor:	?|ich ?|bau co|en n:prop|Bauernhof .
+%gra:	1|0|INCROOT 2|1|CONJ 3|4|COM 4|2|COORD 5|1|PUNCT
+*MUT:	mhm .
+%mor:	co|mhm=yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	warum hat se gsagt den Wecker prasseln sollmer des Buch xxx ?
+%mor:	?|warum n|hat ?|se ?|gsagt n|den n:prop|Wecker ?|prasseln ?|sollmer
+	?|des n:prop|Buch ?
+%gra:	1|2|DET 2|0|INCROOT 3|2|PRED 4|3|CONJ 5|6|MOD 6|4|COORD 7|6|CONJ
+	8|7|COORD 9|8|OM 10|9|OM 11|2|PUNCT
+*MUT:	ja damit wir noch genuegend Zeit haben &-um hier zu bauen .
+%mor:	co|ja ?|damit ?|wir ?|noch ?|genuegend n:prop|Zeit ?|haben ?|hier
+	?|zu ?|bauen .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|5|CONJ 7|6|COORD
+	8|7|CONJ 9|10|MOD 10|8|COORD 11|1|PUNCT
+*MUT:	weisch nach einer halben Stunde gehn wir ja wieder .
+%mor:	?|weisch ?|nach ?|einer ?|halben n:prop|Stunde ?|gehn ?|wir co|ja
+	?|wieder .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|6|MOD 6|4|COORD 7|6|CONJ
+	8|9|COM 9|7|COORD 10|1|PUNCT
+*MUT:	und dann hat sie en andern Termin .
+%mor:	?|und ?|dann n|hat ?|sie co|en ?|andern n:prop|Termin .
+%gra:	1|0|INCROOT 2|1|CONJ 3|4|MOD 4|2|COORD 5|7|COM 6|7|MOD 7|4|APP
+	8|1|PUNCT
+*MUT:	oder sie geht zum Mittag essen .
+%mor:	?|oder ?|sie ?|geht ?|zum n:prop|Mittag ?|essen .
+%gra:	1|0|INCROOT 2|1|ENUM 3|2|CONJ 4|3|COORD 5|4|CONJ 6|5|COORD 7|1|PUNCT
+*MUT:	drum hammer uns die Zeit eingeteilt .
+%mor:	n|drum n|hammer ?|uns n|die n:prop|Zeit ?|eingeteilt .
+%gra:	1|2|MOD 2|0|ROOT 3|6|MOD 4|6|MOD 5|6|MOD 6|2|CMOD 7|2|PUNCT
+*CHI:	so ?
+%mor:	co|so ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	mhm .
+%mor:	co|mhm=yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	mhm .
+%mor:	co|mhm=yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&~te tu .
+%mor:	?|tu .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	tu ich .
+%mor:	?|tu ?|ich .
+%gra:	1|0|INCROOT 2|1|ENUM 3|1|PUNCT
+*CHI:	die gehn in des kleine Staelle .
+%mor:	n|die ?|gehn prep|in ?|des ?|kleine n:prop|Staelle .
+%gra:	1|0|INCROOT 2|1|XMOD 3|2|JCT 4|3|POBJ 5|4|NJCT 6|5|POBJ 7|1|PUNCT
+*CHI:	die kleinen Tiere .
+%mor:	n|die ?|kleinen n:prop|Tiere .
+%gra:	1|0|INCROOT 2|1|NJCT 3|2|POBJ 4|1|PUNCT
+*MUT:	ach die kommen in den kleinen Stall ?
+%mor:	co|ach n|die ?|kommen prep|in n|den ?|kleinen n:prop|Stall ?
+%gra:	1|2|COM 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|4|POBJ 6|5|NJCT 7|6|OM 8|3|PUNCT
+*CHI:	<die sin> [/] , die sin noch nit so gross wie die Kuehe .
+%mor:	cm|cm n|die n|sin ?|noch n|nit adv|so adj|gross ?|wie n|die
+	n:prop|Kuehe .
+%gra:	1|3|MOD 2|3|MOD 3|0|INCROOT 4|5|MOD 5|3|ENUM 6|7|JCT 7|10|MOD 8|10|MOD
+	9|10|MOD 10|5|APP 11|3|PUNCT
+*MUT:	mhm .
+%mor:	co|mhm=yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	die sin groesser .
+%mor:	n|die n|sin ?|groesser .
+%gra:	1|2|MOD 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*MUT:	du dann isch des wahrscheinlich der Schweinestall und des der
+	Kuhstall oder ?
+%mor:	?|du ?|dann ?|isch ?|des ?|wahrscheinlich ?|der
+	n:prop|Schweinestall ?|und ?|des ?|der n:prop|Kuhstall ?|oder ?
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|5|CONJ 7|6|COORD
+	8|7|CONJ 9|8|COORD 10|12|MOD 11|12|MOD 12|9|OM 13|1|PUNCT
+*CHI:	ja .
+%mor:	co|ja .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	die muss man ja schon voneinander trennen die Kuehe und die
+	Schweine .
+%mor:	v|die v|muss n|man co|ja ?|schon ?|voneinander ?|trennen n|die
+	n:prop|Kuehe ?|und n|die n:prop|Schweine .
+%gra:	1|0|ROOT 2|1|COMP 3|2|OBJ 4|5|COM 5|3|CONJ 6|5|COORD 7|6|CONJ 8|9|MOD
+	9|7|COORD 10|9|CONJ 11|12|MOD 12|10|COORD 13|1|PUNCT
+*MUT:	die sin nit im selben Stall oder ?
+%mor:	n|die n|sin n|nit ?|im ?|selben n:prop|Stall ?|oder ?
+%gra:	1|3|MOD 2|3|MOD 3|0|ROOT 4|3|PRED 5|7|MOD 6|7|MOD 7|4|OM 8|3|PUNCT
+*CHI:	nein .
+%mor:	?|nein .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	nit .
+%mor:	n|nit .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	kuck mal .
+%mor:	?|kuck ?|mal .
+%gra:	1|0|INCROOT 2|1|ENUM 3|1|PUNCT
+*CHI:	kuck mal was da isch !
+%mor:	?|kuck ?|mal cop|be&PAST&13S det:art|the&aae ?|isch !
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|PRED 6|3|PUNCT
+*MUT:	mhm .
+%mor:	co|mhm=yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	soll i se mal aufstelle oder schlafen sie grad ?
+%mor:	?|soll n:let|i ?|se ?|mal ?|aufstelle ?|oder ?|schlafen ?|sie
+	n|grad ?
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|5|CONJ 7|6|COORD
+	8|9|MOD 9|7|OBJ 10|1|PUNCT
+*CHI:	die schlafen grad .
+%mor:	n|die ?|schlafen n|grad .
+%gra:	1|3|MOD 2|3|MOD 3|0|INCROOT 4|3|PUNCT
+*CHI:	wer da kommt des isch der Baumeister .
+%mor:	?|wer det:art|the&aae ?|kommt ?|des ?|isch ?|der n:prop|Baumeister
+	.
+%gra:	1|0|INCROOT 2|3|DET 3|1|OBJ 4|3|NJCT 5|4|POBJ 6|5|NJCT 7|6|POBJ
+	8|1|PUNCT
+*MUT:	des is der Baumeister ?
+%mor:	?|des cop|be&3S ?|der n:prop|Baumeister ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|3|OM 5|2|PUNCT
+*CHI:	der gibt dene was zu fressen .
+%mor:	?|der ?|gibt ?|dene cop|be&PAST&13S ?|zu ?|fressen .
+%gra:	1|0|INCROOT 2|4|LINK 3|4|SUBJ 4|1|COMP 5|6|MOD 6|4|PRED 7|1|PUNCT
+*CHI:	der steht da grad .
+%mor:	?|der ?|steht det:art|the&aae n|grad .
+%gra:	1|0|INCROOT 2|1|ENUM 3|4|DET 4|2|OBJ 5|1|PUNCT
+*MUT:	mhm .
+%mor:	co|mhm=yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	die wolln da rein , die kleinen Tiere .
+%mor:	n|die ?|wolln det:art|the&aae n|rein cm|cm n|die ?|kleinen
+	n:prop|Tiere .
+%gra:	1|0|INCROOT 2|1|XMOD 3|4|DET 4|2|OBJ 5|4|LP 6|4|ENUM 7|6|NJCT 8|7|POBJ
+	9|1|PUNCT
+*MUT:	was fressen die eigentlich ?
+%mor:	cop|be&PAST&13S ?|fressen n|die ?|eigentlich ?
+%gra:	1|0|ROOT 2|1|PRED 3|4|MOD 4|2|OM 5|1|PUNCT
+*CHI:	die fressen Feines .
+%mor:	n|die ?|fressen n:prop|Feines .
+%gra:	1|0|INCROOT 2|1|NJCT 3|2|POBJ 4|1|PUNCT
+*CHI:	kuck mal xxx .
+%mor:	?|kuck ?|mal .
+%gra:	1|0|INCROOT 2|1|ENUM 3|1|PUNCT
+*MUT:	da isch der Hahn drin im Schweinestall , Claudia .
+%mor:	det:art|the&aae ?|isch ?|der n:prop|Hahn ?|drin ?|im
+	n:prop|Schweinestall cm|cm n:prop|Claudia .
+%gra:	1|2|DET 2|0|INCROOT 3|2|NJCT 4|3|POBJ 5|4|CONJ 6|5|COORD 7|6|OBJ 8|7|LP
+	9|7|ENUM 10|2|PUNCT
+*MUT:	haschen gesehn ?
+%mor:	?|haschen ?|gesehn ?
+%gra:	1|0|INCROOT 2|1|OM 3|1|PUNCT
+*CHI:	wo ?
+%mor:	?|wo ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	der hat sich da reingeschlichen .
+%mor:	?|der n|hat ?|sich det:art|the&aae ?|reingeschlichen .
+%gra:	1|0|INCROOT 2|1|OBJ 3|2|POSTMOD 4|5|DET 5|3|OBJ 6|1|PUNCT
+*CHI:	xxx .
+*MUT:	da .
+%mor:	det:art|the&aae .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	ja .
+%mor:	co|ja .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	mhm .
+%mor:	co|mhm=yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	warum da reingeschlichen ?
+%mor:	?|warum det:art|the&aae ?|reingeschlichen ?
+%gra:	1|0|INCROOT 2|3|DET 3|1|OM 4|1|PUNCT
+*MUT:	i weiss nit so recht .
+%mor:	n:let|i ?|weiss n|nit adv|so ?|recht .
+%gra:	1|5|LINK 2|3|MOD 3|5|SUBJ 4|5|JCT 5|0|INCROOT 6|5|PUNCT
+*MUT:	vielleicht fuehlt er sich da wohl .
+%mor:	?|vielleicht ?|fuehlt co|er ?|sich det:art|the&aae ?|wohl .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|6|DET 6|4|COORD 7|1|PUNCT
+*CHI:	kuck mal was die machen .
+%mor:	?|kuck ?|mal cop|be&PAST&13S n|die ?|machen .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|MOD 5|3|PRED 6|3|PUNCT
+*CHI:	die sitzen da drauf .
+%mor:	n|die ?|sitzen det:art|the&aae ?|drauf .
+%gra:	1|0|INCROOT 2|1|CONJ 3|4|DET 4|2|COORD 5|1|PUNCT
+*CHI:	auf dem .
+%mor:	?|auf pro:obj|them&aaep .
+%gra:	1|0|INCROOT 2|1|OBJ 3|1|PUNCT
+*CHI:	kuck mal die Kuh , kuck mal , was die macht .
+%mor:	?|kuck ?|mal n|die n:prop|Kuh cm|cm ?|kuck ?|mal cm|cm
+	cop|be&PAST&13S n|die ?|macht .
+%gra:	1|0|INCROOT 2|1|CONJ 3|4|MOD 4|2|COORD 5|4|LP 6|4|CONJ 7|6|COORD 8|7|LP
+	9|7|ENUM 10|11|MOD 11|9|PRED 12|1|PUNCT
+*CHI:	guck mal .
+%mor:	co|guck ?|mal .
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*MUT:	die sitz auf der Stange .
+%mor:	n|die ?|sitz ?|auf ?|der n:prop|Stange .
+%gra:	1|0|INCROOT 2|1|NJCT 3|2|POBJ 4|3|NJCT 5|4|POBJ 6|1|PUNCT
+*MUT:	mhm .
+%mor:	co|mhm=yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&~turbrbr .
+*MUT:	kuck mal , die schlaeft grad auch .
+%mor:	?|kuck ?|mal cm|cm n|die ?|schlaeft n|grad ?|auch .
+%gra:	1|0|INCROOT 2|1|ENUM 3|2|LP 4|2|ENUM 5|4|CONJ 6|7|MOD 7|5|COORD
+	8|1|PUNCT
+*MUT:	mhm .
+%mor:	co|mhm=yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	die sind alle muede gell ?
+%mor:	v|die ?|sind ?|alle ?|muede ?|gell ?
+%gra:	1|0|ROOT 2|1|OBJ 3|2|CONJ 4|3|COORD 5|4|OM 6|1|PUNCT
+*CHI:	ja .
+%mor:	co|ja .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	mh ?
+%mor:	?|mh ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	und der legt sich au no dazu .
+%mor:	?|und ?|der ?|legt ?|sich ?|au co|no ?|dazu .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|7|COM 7|5|COMP
+	8|1|PUNCT
+*CHI:	guck mal was da feines gibt .
+%mor:	co|guck ?|mal cop|be&PAST&13S det:art|the&aae ?|feines ?|gibt .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|3|PRED 7|3|PUNCT
+*MUT:	mhm .
+%mor:	co|mhm=yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	feine .
+%mor:	?|feine .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	wo sin die Kauflaeden ?
+%mor:	?|wo n|sin n|die n:prop|Kauflaeden ?
+%gra:	1|3|MOD 2|3|MOD 3|0|INCROOT 4|3|APP 5|3|PUNCT
+*MUT:	sollmer mal den rausnehmen ?
+%mor:	?|sollmer ?|mal n|den ?|rausnehmen ?
+%gra:	1|0|INCROOT 2|1|CONJ 3|4|MOD 4|2|COORD 5|1|PUNCT
+*MUT:	mit dem wuerd i gern mal a bissle fahren .
+%mor:	?|mit pro:obj|them&aaep ?|wuerd n:let|i ?|gern ?|mal det:art|a
+	?|bissle ?|fahren .
+%gra:	1|0|INCROOT 2|3|SUBJ 3|1|COMP 4|3|CONJ 5|4|COORD 6|5|CONJ 7|9|DET
+	8|9|MOD 9|6|COORD 10|1|PUNCT
+*MUT:	dann hol i mal Futter jetzt auf der Wiese .
+%mor:	?|dann ?|hol n:let|i ?|mal n:prop|Futter ?|jetzt ?|auf ?|der
+	n:prop|Wiese .
+%gra:	1|0|INCROOT 2|1|NJCT 3|2|POBJ 4|3|NJCT 5|4|POBJ 6|5|CONJ 7|6|COORD
+	8|7|NJCT 9|8|POBJ 10|1|PUNCT
+*CHI:	hol mal Futter .
+%mor:	?|hol ?|mal n:prop|Futter .
+%gra:	1|0|INCROOT 2|1|NJCT 3|2|POBJ 4|1|PUNCT
+*MUT:	also .
+%mor:	adv|also .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	xxx .
+*MUT:	jetzt muss is erst mal noch abmaehen hier auf der Wiese .
+%mor:	?|jetzt v|muss aux|be&3S ?|erst ?|mal ?|noch ?|abmaehen ?|hier
+	?|auf ?|der n:prop|Wiese .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|AUX 4|2|OBJ 5|4|NJCT 6|5|POBJ 7|6|NJCT 8|7|POBJ
+	9|8|NJCT 10|11|MOD 11|9|POBJ 12|2|PUNCT
+*MUT:	da is die Wiese .
+%mor:	det:art|the&aae cop|be&3S v|die n:prop|Wiese .
+%gra:	1|2|DET 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	ne des .
+%mor:	?|ne ?|des .
+%gra:	1|0|INCROOT 2|1|ENUM 3|1|PUNCT
+*MUT:	da steht der Baum .
+%mor:	det:art|the&aae ?|steht ?|der n:prop|Baum .
+%gra:	1|2|DET 2|0|INCROOT 3|2|NJCT 4|3|POBJ 5|2|PUNCT
+*MUT:	und unter dem Baum waechsts Gras gell ?
+%mor:	?|und ?|unter pro:obj|them&aaep n:prop|Baum ?|waechsts n:prop|Gras
+	?|gell ?
+%gra:	1|0|INCROOT 2|1|OM 3|4|SUBJ 4|2|COMP 5|4|CONJ 6|7|SUBJ 7|5|COORD
+	8|1|PUNCT
+*CHI:	nein da kammers abmaehen .
+%mor:	?|nein det:art|the&aae ?|kammers ?|abmaehen .
+%gra:	1|0|INCROOT 2|4|DET 3|4|MOD 4|1|OBJ 5|1|PUNCT
+*MUT:	da unten ?
+%mor:	det:art|the&aae ?|unten ?
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
+*CHI:	nein des isch doch kein Gras ne Tischdecke .
+%mor:	?|nein ?|des ?|isch ?|doch ?|kein n:prop|Gras ?|ne
+	n:prop|Tischdecke .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|5|OBJ 7|6|CONJ
+	8|7|COORD 9|1|PUNCT
+*CHI:	da kammers abmaehen .
+%mor:	det:art|the&aae ?|kammers ?|abmaehen .
+%gra:	1|3|DET 2|3|MOD 3|0|INCROOT 4|3|PUNCT
+*MUT:	so ?
+%mor:	co|so ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&~mm .
+*MUT:	kommts du dann und laedschs ein ?
+%mor:	?|kommts ?|du ?|dann ?|und ?|laedschs ?|ein ?
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|5|OM 7|1|PUNCT
+*MUT:	&~tsssssss .
+*MUT:	wenns voll isch musch mirs natuerlich schon sagen .
+%mor:	?|wenns ?|voll ?|isch ?|musch ?|mirs ?|natuerlich ?|schon ?|sagen .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|5|CONJ 7|8|DET
+	8|6|COORD 9|1|PUNCT
+*CHI:	des isch voll !
+%mor:	?|des ?|isch ?|voll !
+%gra:	1|0|INCROOT 2|1|OM 3|2|OM 4|1|PUNCT
+*MUT:	isch voll ?
+%mor:	?|isch ?|voll ?
+%gra:	1|0|INCROOT 2|1|OM 3|1|PUNCT
+*MUT:	also .
+%mor:	adv|also .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&~tschschschschsch .
+*CHI:	&~mmmmmmmm .
+*MUT:	komme mal Claudia i schiebs dir a bissle weiter hin .
+%mor:	?|komme ?|mal n:prop|Claudia n:let|i ?|schiebs ?|dir det:art|a
+	?|bissle ?|weiter ?|hin .
+%gra:	1|0|INCROOT 2|1|NJCT 3|2|POBJ 4|3|CONJ 5|4|COORD 6|5|POBJ 7|8|DET
+	8|6|OBJ 9|10|MOD 10|8|PRED 11|1|PUNCT
+*CHI:	&~hmmmm .
+*MUT:	dann kannsch du besser hin .
+%mor:	?|dann ?|kannsch ?|du ?|besser ?|hin .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|1|PUNCT
+*MUT:	jetzt pass mal auf .
+%mor:	?|jetzt n|pass ?|mal ?|auf .
+%gra:	1|0|INCROOT 2|1|OBJ 3|2|CONJ 4|3|COORD 5|1|PUNCT
+*CHI:	jetzt is voll .
+%mor:	?|jetzt aux|be&3S ?|voll .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|INCROOT 4|3|PUNCT
+*CHI:	von was isch des ?
+%mor:	?|von cop|be&PAST&13S ?|isch ?|des ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|3|OM 5|2|PUNCT
+*MUT:	zeigs mir .
+%mor:	?|zeigs ?|mir .
+%gra:	1|0|INCROOT 2|1|ENUM 3|1|PUNCT
+*CHI:	vom Baum ?
+%mor:	v|vom n:prop|Baum ?
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
+*MUT:	des gehoert hier an den Wagen in den Wagen rein .
+%mor:	?|des ?|gehoert ?|hier det:art|a n|den n:prop|Wagen prep|in n|den
+	n:prop|Wagen n|rein .
+%gra:	1|10|MOD 2|10|MOD 3|10|MOD 4|5|DET 5|10|MOD 6|10|MOD 7|6|NJCT 8|7|POBJ
+	9|10|MOD 10|0|INCROOT 11|10|PUNCT
+*MUT:	siehsch da isch zu ?
+%mor:	?|siehsch det:art|the&aae ?|isch ?|zu ?
+%gra:	1|0|INCROOT 2|4|DET 3|4|MOD 4|1|OM 5|1|PUNCT
+*CHI:	warum ?
+%mor:	?|warum ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	jetzt wenn man da in Stall fahren da koemmer hier abladen .
+%mor:	?|jetzt ?|wenn v|man det:art|the&aae prep|in n:prop|Stall ?|fahren
+	det:art|the&aae ?|koemmer ?|hier ?|abladen .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|5|POBJ 7|6|CONJ 8|11|DET
+	9|11|MOD 10|11|MOD 11|7|COORD 12|3|PUNCT
+*CHI:	&~bschschsch .
+*MUT:	tu mal anhaengen Claudia .
+%mor:	?|tu ?|mal ?|anhaengen n:prop|Claudia .
+%gra:	1|0|INCROOT 2|1|NJCT 3|4|MOD 4|2|POBJ 5|1|PUNCT
+*MUT:	so .
+%mor:	co|so .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&~bschschsch .
+*MUT:	&~bschschsch .
+*MUT:	jetzt muss ich erst noch rueckwaerts richtig hinfahrn .
+%mor:	?|jetzt v|muss ?|ich ?|erst ?|noch ?|rueckwaerts ?|richtig
+	?|hinfahrn .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|3|POBJ 5|4|CONJ 6|5|COORD 7|6|CONJ
+	8|7|COORD 9|2|PUNCT
+*MUT:	&~bschschsch .
+*MUT:	so jetzt oeffne ich hier und dann kann des ganze Gras rausgeschoben
+	werden .
+%mor:	co|so ?|jetzt ?|oeffne ?|ich ?|hier ?|und ?|dann ?|kann ?|des
+	?|ganze n:prop|Gras ?|rausgeschoben ?|werden .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|5|CONJ 7|6|COORD
+	8|7|CONJ 9|8|COORD 10|9|CONJ 11|10|COORD 12|11|CONJ 13|12|COORD 14|1|PUNCT
+*CHI:	und hier ?
+%mor:	?|und ?|hier ?
+%gra:	1|0|INCROOT 2|1|OM 3|1|PUNCT
+*MUT:	ja hier au .
+%mor:	co|ja ?|hier ?|au .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|1|PUNCT
+*MUT:	jetzt fahr i wieder a Stueck weiter .
+%mor:	?|jetzt ?|fahr n:let|i ?|wieder det:art|a n:prop|Stueck ?|weiter .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|7|DET 6|7|MOD 7|4|COORD
+	8|1|PUNCT
+*CHI:	&~schschsch .
+*MUT:	die krieget au no was frisches gell ?
+%mor:	n|die ?|krieget ?|au co|no cop|be&PAST&13S ?|frisches ?|gell ?
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|5|COM 5|3|COMP 6|5|PRED 7|6|OM
+	8|1|PUNCT
+*MUT:	rueckwaerts hinfahren .
+%mor:	?|rueckwaerts ?|hinfahren .
+%gra:	1|0|INCROOT 2|1|ENUM 3|1|PUNCT
+*MUT:	und .
+%mor:	?|und .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	jetzt kriegen die au no was .
+%mor:	?|jetzt ?|kriegen n|die ?|au co|no cop|be&PAST&13S .
+%gra:	1|0|INCROOT 2|3|MOD 3|1|OBJ 4|3|POSTMOD 5|6|COM 6|4|COMP 7|1|PUNCT
+*MUT:	so , hm , jetzt muessmers aber hinstelle zum fressen .
+%mor:	co|so cm|cm co|hm cm|cm ?|jetzt ?|muessmers ?|aber ?|hinstelle
+	?|zum ?|fressen .
+%gra:	1|0|INCROOT 2|1|LP 3|1|ENUM 4|3|LP 5|1|ENUM 6|5|COORD 7|6|CONJ
+	8|7|COORD 9|8|CONJ 10|9|COORD 11|1|PUNCT
+*MUT:	des machet se sicher net im liegen .
+%mor:	?|des ?|machet ?|se ?|sicher adj|net ?|im ?|liegen .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|7|MOD 6|7|MOD 7|4|COORD
+	8|1|PUNCT
+*MUT:	ich stells se mal auf gell ?
+%mor:	?|ich ?|stells ?|se ?|mal ?|auf ?|gell ?
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|5|OM 7|1|PUNCT
+*CHI:	so , die tun da .
+%mor:	adv|so cm|cm n|die n|tun det:art|the&aae .
+%gra:	1|3|JCT 2|1|LP 3|4|MOD 4|0|INCROOT 5|6|DET 6|4|PUNCT
+*CHI:	kuck mal was hier steht .
+%mor:	?|kuck ?|mal cop|be&PAST&13S ?|hier ?|steht .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|MOD 5|3|PRED 6|3|PUNCT
+*CHI:	kuck mal !
+%mor:	?|kuck ?|mal !
+%gra:	1|0|INCROOT 2|1|OM 3|1|PUNCT
+*MUT:	mh ?
+%mor:	?|mh ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	ein schoenes Haus , kuck .
+%mor:	?|ein ?|schoenes n:prop|Haus cm|cm ?|kuck .
+%gra:	1|0|INCROOT 2|1|NJCT 3|2|POBJ 4|3|LP 5|3|ENUM 6|1|PUNCT
+*MUT:	oh ja !
+%mor:	co|oh co|ja !
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*CHI:	da stehn viele Haeuser .
+%mor:	det:art|the&aae ?|stehn ?|viele n:prop|Haeuser .
+%gra:	1|2|DET 2|0|INCROOT 3|2|NJCT 4|3|POBJ 5|2|PUNCT
+*MUT:	mhm .
+%mor:	co|mhm=yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	ein schoenes Dorf .
+%mor:	?|ein ?|schoenes n:prop|Dorf .
+%gra:	1|0|INCROOT 2|1|NJCT 3|2|POBJ 4|1|PUNCT
+*CHI:	des is ein schoenes Dorf .
+%mor:	?|des cop|be&3S ?|ein ?|schoenes n:prop|Dorf .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|3|NJCT 5|4|POBJ 6|2|PUNCT
+*MUT:	den halt den setz i jetzt mal hier hoch , gell ?
+%mor:	n|den n|halt n|den ?|setz n:let|i ?|jetzt ?|mal ?|hier ?|hoch cm|cm
+	?|gell ?
+%gra:	1|3|MOD 2|3|MOD 3|4|SUBJ 4|0|ROOT 5|4|PRED 6|5|OM 7|6|OM 8|7|OM 9|8|OM
+	10|9|LP 11|9|ENUM 12|4|PUNCT
+*CHI:	kuck mal .
+%mor:	?|kuck ?|mal .
+%gra:	1|0|INCROOT 2|1|ENUM 3|1|PUNCT
+*MUT:	auf den xxx .
+%mor:	?|auf n|den .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MUT:	so .
+%mor:	co|so .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&~brbrbrbrbrbrbr .
+*MUT:	isch der lieber im Schweinestall ?
+%mor:	?|isch ?|der ?|lieber ?|im n:prop|Schweinestall ?
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|1|PUNCT
+*CHI:	ja guck mal was da en schoener Apfelbaum ist .
+%mor:	co|ja co|guck ?|mal cop|be&PAST&13S det:art|the&aae co|en
+	?|schoener n:prop|Apfelbaum ?|ist .
+%gra:	1|3|COM 2|3|COM 3|4|SUBJ 4|0|ROOT 5|9|DET 6|9|COM 7|9|MOD 8|9|MOD
+	9|4|PRED 10|4|PUNCT
+*MUT:	mhm .
+%mor:	co|mhm=yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	xxx da des , da steht noch mal einer !
+%mor:	det:art|the&aae ?|des cm|cm det:art|the&aae ?|steht ?|noch ?|mal
+	?|einer !
+%gra:	1|2|DET 2|0|INCROOT 3|2|LP 4|5|DET 5|2|ENUM 6|5|CONJ 7|6|COORD 8|7|OM
+	9|2|PUNCT
+*CHI:	kuck mal .
+%mor:	?|kuck ?|mal .
+%gra:	1|0|INCROOT 2|1|ENUM 3|1|PUNCT
+*MUT:	mhm .
+%mor:	co|mhm=yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	da stehn lauter Baeume .
+%mor:	det:art|the&aae ?|stehn ?|lauter n:prop|Baeume .
+%gra:	1|2|DET 2|0|INCROOT 3|2|NJCT 4|3|POBJ 5|2|PUNCT
+*MUT:	isch des au en Apfelbaum ?
+%mor:	?|isch ?|des ?|au co|en n:prop|Apfelbaum ?
+%gra:	1|0|INCROOT 2|1|OM 3|2|CONJ 4|5|COM 5|3|COORD 6|1|PUNCT
+*CHI:	xxx .
+*MUT:	Birnbaum ?
+%mor:	n:prop|Birnbaum ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	kuck mal was da lauter Baeume sin da wirds ja bald en Wald .
+%mor:	?|kuck ?|mal cop|be&PAST&13S det:art|the&aae ?|lauter n:prop|Baeume
+	n|sin det:art|the&aae ?|wirds co|ja adj|bald co|en n:prop|Wald .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|7|DET 5|7|MOD 6|7|MOD 7|3|PRED 8|9|DET
+	9|7|XMOD 10|13|COM 11|13|MOD 12|13|COM 13|9|APP 14|3|PUNCT
+*MUT:	ach so sin des dann Tannen ?
+%mor:	co|ach co|so n|sin ?|des ?|dann n:prop|Tannen ?
+%gra:	1|3|COM 2|3|COM 3|0|INCROOT 4|3|POSTMOD 5|4|OM 6|5|OM 7|3|PUNCT
+*MUT:	isch da en Wald hinterm Stall .
+%mor:	?|isch det:art|the&aae co|en n:prop|Wald ?|hinterm n:prop|Stall .
+%gra:	1|0|INCROOT 2|4|DET 3|4|COM 4|1|OBJ 5|4|CONJ 6|5|COORD 7|1|PUNCT
+*MUT:	sin des Tannen ?
+%mor:	n|sin ?|des n:prop|Tannen ?
+%gra:	1|0|INCROOT 2|1|NJCT 3|2|POBJ 4|1|PUNCT
+*CHI:	ja .
+%mor:	co|ja .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	mhm .
+%mor:	co|mhm=yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	da mussmer .
+%mor:	det:art|the&aae ?|mussmer .
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
+*CHI:	kuck mal .
+%mor:	?|kuck ?|mal .
+%gra:	1|0|INCROOT 2|1|ENUM 3|1|PUNCT
+*CHI:	kuck mal was da fuer ein schoenes Haus wieder steht .
+%mor:	?|kuck ?|mal cop|be&PAST&13S det:art|the&aae ?|fuer ?|ein
+	?|schoenes n:prop|Haus ?|wieder ?|steht .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|PRED 6|5|NJCT 7|6|POBJ 8|7|OBJ
+	9|8|CONJ 10|9|COORD 11|3|PUNCT
+*MUT:	mhm .
+%mor:	co|mhm=yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	da sin lauter Haeuser .
+%mor:	det:art|the&aae n|sin ?|lauter n:prop|Haeuser .
+%gra:	1|2|DET 2|0|INCROOT 3|2|NJCT 4|3|POBJ 5|2|PUNCT
+*MUT:	mhm .
+%mor:	co|mhm=yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	und hier gibts au ein Baecker .
+%mor:	?|und ?|hier ?|gibts ?|au ?|ein n:prop|Baecker .
+%gra:	1|0|INCROOT 2|1|NJCT 3|2|POBJ 4|3|NJCT 5|6|MOD 6|4|POBJ 7|1|PUNCT
+*MUT:	einen Baecker ?
+%mor:	?|einen n:prop|Baecker ?
+%gra:	1|0|INCROOT 2|1|OM 3|1|PUNCT
+*CHI:	ja .
+%mor:	co|ja .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	mhmhm .
+%mor:	?|mhmhm .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	eine Baeckerei .
+%mor:	?|eine n:prop|Baeckerei .
+%gra:	1|0|INCROOT 2|1|OBJ 3|1|PUNCT
+*MUT:	also auf dem Kloetzle steht nit Baeckerei drauf .
+%mor:	adv|also ?|auf pro:obj|them&aaep n:prop|Kloetzle ?|steht n|nit
+	n:prop|Baeckerei ?|drauf .
+%gra:	1|2|JCT 2|0|INCROOT 3|4|SUBJ 4|2|COMP 5|6|MOD 6|8|MOD 7|8|MOD 8|4|COMP
+	9|2|PUNCT
+*MUT:	aber man koennt ja irgendeins nehmen und sich vorstellen , dass das
+	die Baeckerei waer , mhm ?
+%mor:	?|aber n|man ?|koennt co|ja ?|irgendeins ?|nehmen ?|und ?|sich
+	?|vorstellen cm|cm ?|dass ?|das n|die n:prop|Baeckerei ?|waer cm|cm
+	co|mhm=yes ?
+%gra:	1|2|MOD 2|0|INCROOT 3|2|CONJ 4|5|COM 5|3|COORD 6|5|PRED 7|6|OM 8|7|OM
+	9|8|OM 10|9|LP 11|9|ENUM 12|11|CONJ 13|14|MOD 14|12|COORD 15|14|PRED
+	16|15|LP 17|15|ENUM 18|2|PUNCT
+*MUT:	zum Beispiel dieses .
+%mor:	?|zum n:prop|Beispiel ?|dieses .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|INCROOT 4|3|PUNCT
+*MUT:	des isch a grosses Haus , ne grosse Baeckerei .
+%mor:	?|des ?|isch det:art|a v|gross-3S n:prop|Haus cm|cm ?|ne ?|grosse
+	n:prop|Baeckerei .
+%gra:	1|0|INCROOT 2|1|PRED 3|4|DET 4|2|CMOD 5|4|OBJ 6|5|LP 7|5|CONJ 8|9|MOD
+	9|7|COORD 10|1|PUNCT
+*CHI:	nein des waer eine Baeckerei .
+%mor:	?|nein ?|des ?|waer ?|eine n:prop|Baeckerei .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|1|PUNCT
+*CHI:	des waer eine Wirtschaftbaeckerei .
+%mor:	?|des ?|waer ?|eine n:prop|Wirtschaftbaeckerei .
+%gra:	1|0|INCROOT 2|1|NJCT 3|4|MOD 4|2|POBJ 5|1|PUNCT
+*MUT:	mhm .
+%mor:	co|mhm=yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	des wird doch dann da schon schoen Apfelbaum .
+%mor:	?|des ?|wird ?|doch ?|dann det:art|the&aae ?|schon ?|schoen
+	n:prop|Apfelbaum .
+%gra:	1|0|INCROOT 2|1|NJCT 3|2|POBJ 4|3|NJCT 5|6|DET 6|4|POBJ 7|6|NJCT
+	8|7|POBJ 9|1|PUNCT
+*CHI:	guck die wolln da .
+%mor:	co|guck n|die ?|wolln det:art|the&aae .
+%gra:	1|3|COM 2|3|MOD 3|0|ROOT 4|5|DET 5|3|PUNCT
+*CHI:	der Wirt der schlaeft jetzt .
+%mor:	?|der n:prop|Wirt ?|der ?|schlaeft ?|jetzt .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|1|PUNCT
+*MUT:	der schlaeft ?
+%mor:	?|der ?|schlaeft ?
+%gra:	1|0|INCROOT 2|1|OM 3|1|PUNCT
+*CHI:	die Tiere .
+%mor:	n|die n:prop|Tiere .
+%gra:	1|2|MOD 2|0|ROOT 3|2|PUNCT
+*MUT:	aber du denen schmeckts Gras ganz gut gell ?
+%mor:	?|aber ?|du ?|denen ?|schmeckts n:prop|Gras ?|ganz n|gut ?|gell ?
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|5|CONJ 7|8|MOD
+	8|6|COORD 9|1|PUNCT
+*CHI:	ja .
+%mor:	co|ja .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	des isch au ganz frisch gemaeht .
+%mor:	?|des ?|isch ?|au ?|ganz ?|frisch ?|gemaeht .
+%gra:	1|0|INCROOT 2|1|ENUM 3|2|CONJ 4|3|COORD 5|4|CONJ 6|5|COORD 7|1|PUNCT
+*CHI:	ja .
+%mor:	co|ja .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	gell ?
+%mor:	?|gell ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	und des isch der Fuchsstall .
+%mor:	?|und ?|des ?|isch ?|der n:prop|Fuchsstall .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|1|PUNCT
+*MUT:	des isch der Fuchsstall ?
+%mor:	?|des ?|isch ?|der n:prop|Fuchsstall ?
+%gra:	1|0|INCROOT 2|1|OM 3|2|OM 4|3|OM 5|1|PUNCT
+*CHI:	ja .
+%mor:	co|ja .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	ja wie isch des do ?
+%mor:	co|ja ?|wie ?|isch ?|des v|do ?
+%gra:	1|5|COM 2|5|SUBJ 3|5|AUX 4|5|SUBJ 5|0|ROOT 6|5|PUNCT
+*CHI:	&~wwwww .
+*MUT:	isch do der Fuchs drin ?
+%mor:	?|isch v|do ?|der n:prop|Fuchs ?|drin ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|MOD 4|5|MOD 5|2|OBJ 6|2|PUNCT
+*CHI:	ja .
+%mor:	co|ja .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	&~fwfwfwfwf .
+*MUT:	ah !
+%mor:	co|ah !
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	da muesse mir hier abmauern .
+%mor:	det:art|the&aae ?|muesse ?|mir ?|hier ?|abmauern .
+%gra:	1|2|DET 2|0|INCROOT 3|2|POSTMOD 4|3|CONJ 5|4|COORD 6|2|PUNCT
+*MUT:	mhm .
+%mor:	co|mhm=yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	dass der Fuchs da nicht reinkann .
+%mor:	?|dass ?|der n:prop|Fuchs det:art|the&aae ?|nicht ?|reinkann .
+%gra:	1|0|INCROOT 2|1|NJCT 3|2|POBJ 4|6|DET 5|6|MOD 6|3|OBJ 7|1|PUNCT
+*MUT:	ja wo is denn .
+%mor:	co|ja ?|wo aux|be&3S adv|then&aaep .
+%gra:	1|0|INCROOT 2|1|PUNCT 3|2|INCROOT 4|3|PRED 5|3|PUNCT
+*MUT:	ach so der isch da drueben in dem Bau ?
+%mor:	co|ach adv|so ?|der ?|isch det:art|the&aae ?|drueben prep|in
+	pro:obj|them&aaep n:prop|Bau ?
+%gra:	1|3|COM 2|3|JCT 3|0|INCROOT 4|3|CONJ 5|6|DET 6|4|COORD 7|6|JCT 8|7|POBJ
+	9|7|POBJ 10|3|PUNCT
+*CHI:	ja .
+%mor:	co|ja .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	oder in dem Stall ?
+%mor:	?|oder prep|in pro:obj|them&aaep n:prop|Stall ?
+%gra:	1|0|INCROOT 2|1|JCT 3|2|POBJ 4|2|POBJ 5|1|PUNCT
+*CHI:	ja .
+%mor:	co|ja .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	des isch die Baeckerei , Claudia !
+%mor:	?|des ?|isch n|die n:prop|Baeckerei cm|cm n:prop|Claudia !
+%gra:	1|0|INCROOT 2|1|CONJ 3|4|MOD 4|2|COORD 5|4|LP 6|4|ENUM 7|1|PUNCT
+*CHI:	mhm .
+%mor:	co|mhm=yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	des is die Baeckerei .
+%mor:	?|des cop|be&3S v|die n:prop|Baeckerei .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|3|OBJ 5|2|PUNCT
+*CHI:	oh des is eine Wirtschaft .
+%mor:	co|oh ?|des cop|be&3S ?|eine n:prop|Wirtschaft .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|MOD 5|3|PRED 6|3|PUNCT
+*MUT:	ah ja .
+%mor:	co|ah co|ja .
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*CHI:	&-eh ich hab gedacht was isch des ?
+%mor:	?|ich ?|hab ?|gedacht cop|be&PAST&13S ?|isch ?|des ?
+%gra:	1|0|INCROOT 2|4|LINK 3|4|SUBJ 4|1|COMP 5|4|PRED 6|5|OM 7|1|PUNCT
+*MUT:	&=lacht .
+*CHI:	des isch die Baeckerei .
+%mor:	?|des ?|isch n|die n:prop|Baeckerei .
+%gra:	1|0|INCROOT 2|1|CONJ 3|4|MOD 4|2|COORD 5|1|PUNCT
+*CHI:	steht die Baeckerei .
+%mor:	?|steht n|die n:prop|Baeckerei .
+%gra:	1|3|MOD 2|3|MOD 3|0|INCROOT 4|3|PUNCT
+*CHI:	guck mal was da no is .
+%mor:	co|guck ?|mal cop|be&PAST&13S det:art|the&aae co|no cop|be&3S .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|COM 6|3|PRED 7|3|PUNCT
+*MUT:	isch des mein Maehgeraet ?
+%mor:	?|isch ?|des ?|mein n:prop|Maehgeraet ?
+%gra:	1|0|INCROOT 2|1|OM 3|2|OM 4|3|OM 5|1|PUNCT
+*CHI:	nein .
+%mor:	?|nein .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	nit .
+%mor:	n|nit .
+%gra:	1|0|INCROOT 2|1|PUNCT
+@End

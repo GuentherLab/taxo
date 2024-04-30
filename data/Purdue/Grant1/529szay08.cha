@@ -17,412 +17,610 @@
 @Types:	long, interview, CWS
 *CHI:	he's chomping up .
 %mor:	pro:sub|he~aux|be&3S part|chomp-PRESP adv|up .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|JCT 5|3|PUNCT
 *CHI:	squirrel .
 %mor:	n|squirrel .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	yes you may .
 %mor:	co|yes pro:per|you mod|may .
+%gra:	1|3|COM 2|3|SUBJ 3|0|INCROOT 4|3|PUNCT
 *CHI:	she just put it on .
 %mor:	pro:sub|she adv|just v|put&ZERO pro:per|it adv|on .
+%gra:	1|3|SUBJ 2|3|JCT 3|0|ROOT 4|3|OBJ 5|3|JCT 6|3|PUNCT
 *CHI:	john and me .
 %mor:	n|john coord|and pro:obj|me .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|1|PUNCT
 *CHI:	<and daddy> [>] .
 %mor:	coord|and n|daddy .
+%gra:	1|2|LINK 2|0|INCROOT 3|2|PUNCT
 *CHI:	it just broke .
 %mor:	pro:per|it adv|just adj|broke .
+%gra:	1|3|SUBJ 2|3|JCT 3|0|INCROOT 4|3|PUNCT
 *CHI:	I went under there .
 %mor:	pro:sub|I v|go&PAST prep|under n|there .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|3|POBJ 5|2|PUNCT
 %com:	CHI (hahaha) .
 *CHI:	wolf .
 %mor:	n|wolf .
+%gra:	1|0|INCROOT 2|1|PUNCT
 %com:	CHI (ssss) .
 *CHI:	a fish .
 %mor:	det:art|a n|fish .
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
 *CHI:	wolfs like crocodiles .
 %mor:	n|wolf-PL prep|like n|crocodile-PL .
+%gra:	1|0|INCROOT 2|1|NJCT 3|2|POBJ 4|1|PUNCT
 *CHI:	what's a trap ?
 %mor:	pro:int|what~cop|be&3S det:art|a n|trap ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
 *CHI:	<woof_woof> [/?] let me up .
 %mor:	v|let&ZERO pro:obj|me adv|up .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|JCT 4|1|PUNCT
 *CHI:	okay .
 %mor:	co|okay .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	ouchie haha .
 %mor:	co|ouchie co|haha .
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
 *CHI:	I'm gonna go in my house .
 %mor:	pro:sub|I~aux|be&1S part|go&PRESP~inf|to v|go prep|in det:poss|my
 	n|house .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|INF 5|3|COMP 6|5|JCT 7|8|DET 8|6|POBJ
+	9|3|PUNCT
 *CHI:	yes I can .
 %mor:	co|yes pro:sub|I mod|can .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
 *CHI:	hello .
 %mor:	co|hello .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	wolf you're making a mess .
 %mor:	n|wolf pro:per|you~aux|be&PRES part|make-PRESP det:art|a n|mess .
+%gra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
 *CHI:	stop that .
 %mor:	v|stop pro:dem|that .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
 *CHI:	look .
 %mor:	co|look .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	he's just trying to eat the lunchbox .
 %mor:	pro:sub|he~aux|be&3S adv|just part|try-PRESP inf|to v|eat
 	det:art|the n|+n|lunch+n|box .
+%gra:	1|4|SUBJ 2|4|AUX 3|4|JCT 4|0|ROOT 5|6|INF 6|4|COMP 7|8|DET 8|6|OBJ
+	9|4|PUNCT
 *CHI:	can I have the little tools ?
 %mor:	mod|can pro:sub|I v|have det:art|the adj|little n|tool-PL ?
+%gra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|3|OBJ 7|3|PUNCT
 *CHI:	and [^ dp] look .
 %mor:	coord|and v|look .
+%gra:	1|2|LINK 2|0|ROOT 3|2|PUNCT
 *CHI:	that's shotter$adj .
 %mor:	pro:dem|that~cop|be&3S adj|shotter .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
 *CHI:	yeah but xxx +/.
 %mor:	co|yeah conj|but +/.
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
 *CHI:	syringe .
 %mor:	n|syringe .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	thank_you .
 %mor:	co|thank_you .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	you keep it together mom .
 %mor:	pro:per|you v|keep pro:per|it adv|together n|mom .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|JCT 5|2|OBJ 6|2|PUNCT
 *CHI:	but look .
 %mor:	conj|but n|look .
+%gra:	1|2|LINK 2|0|INCROOT 3|2|PUNCT
 *CHI:	he got one .
 %mor:	pro:sub|he v|get&PAST pro:indef|one .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
 *CHI:	he got one more .
 %mor:	pro:sub|he v|get&PAST det:num|one pro:indef|more .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|QUANT 4|2|OBJ 5|2|PUNCT
 *CHI:	he got one for his friend .
 %mor:	pro:sub|he v|get&PAST pro:indef|one prep|for det:poss|his n|friend
 	.
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|3|NJCT 5|6|DET 6|4|POBJ 7|2|PUNCT
 *CHI:	now one fish xxx .
 %mor:	adv:tem|now det:num|one n|fish .
+%gra:	1|3|MOD 2|3|QUANT 3|0|INCROOT 4|3|PUNCT
 *CHI:	I got one .
 %mor:	pro:sub|I v|get&PAST pro:indef|one .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
 *CHI:	I got one haha .
 %mor:	pro:sub|I v|get&PAST det:num|one co|haha .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|QUANT 4|2|OBJ 5|2|PUNCT
 *CHI:	take them home .
 %mor:	v|take pro:obj|them adv|home .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|JCT 4|1|PUNCT
 *CHI:	nope bring them to his friend .
 %mor:	co|nope v|bring pro:obj|them prep|to det:poss|his n|friend .
+%gra:	1|2|COM 2|0|ROOT 3|2|OBJ 4|2|JCT 5|6|DET 6|4|POBJ 7|2|PUNCT
 *CHI:	<xxx> [>] .
 *CHI:	no his mom wants them .
 %mor:	qn|no det:poss|his n|mom v|want-3S pro:obj|them .
+%gra:	1|3|QUANT 2|3|DET 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|PUNCT
 *CHI:	a computer .
 %mor:	det:art|a n|compute&dv-AGT .
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
 *CHI:	opens up xxx +...
 %mor:	v|open-3S adv|up +...
+%gra:	1|0|ROOT 2|1|JCT 3|1|PUNCT
 *CHI:	one for you mom .
 %mor:	pro:indef|one prep|for pro:per|you n|mom .
+%gra:	1|0|INCROOT 2|1|NJCT 3|4|SUBJ 4|2|POBJ 5|1|PUNCT
 *CHI:	yum .
 %mor:	n|yum .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	yep and xxx +/.
 %mor:	co|yep coord|and +/.
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD
 *CHI:	yep and one for his friend .
 %mor:	co|yep coord|and det:num|one prep|for det:poss|his n|friend .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|JCT 5|6|DET 6|4|POBJ 7|1|PUNCT
 *CHI:	one for his friend .
 %mor:	pro:indef|one prep|for det:poss|his n|friend .
+%gra:	1|0|INCROOT 2|1|NJCT 3|4|DET 4|2|POBJ 5|1|PUNCT
 *CHI:	and one for my xxx .
 %mor:	coord|and det:num|one prep|for det:poss|my .
+%gra:	1|0|INCROOT 2|1|COORD 3|2|JCT 4|3|POBJ 5|1|PUNCT
 *CHI:	mm this is good .
 %mor:	co|mm pro:dem|this cop|be&3S adj|good .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|3|PUNCT
 *CHI:	phew I'm safe .
 %mor:	co|phew pro:sub|I~cop|be&1S adj|safe .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|3|PUNCT
 *CHI:	I'm xxx +/.
 %mor:	pro:sub|I~cop|be&1S +/.
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
 *CHI:	oops .
 %mor:	co|oops .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	<ow> [/?] he hurt his mouth .
 %mor:	pro:sub|he v|hurt&ZERO det:poss|his n|mouth .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
 *CHI:	he wants to go <up up> [/] up .
 %mor:	pro:sub|he v|want-3S inf|to v|go adv|up .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|4|JCT 6|2|PUNCT
 %com:	deliberate repetitions .
 *CHI:	oh he xxx +...
 %mor:	co|oh pro:sub|he +...
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
 *CHI:	<can I> [//] can he bring these with him ?
 %mor:	mod|can pro:sub|he v|bring det:dem|these prep|with pro:obj|him ?
+%gra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|4|JCT 6|5|POBJ 7|3|PUNCT
 *CHI:	oh .
 %mor:	co|oh .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	oh my hat is going to be gone .
 %mor:	co|oh det:poss|my n|hat aux|be&3S part|go-PRESP inf|to aux|be
 	part|go&PASTP .
+%gra:	1|5|COM 2|3|DET 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|8|INF 7|8|AUX 8|5|COMP
+	9|5|PUNCT
 *CHI:	can you help me ?
 %mor:	mod|can pro:per|you v|help pro:obj|me ?
+%gra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
 *CHI:	I need some help .
 %mor:	pro:sub|I v|need qn|some n|help .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|QUANT 4|2|OBJ 5|2|PUNCT
 *CHI:	okay the crocodile's trying to eat .
 %mor:	co|okay det:art|the n|crocodile~aux|be&3S part|try-PRESP inf|to
 	v|eat .
+%gra:	1|5|COM 2|3|DET 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|7|INF 7|5|COMP 8|5|PUNCT
 *CHI:	snap ouch .
 %mor:	n|snap n|ouch .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
 *CHI:	safe !
 %mor:	adj|safe !
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	a owl .
 %mor:	det:art|a n|owl .
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
 %com:	CHI HOOHOOHOO .
 *CHI:	he splashed .
 %mor:	pro:sub|he v|splash-PAST .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
 *CHI:	&-uh he lost his fish .
 %mor:	pro:sub|he v|lose&PAST det:poss|his n|fish .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
 *CHI:	he's got some drink and then &-um xxx +...
 %mor:	pro:sub|he~aux|be&3S part|get&PASTP pro:indef|some n|drink
 	coord|and adv:tem|then +...
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|MOD 5|3|OBJ 6|5|CONJ 7|6|COORD 8|3|PUNCT
 *CHI:	oops .
 %mor:	co|oops .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	can you hold my man please ?
 %mor:	mod|can pro:per|you v|hold det:poss|my n|man v|please ?
+%gra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|5|DET 5|6|SUBJ 6|3|COMP 7|3|PUNCT
 *CHI:	okay and then the fish 0are jumping in this one .
 %mor:	co|okay coord|and adv:tem|then det:art|the n|fish 0cop|be&PRES
 	part|jump-PRESP prep|in det:dem|this pro:indef|one .
+%gra:	1|7|COM 2|7|LINK 3|7|JCT 4|5|DET 5|7|SUBJ 6|7|AUX 7|0|ROOT 8|7|JCT
+	9|10|DET 10|8|POBJ 11|7|PUNCT
 *CHI:	what's in here ?
 %mor:	pro:int|what~cop|be&3S prep|in n|here ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|3|POBJ 5|2|PUNCT
 *CHI:	under xxx +...
 %mor:	adv|under +...
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	on the ground ?
 %mor:	prep|on det:art|the n|ground ?
+%gra:	1|0|INCROOT 2|3|DET 3|1|POBJ 4|1|PUNCT
 *CHI:	where ?
 %mor:	pro:rel|where ?
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	oh .
 %mor:	co|oh .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	yes the crocodiles can't get gold .
 %mor:	co|yes det:art|the n|crocodile-PL mod|can~neg|not v|get n|gold .
+%gra:	1|6|COM 2|3|DET 3|6|SUBJ 4|6|AUX 5|4|NEG 6|0|ROOT 7|6|OBJ 8|6|PUNCT
 *CHI:	up in the treehouse .
 %mor:	adv|up prep|in det:art|the n|+n|tree+n|house .
+%gra:	1|0|INCROOT 2|1|JCT 3|4|DET 4|2|POBJ 5|1|PUNCT
 *CHI:	mommy ?
 %mor:	n|mommy ?
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	all my treasure fell .
 %mor:	qn|all det:poss|my n|treasure v|fall&PAST .
+%gra:	1|3|QUANT 2|3|DET 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
 *CHI:	and where's all xxx +...
 %mor:	coord|and pro:rel|where~cop|be&3S adv|all +...
+%gra:	1|3|LINK 2|3|LINK 3|0|ROOT 4|3|JCT 5|3|PUNCT
 *CHI:	okay all my gold is safe .
 %mor:	co|okay adv|all det:poss|my n|gold cop|be&3S adj|safe .
+%gra:	1|4|COM 2|4|JCT 3|4|DET 4|5|SUBJ 5|0|ROOT 6|5|PRED 7|5|PUNCT
 %com:	okay was one syllable .
 *CHI:	uhoh .
 %mor:	co|uhoh .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	xxx watch out .
 %mor:	v|watch adv|out .
+%gra:	1|0|ROOT 2|1|JCT 3|1|PUNCT
 *CHI:	I got it .
 %mor:	pro:sub|I v|get&PAST pro:per|it .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
 *CHI:	now with this you can go like xxx +...
 %mor:	adv:tem|now prep|with det:dem|this pro:per|you mod|can v|go co|like
 	+...
+%gra:	1|0|INCROOT 2|1|JCT 3|6|DET 4|6|SUBJ 5|6|AUX 6|2|POBJ 7|6|COM 8|1|PUNCT
 *CHI:	all this food xxx .
 %mor:	qn|all det:dem|this n|food .
+%gra:	1|3|QUANT 2|3|DET 3|0|INCROOT 4|3|PUNCT
 *CHI:	all this food hasta be xxx .
 %mor:	qn|all det:dem|this n|food mod|have&3S~inf|to cop|be .
+%gra:	1|3|QUANT 2|3|DET 3|6|SUBJ 4|6|AUX 5|6|INF 6|0|ROOT 7|6|PUNCT
 *CHI:	cawcawcaw .
 %mor:	?|cawcawcaw .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	flap [/] flap <flap> [/?] up on to the xxx +...
 %mor:	v|flap adv|up adv|on prep|to det:art|the +...
+%gra:	1|0|ROOT 2|1|JCT 3|1|JCT 4|1|JCT 5|4|POBJ 6|1|PUNCT
 *CHI:	&-hm I can't .
 %mor:	pro:sub|I mod|can~neg|not .
+%gra:	1|0|INCROOT 2|4|AUX 3|2|NEG 4|1|PUNCT
 *CHI:	I think I hafta sit on my [^ dp] seat .
 %mor:	pro:sub|I v|think pro:sub|I mod|have~inf|to v|sit prep|on
 	det:poss|my n|seat .
+%gra:	1|2|SUBJ 2|0|ROOT 3|6|SUBJ 4|6|AUX 5|6|INF 6|2|COMP 7|6|JCT 8|9|DET
+	9|7|POBJ 10|2|PUNCT
 *CHI:	okay .
 %mor:	co|okay .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	xxx yes .
 %mor:	co|yes .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	rocking [/] rocking .
 %mor:	part|rock-PRESP .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	xxx .
 *CHI:	so where's that pipe ?
 %mor:	adv|so pro:rel|where~cop|be&3S det:dem|that n|pipe ?
+%gra:	1|3|JCT 2|3|LINK 3|0|ROOT 4|5|DET 5|3|PRED 6|3|PUNCT
 *CHI:	okay .
 %mor:	co|okay .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	I want to come up the stairs .
 %mor:	pro:sub|I v|want inf|to v|come prep|up det:art|the n|stair-PL .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|4|JCT 6|7|DET 7|5|POBJ 8|2|PUNCT
 *CHI:	and I want to xxx up there .
 %mor:	coord|and pro:sub|I v|want prep|to prep|up n|there .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|4|POBJ 6|5|POBJ 7|3|PUNCT
 *CHI:	and then this is closing .
 %mor:	coord|and adv:tem|then pro:dem|this aux|be&3S part|close-PRESP .
+%gra:	1|5|LINK 2|5|JCT 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|5|PUNCT
 *CHI:	look I found some gold .
 %mor:	v|look pro:sub|I v|find&PAST qn|some n|gold .
+%gra:	1|0|ROOT 2|3|SUBJ 3|1|COMP 4|5|QUANT 5|3|OBJ 6|1|PUNCT
 *CHI:	okay .
 %mor:	co|okay .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	okay a fish for another man .
 %mor:	co|okay det:art|a n|fish prep|for qn|another n|man .
+%gra:	1|3|COM 2|3|DET 3|0|INCROOT 4|3|NJCT 5|6|QUANT 6|4|POBJ 7|3|PUNCT
 *CHI:	a wolf .
 %mor:	det:art|a n|wolf .
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
 *CHI:	the snake !
 %mor:	det:art|the n|snake !
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
 *CHI:	okay this man has dingdingding .
 %mor:	co|okay det:dem|this n|man aux|have&3S ?|dingdingding .
+%gra:	1|5|COM 2|3|DET 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|5|PUNCT
 *CHI:	but it was not on when we're sleeping .
 %mor:	conj|but pro:per|it cop|be&PAST&13S neg|not adv|on conj|when
 	pro:sub|we~aux|be&PRES part|sleep-PRESP .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|NEG 5|3|JCT 6|9|LINK 7|9|SUBJ 8|9|AUX
+	9|3|CJCT 10|3|PUNCT
 *CHI:	whoa .
 %mor:	co|whoa .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	xxx .
 *CHI:	oh_no .
 %mor:	co|oh_no .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	all 0the gold felled [: fell] [* m:++ed:i] .
 %mor:	post|all 0det:art|the n|gold v|fall&PAST .
+%gra:	1|4|LINK 2|3|DET 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
 *CHI:	go on .
 %mor:	v|go adv|on .
+%gra:	1|0|ROOT 2|1|JCT 3|1|PUNCT
 *CHI:	oh .
 %mor:	co|oh .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	it's safe .
 %mor:	pro:per|it~cop|be&3S adj|safe .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
 *CHI:	this xxx +...
 %mor:	pro:dem|this +...
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	what's this one ?
 %mor:	pro:int|what~cop|be&3S pro:dem|this pro:indef|one ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
 *CHI:	okay here xxx +/.
 %mor:	co|okay n|here +/.
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
 *CHI:	and then this man is going down in here .
 %mor:	coord|and adv:tem|then pro:dem|this n|man aux|be&3S part|go-PRESP
 	adv|down prep|in adv|here .
+%gra:	1|6|LINK 2|6|JCT 3|4|DET 4|6|SUBJ 5|6|AUX 6|0|ROOT 7|6|JCT 8|6|JCT
+	9|8|POBJ 10|6|PUNCT
 *CHI:	don't fall tree .
 %mor:	mod|do~neg|not v|fall n|tree .
+%gra:	1|3|AUX 2|1|NEG 3|0|ROOT 4|3|OBJ 5|3|PUNCT
 *CHI:	yep and there goes xxx .
 %mor:	co|yep coord|and adv|there v|go-3S .
+%gra:	1|0|INCROOT 2|1|CONJ 3|4|SUBJ 4|2|COORD 5|1|PUNCT
 *CHI:	xxx .
 *CHI:	and where's the wolf ?
 %mor:	coord|and pro:int|where~cop|be&3S det:art|the n|wolf ?
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|PRED 6|3|PUNCT
 *CHI:	I think he's inside .
 %mor:	pro:sub|I v|think pro:sub|he~cop|be&3S adv|+prep|in+n|side .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|4|JCT 6|2|PUNCT
 *CHI:	crocodile's gone .
 %mor:	n|crocodile~aux|be&3S part|go&PASTP .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|PUNCT
 *CHI:	yep it's right in there .
 %mor:	co|yep pro:per|it~cop|be&3S adv|right prep|in n|there .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|JCT 5|3|JCT 6|5|POBJ 7|3|PUNCT
 %com:	end of sample 1., DVD transcribed ., Begin session 2 with EMG
 *CHI:	in there .
 %mor:	prep|in n|there .
+%gra:	1|0|INCROOT 2|1|POBJ 3|1|PUNCT
 *CHI:	the wolf .
 %mor:	det:art|the n|wolf .
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
 *CHI:	we better go up those .
 %mor:	pro:sub|we adv|good&CP v|go adv|up pro:dem|those .
+%gra:	1|3|SUBJ 2|3|JCT 3|0|ROOT 4|3|JCT 5|3|JCT 6|3|PUNCT
 %com:	BOiNG .
 *CHI:	oops .
 %mor:	co|oops .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	uhoh the man .
 %mor:	co|uhoh det:art|the n|man .
+%gra:	1|3|COM 2|3|DET 3|0|INCROOT 4|3|PUNCT
 *CHI:	he just fell down .
 %mor:	pro:sub|he adv|just v|fall&PAST adv|down .
+%gra:	1|3|SUBJ 2|3|JCT 3|0|ROOT 4|3|JCT 5|3|PUNCT
 *CHI:	I can't .
 %mor:	pro:sub|I mod|can~neg|not .
+%gra:	1|0|INCROOT 2|4|AUX 3|2|NEG 4|1|PUNCT
 *CHI:	yeah and there's his laptop .
 %mor:	co|yeah coord|and pro:exist|there~cop|be&3S det:poss|his
 	n|+n|lap+n|top .
+%gra:	1|4|COM 2|4|LINK 3|4|SUBJ 4|0|ROOT 5|6|DET 6|4|PRED 7|4|PUNCT
 *CHI:	here's another wolf .
 %mor:	pro:exist|here~cop|be&3S qn|another n|wolf .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|QUANT 4|2|PRED 5|2|PUNCT
 *CHI:	wow .
 %mor:	co|wow .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	comed out there and <he'll> [//] &-um he opens his mouth .
 %mor:	co#n|med prep|out n|there coord|and pro:sub|he v|open-3S
 	det:poss|his n|mouth .
+%gra:	1|0|INCROOT 2|1|JCT 3|2|POBJ 4|6|LINK 5|6|SUBJ 6|1|CJCT 7|8|DET 8|6|OBJ
+	9|1|PUNCT
 %com:	OVERGENERALiZATiON OF PAST TENSE .
 *CHI:	no I just stayed in a tent .
 %mor:	co|no pro:sub|I adv|just v|stay-PAST prep|in det:art|a n|tent .
+%gra:	1|4|COM 2|4|SUBJ 3|4|JCT 4|0|ROOT 5|4|JCT 6|7|DET 7|5|POBJ 8|4|PUNCT
 *CHI:	no it was my dad .
 %mor:	co|no pro:per|it cop|be&PAST&13S det:poss|my n|dad .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|PRED 6|3|PUNCT
 *CHI:	I xxx +/.
 %mor:	pro:sub|I +/.
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	no I didn't .
 %mor:	co|no pro:sub|I mod|do&PAST~neg|not .
+%gra:	1|0|INCROOT 2|5|SUBJ 3|5|AUX 4|3|NEG 5|1|PUNCT
 *CHI:	nope I just saw the stars .
 %mor:	co|nope pro:sub|I adv|just v|see&PAST det:art|the n|star-PL .
+%gra:	1|4|COM 2|4|SUBJ 3|4|JCT 4|0|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
 *CHI:	<mhm> [/?] but it was hiding .
 %mor:	conj|but pro:per|it aux|be&PAST&13S part|hide-PRESP .
+%gra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|PUNCT
 *CHI:	he is .
 %mor:	pro:sub|he cop|be&3S .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
 *CHI:	no he cannot .
 %mor:	co|no pro:sub|he mod|can~neg|not .
+%gra:	1|0|INCROOT 2|5|SUBJ 3|5|AUX 4|3|NEG 5|1|PUNCT
 *CHI:	uhoh .
 %mor:	co|uhoh .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	xxx .
 *CHI:	can you help me put this back on ?
 %mor:	mod|can pro:per|you v|help pro:obj|me part|put&PASTP det:dem|this
 	adj|back adv|on ?
+%gra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|COMP 6|7|DET 7|5|JCT 8|5|JCT
+	9|3|PUNCT
 *CHI:	what's a hammock ?
 %mor:	pro:int|what~cop|be&3S det:art|a n|hammock ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
 %com:	(AOOOO) .
 *CHI:	he just hurt hisself .
 %mor:	pro:sub|he adv|just v|hurt&ZERO pro:refl|himself&aael .
+%gra:	1|3|SUBJ 2|3|JCT 3|0|ROOT 4|3|OBJ 5|3|PUNCT
 *CHI:	that .
 %mor:	comp|that .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	he's hungry for xxx +...
 %mor:	pro:sub|he~cop|be&3S adj|hungry prep|for +...
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|JCT 5|2|PUNCT
 *CHI:	<boing> [/?] he's okay .
 %mor:	pro:sub|he~cop|be&3S adj|okay .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
 *CHI:	he went into the cave .
 %mor:	pro:sub|he v|go&PAST prep|into det:art|the n|cave .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|5|DET 5|3|POBJ 6|2|PUNCT
 *CHI:	<it> [//] they don't have a door .
 %mor:	pro:sub|they mod|do~neg|not v|have det:art|a n|door .
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
 %com:	CHI MM MM .
 *CHI:	(be)cause the crocodile will eat it .
 %mor:	conj|because det:art|the n|crocodile mod|will v|eat pro:per|it .
+%gra:	1|5|LINK 2|3|DET 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|5|OBJ 7|5|PUNCT
 *CHI:	he's gonna put it back to this snake .
 %mor:	pro:sub|he~aux|be&3S part|go&PRESP~inf|to v|put&ZERO pro:per|it
 	adv|back prep|to det:dem|this n|snake .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|INF 5|3|COMP 6|5|OBJ 7|5|JCT 8|5|JCT
+	9|10|DET 10|8|POBJ 11|3|PUNCT
 *CHI:	no I didn't .
 %mor:	co|no pro:sub|I mod|do&PAST~neg|not .
+%gra:	1|0|INCROOT 2|5|SUBJ 3|5|AUX 4|3|NEG 5|1|PUNCT
 *CHI:	I just seed &-uh firebugs .
 %mor:	pro:sub|I adv|just v|seed n|+n|fire+n|bug-PL .
+%gra:	1|3|SUBJ 2|3|JCT 3|0|ROOT 4|3|OBJ 5|3|PUNCT
 *CHI:	<mhm> [/?] they light up their lights .
 %mor:	pro:sub|they v|light prep|up det:poss|their n|light-PL .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|5|DET 5|3|POBJ 6|2|PUNCT
 *CHI:	they light it up .
 %mor:	pro:sub|they v|light pro:per|it adv|up .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|JCT 5|2|PUNCT
 *CHI:	yeah mom let me have one .
 %mor:	co|yeah n|mom v|let&ZERO pro:obj|me v|have pro:indef|one .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|SUBJ 5|3|COMP 6|5|OBJ 7|3|PUNCT
 *CHI:	and look the crocodile is walking on this gate .
 %mor:	coord|and v|look det:art|the n|crocodile aux|be&3S part|walk-PRESP
 	prep|on det:dem|this n|gate .
+%gra:	1|2|LINK 2|0|ROOT 3|4|DET 4|6|SUBJ 5|6|AUX 6|2|COMP 7|6|JCT 8|9|DET
+	9|7|POBJ 10|2|PUNCT
 %com:	(YA YA) .
 *CHI:	there we go .
 %mor:	adv|there pro:sub|we v|go .
+%gra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
 *CHI:	yep, I won't come on my birthday .
 %mor:	co|yep cm|cm pro:sub|I mod|will~neg|not v|come prep|on det:poss|my
 	n|+n|birth+n|day .
+%gra:	1|6|COM 2|1|LP 3|6|SUBJ 4|6|AUX 5|4|NEG 6|0|ROOT 7|6|JCT 8|9|DET
+	9|7|POBJ 10|6|PUNCT
 *CHI:	nope &-uh yes .
 %mor:	co|nope co|yes .
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
 *CHI:	I'll be four .
 %mor:	pro:sub|I~mod|will cop|be det:num|four .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|PRED 5|3|PUNCT
 *CHI:	yeah I'll have my toys .
 %mor:	co|yeah pro:sub|I~mod|will v|have det:poss|my n|toy-PL .
+%gra:	1|4|COM 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
 *CHI:	yeah we just already have some dinosaurs .
 %mor:	co|yeah pro:sub|we adv|just adv|already v|have qn|some
 	n|dinosaur-PL .
+%gra:	1|5|COM 2|5|SUBJ 3|5|JCT 4|5|JCT 5|0|ROOT 6|7|QUANT 7|5|OBJ 8|5|PUNCT
 *CHI:	I want something else for my birthday .
 %mor:	pro:sub|I v|want pro:indef|something post|else prep|for det:poss|my
 	n|+n|birth+n|day .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|3|PQ 5|2|JCT 6|7|DET 7|5|POBJ 8|2|PUNCT
 *CHI:	&-um I don't know .
 %mor:	pro:sub|I mod|do~neg|not v|know .
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|4|PUNCT
 *CHI:	I like getting cars .
 %mor:	pro:sub|I v|like part|get-PRESP n|car-PL .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|XJCT 4|3|OBJ 5|2|PUNCT
 *CHI:	yeah but I just have some cars &~ar xxx +/.
 %mor:	co|yeah conj|but pro:sub|I adv|just v|have qn|some n|car-PL +/.
+%gra:	1|5|COM 2|5|LINK 3|5|SUBJ 4|5|JCT 5|0|ROOT 6|7|QUANT 7|5|OBJ 8|5|PUNCT
 *CHI:	I just have some little cars so I hafta have big cars .
 %mor:	pro:sub|I adv|just v|have qn|some adj|little n|car-PL conj|so
 	pro:sub|I mod|have~inf|to v|have adj|big n|car-PL .
+%gra:	1|3|SUBJ 2|3|JCT 3|0|ROOT 4|6|QUANT 5|6|MOD 6|3|OBJ 7|11|LINK 8|11|SUBJ
+	9|11|AUX 10|11|INF 11|3|CJCT 12|13|MOD 13|11|OBJ 14|3|PUNCT
 *CHI:	no I want a racecar .
 %mor:	co|no pro:sub|I v|want det:art|a n|+n|race+n|car .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
 *CHI:	I want a really big one .
 %mor:	pro:sub|I v|want det:art|a adv|real&dadj-LY adj|big pro:indef|one .
+%gra:	1|2|SUBJ 2|0|ROOT 3|6|DET 4|5|JCT 5|6|MOD 6|2|OBJ 7|2|PUNCT
 *CHI:	really big .
 %mor:	adv|real&dadj-LY adj|big .
+%gra:	1|2|JCT 2|0|INCROOT 3|2|PUNCT
 *CHI:	I would just push it .
 %mor:	pro:sub|I mod|will&COND adj|just n|push pro:per|it .
+%gra:	1|4|SUBJ 2|4|AUX 3|4|MOD 4|0|INCROOT 5|4|OBJ 6|4|PUNCT
 *CHI:	backing up .
 %mor:	part|back-PRESP adv|up .
+%gra:	1|0|INCROOT 2|1|JCT 3|1|PUNCT
 %com:	AHHH .
 *CHI:	he's looking out for a xxx +...
 %mor:	pro:sub|he~aux|be&3S part|look-PRESP adv|out prep|for det:art|a
 	+...
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|JCT 5|3|JCT 6|5|POBJ 7|3|PUNCT
 *CHI:	a &~f xxx +/.
 %mor:	det:art|a +/.
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	for a fishing pole .
 %mor:	prep|for det:art|a part|fish-PRESP n|pole .
+%gra:	1|0|INCROOT 2|4|DET 3|4|MOD 4|1|POBJ 5|1|PUNCT
 *CHI:	he's xxx +...
 %mor:	pro:sub|he~cop|be&3S +...
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
 *CHI:	he wanted her to go fish .
 %mor:	pro:sub|he v|want-PAST pro:obj|her inf|to v|go v|fish .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|6|INF 5|6|SRL 6|2|COMP 7|2|PUNCT
 *CHI:	so let me get this out .
 %mor:	adv|so v|let&ZERO pro:obj|me v|get det:dem|this adv|out .
+%gra:	1|2|JCT 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|6|DET 6|4|JCT 7|2|PUNCT
 *CHI:	so she can get some fish .
 %mor:	co|so pro:sub|she mod|can v|get qn|some n|fish .
+%gra:	1|4|COM 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|6|QUANT 6|4|OBJ 7|4|PUNCT
 *CHI:	oh hi Mr wolfs .
 %mor:	co|oh co|hi n:prop|Mr n|wolf-PL .
+%gra:	1|4|COM 2|4|COM 3|4|MOD 4|0|INCROOT 5|4|PUNCT
 *CHI:	oh no my fishing pole !
 %mor:	co|oh co|no co|my part|fish-PRESP n|pole !
+%gra:	1|2|COM 2|4|COM 3|4|COM 4|0|ROOT 5|4|OBJ 6|4|PUNCT
 *CHI:	fishing pole come back !
 %mor:	part|fish-PRESP n|pole v|come adv|back !
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|3|PUNCT
 *CHI:	this fishing pole is stuck .
 %mor:	pro:dem|this part|fish-PRESP n|pole aux|be&3S part|stick&PASTP .
+%gra:	1|0|INCROOT 2|1|XMOD 3|5|SUBJ 4|5|AUX 5|2|COMP 6|1|PUNCT
 *CHI:	fishing pole just got stuck .
 %mor:	part|fish-PRESP n|pole adj|just v|get&PAST v|stick&PAST .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|JCT 4|3|ENUM 5|4|COMP 6|1|PUNCT
 %com:	END OF SAMPLE 2., DVD transcribed .
 @Comment:	ERROR: Can't find matching closing overlap for line: <xxx> [>]
 @End

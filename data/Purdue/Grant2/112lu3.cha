@@ -16,52 +16,127 @@
 @Comment:	Speech sample begins.
 @Types:	long, interview, CWS
 *CHI:	look at mine .
+%mor:	v|look prep|at pro:poss|mine .
+%gra:	1|0|ROOT 2|1|JCT 3|2|POBJ 4|1|PUNCT
 %com:	CHI Look at mine .
 *CHI:	yeah ↫I↫it [/] it kinda looks like a cyborg .
+%mor:	co|yeah pro:per|it adv|kinda v|look-3S prep|like det:art|a n|cyborg
+	.
+%gra:	1|4|COM 2|4|SUBJ 3|4|JCT 4|0|ROOT 5|4|JCT 6|7|DET 7|5|POBJ 8|4|PUNCT
 *CHI:	you know ?
+%mor:	pro:per|you v|know ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
 %com:	CHI Yeah (yeah) .
 *CHI:	it's like in Justice_League .
+%mor:	pro:per|it~cop|be&3S conj|like prep|in n:prop|Justice_League .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|3|NJCT 5|4|POBJ 6|2|PUNCT
 *CHI:	remember the superheros ?
+%mor:	v|remember det:art|the super#n|hero-PL ?
+%gra:	1|0|ROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
 %com:	CHI Yeah .
 *CHI:	&-um he was only in there for a little bit .
+%mor:	pro:sub|he cop|be&PAST&13S qn|only prep|in n|there prep|for
+	det:art|a adj|little n|bit .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|3|JCT 5|4|POBJ 6|3|JCT 7|9|DET 8|9|MOD
+	9|6|POBJ 10|2|PUNCT
 *CHI:	<Batman> [//] <it> [//] he was in [^ pw1] Batman_Versus_Superman .
+%mor:	pro:sub|he cop|be&PAST&13S prep|in n:prop|Batman_Versus_Superman .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|3|POBJ 5|2|PUNCT
 %com:	CHI He was only in there for a little bit .
 *CHI:	but they're [/] they're coming out for a new Justice_League movie and
 	he's gonna be in there .
+%mor:	conj|but pro:sub|they~aux|be&PRES part|come-PRESP adv|out prep|for
+	det:art|a adj|new n:prop|Justice_League n|movie coord|and
+	pro:sub|he~aux|be&3S part|go&PRESP~inf|to aux|be prep|in n|there .
+%gra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|JCT 6|4|JCT 7|10|DET 8|10|MOD
+	9|10|MOD 10|6|POBJ 11|14|LINK 12|14|SUBJ 13|14|AUX 14|10|CMOD 15|16|INF
+	16|14|COMP 17|16|JCT 18|17|POBJ 19|4|PUNCT
 %com:	Child avoiding eye contact and repetitively touching hair ., rapid rate & quiet voice often .
 *CHI:	I don't know what you should call your <[^ pw1] &~n> [//] pig's name
 	.
+%mor:	pro:sub|I mod|do~neg|not v|know pro:int|what pro:per|you mod|should
+	v|call det:poss|your adj|pig&dn-POSS n|name .
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|8|LINK 6|8|SUBJ 7|8|AUX 8|4|COMP
+	9|11|DET 10|11|MOD 11|8|OBJ 12|4|PUNCT
 *CHI:	[^ m1] maybe xxx +...
+%mor:	adv|maybe +...
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	I don't know &=laughs .
+%mor:	pro:sub|I mod|do~neg|not v|know .
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|4|PUNCT
 *CHI:	mine is sneaky shiny and robot .
+%mor:	n|mine cop|be&3S adj|sneak&dv-Y adj|shine&dn-Y coord|and n|robot .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PRED 5|4|CONJ 6|5|COORD 7|2|PUNCT
 %com:	Child reading words in parenthesis ., CHI Yeah (yeah) .
 *CHI:	&-um I do football .
+%mor:	pro:sub|I v|do n|+n|foot+n|ball .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
 *CHI:	tackle football .
+%mor:	n|tackle n|+n|foot+n|ball .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
 %com:	CHI No .
 *CHI:	yeah I'm doing practices .
+%mor:	co|yeah pro:sub|I~aux|be&1S part|do-PRESP n|practice-PL .
+%gra:	1|4|COM 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|OBJ 6|4|PUNCT
 *CHI:	my [/] my &-um first game is on next saturday .
+%mor:	det:poss|my adj|first n|game cop|be&3S adv|on adv|next
+	adv:tem|saturday .
+%gra:	1|3|DET 2|3|MOD 3|4|SUBJ 4|0|ROOT 5|4|JCT 6|7|JCT 7|4|JCT 8|4|PUNCT
 *CHI:	this is my first time .
+%mor:	pro:dem|this cop|be&3S det:poss|my adj|first n|time .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|PRED 6|2|PUNCT
 *CHI:	I think it's really cool .
+%mor:	pro:sub|I v|think pro:per|it~cop|be&3S adv|real&dadj-LY adj|cool .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|6|JCT 6|4|PRED 7|2|PUNCT
 *CHI:	yeah I [/] I get to play different positions .
+%mor:	co|yeah pro:sub|I aux|get inf|to v|play adj|different n|position-PL
+	.
+%gra:	1|5|COM 2|5|SUBJ 3|5|AUX 4|5|INF 5|0|ROOT 6|7|MOD 7|5|OBJ 8|5|PUNCT
 *CHI:	<yeah> [/?] <[^ p1] I have a> [/?] I [/] I have a cousin on my team
 	.
+%mor:	pro:sub|I v|have det:art|a n|cousin prep|on det:poss|my n|team .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|JCT 6|7|DET 7|5|POBJ 8|2|PUNCT
 *CHI:	they're <&~u> [//] mostly near you .
+%mor:	pro:sub|they~cop|be&PRES adv|mostly prep|near pro:per|you .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|2|JCT 5|4|POBJ 6|2|PUNCT
 %com:	CHI Yeah ., CHI Yeah .
 *CHI:	&-um swim training .
+%mor:	n|swim part|train-PRESP .
+%gra:	1|0|INCROOT 2|1|XMOD 3|1|PUNCT
 %com:	CHI Yeah .
 *CHI:	&-um <at my own pool at &~m> [//] &-um <at> [//] it's the whole
 	neighborhood's pool .
+%mor:	pro:per|it~cop|be&3S det:art|the n|whole adj|neighborhood&dn-POSS
+	n|pool .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|6|MOD 5|6|MOD 6|2|PRED 7|2|PUNCT
 %com:	CHI Yeah ., Child continues to avoid eye contact, but looks at examiner when he knows she isn't looking at him .
 *CHI:	no I don't remember much .
+%mor:	co|no pro:sub|I mod|do~neg|not v|remember adv|much .
+%gra:	1|5|COM 2|5|SUBJ 3|5|AUX 4|3|NEG 5|0|ROOT 6|5|JCT 7|5|PUNCT
 *CHI:	xxx time .
+%mor:	n|time .
+%gra:	1|0|INCROOT 2|1|PUNCT
 %com:	Child is chewing nails while talking, making it difficult to hear with background noise .
 *CHI:	I have xxx +...
+%mor:	pro:sub|I v|have +...
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
 %com:	Speech sample pauses for other tasks ., polar bear reading passage task
 *CHI:	mm probably ↫k↫kinda the same .
+%mor:	co|mm adv|probable&dadj-LY adv|kinda det:art|the adj|same .
+%gra:	1|5|COM 2|3|JCT 3|5|JCT 4|5|DET 5|0|INCROOT 6|5|PUNCT
 %com:	CHI Yeah (no) ., CHI Mhm ., CHI Yeah (yeah) .
 *CHI:	&-um maybe the bears .
+%mor:	adv|maybe det:art|the n|bear-PL .
+%gra:	1|3|JCT 2|3|DET 3|0|INCROOT 4|3|PUNCT
 *CHI:	the brown bears .
+%mor:	det:art|the adj|brown n|bear-PL .
+%gra:	1|3|DET 2|3|MOD 3|0|INCROOT 4|3|PUNCT
 *CHI:	and the cheetahs .
+%mor:	coord|and det:art|the n|cheetah-PL .
+%gra:	1|3|LINK 2|3|DET 3|0|INCROOT 4|3|PUNCT
 *CHI:	I like them (be)cause they're fast .
+%mor:	pro:sub|I v|like pro:obj|them conj|because pro:sub|they~cop|be&PRES
+	adv|fast .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|6|LINK 5|6|SUBJ 6|2|CJCT 7|6|JCT 8|2|PUNCT
 %com:	Speech sample ends .
 @End

@@ -1,0 +1,954 @@
+@UTF8
+@PID:	11312/c-00004530-1
+@Begin
+@Languages:	deu
+@Participants:	MUT Mother , CHI Raphael Target_Child
+@ID:	deu|Ulm|CHI|6;02.||||Target_Child|||
+@ID:	deu|Ulm|MUT|||||Mother|||
+@Time Duration:	09:42:47-09:53:30
+@Situation:	Spielsituation mit Bauernhof-Spielkloetzchen
+@Types:	cross, tests, CWS
+*CHI:	etzt koenn mr mol do Kloetzle spiela aeh .
+%mor:	?|etzt ?|koenn ?|mr ?|mol v|do n:prop|Kloetzle ?|spiela ?|aeh .
+%gra:	1|5|LINK 2|5|SUBJ 3|5|AUX 4|5|SUBJ 5|0|ROOT 6|5|OBJ 7|6|CONJ 8|7|COORD
+	9|5|PUNCT
+*MUT:	dann stells mol na .
+%mor:	?|dann ?|stells ?|mol co|na .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|COM 5|1|PUNCT
+*CHI:	soll es mol .
+%mor:	?|soll ?|es ?|mol .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|1|PUNCT
+*MUT:	musch abr nahocka ond en Baurahof baua .
+%mor:	?|musch ?|abr ?|nahocka ?|ond co|en n:prop|Baurahof ?|baua .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|7|LINK 5|6|COM 6|7|SUBJ 7|3|COMP
+	8|1|PUNCT
+*CHI:	Baurahof .
+%mor:	n:prop|Baurahof .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	guck amol .
+%mor:	co|guck ?|amol .
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*MUT:	hamr den scho mol ket ?
+%mor:	?|hamr n|den ?|scho ?|mol ?|ket ?
+%gra:	1|2|MOD 2|0|INCROOT 3|2|POSTMOD 4|3|OM 5|4|OM 6|2|PUNCT
+*CHI:	haea .
+%mor:	?|haea .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	idda ?
+%mor:	?|idda ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	doch [/] doch den hamr scho mol ket do kommet dia Staebla na .
+%mor:	?|doch n|den ?|hamr ?|scho ?|mol ?|ket v|do ?|kommet ?|dia
+	n:prop|Staebla co|na .
+%gra:	1|0|INCROOT 2|1|OBJ 3|2|CONJ 4|3|COORD 5|7|LINK 6|7|SUBJ 7|4|COMP
+	8|7|OBJ 9|8|NJCT 10|9|POBJ 11|10|COM 12|1|PUNCT
+*CHI:	do dia Staebla .
+%mor:	mod|do ?|dia n:prop|Staebla .
+%gra:	1|3|AUX 2|3|MOD 3|0|INCROOT 4|3|PUNCT
+*MUT:	soll mr dia , du machsch oins nei ond i mach oins nei ?
+%mor:	?|soll ?|mr ?|dia cm|cm ?|du ?|machsch ?|oins ?|nei ?|ond n:let|i
+	?|mach ?|oins ?|nei ?
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|LP 5|3|CONJ 6|5|COORD 7|6|CONJ
+	8|7|COORD 9|8|CONJ 10|9|COORD 11|10|CONJ 12|11|COORD 13|12|OM 14|1|PUNCT
+*CHI:	ja du machsch do nei .
+%mor:	co|ja ?|du ?|machsch v|do ?|nei .
+%gra:	1|2|COM 2|4|LINK 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*MUT:	jetza .
+%mor:	?|jetza .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	do mol etzt do dein Fenger weg .
+%mor:	mod|do ?|mol ?|etzt v|do ?|dein n:prop|Fenger ?|weg .
+%gra:	1|4|AUX 2|4|LINK 3|4|SUBJ 4|0|ROOT 5|7|MOD 6|7|MOD 7|4|OBJ 8|4|PUNCT
+*MUT:	Moment [/] moment jetza !
+%mor:	n|moment ?|jetza !
+%gra:	1|2|MOD 2|0|ROOT 3|2|PUNCT
+*MUT:	wo isch en des Loch ?
+%mor:	?|wo ?|isch co|en ?|des n:prop|Loch ?
+%gra:	1|0|INCROOT 2|1|OM 3|5|COM 4|5|MOD 5|2|OM 6|1|PUNCT
+*CHI:	do hana isch es .
+%mor:	mod|do ?|hana ?|isch ?|es .
+%gra:	1|2|AUX 2|0|ROOT 3|2|CONJ 4|3|COORD 5|2|PUNCT
+*MUT:	aeh jetza do ka ma Pferde neibenda .
+%mor:	?|aeh ?|jetza v|do ?|ka n|ma n:prop|Pferde ?|neibenda .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|MOD 5|7|MOD 6|7|MOD 7|3|COMP 8|3|PUNCT
+*MUT:	odr ?
+%mor:	?|odr ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	ja .
+%mor:	co|ja .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	etzt do mr mol raus was mr brauchat .
+%mor:	?|etzt v|do ?|mr ?|mol ?|raus cop|be&PAST&13S ?|mr ?|brauchat .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|6|COM 5|6|SUBJ 6|3|COMP 7|6|PRED 8|6|PRED
+	9|2|PUNCT
+*CHI:	etzt muess mr do hana mol zama macha irgendwia do .
+%mor:	?|etzt ?|muess ?|mr v|do ?|hana ?|mol ?|zama ?|macha ?|irgendwia
+	v|do .
+%gra:	1|4|SUBJ 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|5|CONJ 7|6|COORD 8|10|LINK
+	9|10|SUBJ 10|7|COMP 11|4|PUNCT
+*MUT:	ehae schiab s zamma !
+%mor:	?|ehae ?|schiab n:let|s ?|zamma !
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|OM 5|1|PUNCT
+*CHI:	so .
+%mor:	co|so .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	hae !
+%mor:	?|hae !
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	des darf .
+%mor:	?|des ?|darf .
+%gra:	1|0|INCROOT 2|1|ENUM 3|1|PUNCT
+*CHI:	wie ghert des na ?
+%mor:	?|wie ?|ghert ?|des co|na ?
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|COM 5|1|PUNCT
+*CHI:	des Dach muss ds na[?] .
+%mor:	?|des n:prop|Dach v|muss ?|ds co|na .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|4|COM 6|3|PUNCT
+*MUT:	du des do mr etzt einfach mol raus und guckat ob s axxx .
+%mor:	?|du ?|des v|do ?|mr ?|etzt ?|einfach ?|mol ?|raus ?|und ?|guckat
+	?|ob n:let|s ?|axxx .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|JCT 6|5|POBJ 7|6|CONJ 8|7|COORD
+	9|8|CONJ 10|9|COORD 11|10|CONJ 12|13|MOD 13|11|COORD 14|3|PUNCT
+*CHI:	des do brauch ma au a Dach .
+%mor:	?|des v|do ?|brauch n|ma ?|au det:art|a n:prop|Dach .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|MOD 4|2|OBJ 5|4|POSTMOD 6|7|DET 7|5|OBJ 8|2|PUNCT
+*CHI:	wo isch des andere ?
+%mor:	?|wo ?|isch ?|des ?|andere ?
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|OM 5|1|PUNCT
+*MUT:	a Baeckerei .
+%mor:	det:art|a n:prop|Baeckerei .
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
+*CHI:	xxx guck [/] guck etzt hamr do au scho a Dach .
+%mor:	co|guck ?|etzt ?|hamr v|do ?|au ?|scho det:art|a n:prop|Dach .
+%gra:	1|2|COM 2|4|LINK 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|5|POSTMOD 7|8|DET 8|6|OBJ
+	9|4|PUNCT
+*CHI:	Mami i han s naechschde Dach !
+%mor:	n:prop|Mami n:let|i ?|han n:let|s ?|naechschde n:prop|Dach !
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|OM 5|4|OM 6|5|OM 7|1|PUNCT
+*MUT:	ja guat .
+%mor:	co|ja ?|guat .
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*CHI:	des isch au a Dach .
+%mor:	?|des ?|isch ?|au det:art|a n:prop|Dach .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|5|DET 5|3|OBJ 6|1|PUNCT
+*CHI:	was isch des ?
+%mor:	cop|be&PAST&13S ?|isch ?|des ?
+%gra:	1|0|ROOT 2|1|PRED 3|2|OM 4|1|PUNCT
+*MUT:	mh woiss i au idda .
+%mor:	?|mh ?|woiss n:let|i ?|au ?|idda .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|1|PUNCT
+*CHI:	blick i au idda .
+%mor:	?|blick n:let|i ?|au ?|idda .
+%gra:	1|0|INCROOT 2|1|POSTMOD 3|2|CONJ 4|3|COORD 5|1|PUNCT
+*CHI:	mit em Papa war s gut mit em Papa hab i was ganz Schoenes gmacht .
+%mor:	?|mit pro:obj|em n:prop|Papa n|war n:let|s n|gut ?|mit pro:obj|em
+	n:prop|Papa ?|hab n:let|i cop|be&PAST&13S ?|ganz n:prop|Schoenes
+	?|gmacht .
+%gra:	1|0|INCROOT 2|1|OBJ 3|4|SUBJ 4|2|POBJ 5|4|NJCT 6|5|POBJ 7|6|NJCT
+	8|7|POBJ 9|8|COMP 10|12|LINK 11|12|SUBJ 12|9|COMP 13|15|MOD 14|15|MOD
+	15|12|PRED 16|1|PUNCT
+*MUT:	guck des isch d Baeckerei .
+%mor:	co|guck ?|des ?|isch n:let|d n:prop|Baeckerei .
+%gra:	1|2|COM 2|0|ROOT 3|2|NJCT 4|5|MOD 5|3|POBJ 6|2|PUNCT
+*CHI:	ja des isch en Schuh .
+%mor:	co|ja ?|des ?|isch co|en n:prop|Schuh .
+%gra:	1|2|COM 2|0|ROOT 3|2|CONJ 4|5|COM 5|3|COORD 6|2|PUNCT
+*MUT:	was isch des ?
+%mor:	cop|be&PAST&13S ?|isch ?|des ?
+%gra:	1|0|ROOT 2|1|PRED 3|2|OM 4|1|PUNCT
+*MUT:	idididid achso !
+%mor:	?|idididid ?|achso !
+%gra:	1|0|INCROOT 2|1|OM 3|1|PUNCT
+*CHI:	den hot ma do eifach neigfuettrat[?] .
+%mor:	n|den adj|hot n|ma v|do ?|eifach ?|neigfuettrat .
+%gra:	1|3|MOD 2|3|MOD 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|5|ENUM 7|4|PUNCT
+*MUT:	awa ?
+%mor:	?|awa ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	des isch en Brunna .
+%mor:	?|des ?|isch co|en n:prop|Brunna .
+%gra:	1|0|INCROOT 2|1|CONJ 3|4|COM 4|2|COORD 5|1|PUNCT
+*CHI:	mit em Tesa vielleicht .
+%mor:	?|mit pro:obj|em n:prop|Tesa ?|vielleicht .
+%gra:	1|4|LINK 2|3|SUBJ 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*CHI:	ah i woiss fuer wa des isch !
+%mor:	co|ah n:let|i ?|woiss ?|fuer ?|wa ?|des ?|isch !
+%gra:	1|2|COM 2|0|ROOT 3|2|CONJ 4|3|COORD 5|4|CONJ 6|5|COORD 7|6|OM 8|2|PUNCT
+*MUT:	nomol en Brunna .
+%mor:	?|nomol co|en n:prop|Brunna .
+%gra:	1|3|LINK 2|3|COM 3|0|INCROOT 4|3|PUNCT
+*CHI:	des soll hae ?
+%mor:	?|des ?|soll ?|hae ?
+%gra:	1|0|INCROOT 2|1|OM 3|2|OM 4|1|PUNCT
+*CHI:	hae was soll etzt des do hana xxfuella ?
+%mor:	?|hae cop|be&PAST&13S ?|soll ?|etzt ?|des v|do ?|hana ?|xxfuella ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|6|LINK 5|6|SUBJ 6|3|COMP 7|6|OBJ 8|7|OM
+	9|2|PUNCT
+*CHI:	gluabsch do braucht ma nomol oins .
+%mor:	?|gluabsch v|do ?|braucht n|ma ?|nomol ?|oins .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|3|OBJ 5|4|CONJ 6|5|COORD 7|2|PUNCT
+*CHI:	hae kuck mol do isch a kloins !
+%mor:	?|hae ?|kuck ?|mol v|do ?|isch det:art|a ?|kloins !
+%gra:	1|4|SUBJ 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|7|DET 7|5|OM 8|4|PUNCT
+*CHI:	xxx do moss a klois her do .
+%mor:	v|do n|moss det:art|a ?|klois pro:obj|her v|do .
+%gra:	1|0|ROOT 2|1|OBJ 3|4|DET 4|2|POSTMOD 5|6|SUBJ 6|4|COMP 7|1|PUNCT
+*MUT:	etzt gucka mr amol ob s do nomol so was gibt mit ma Loch .
+%mor:	?|etzt ?|gucka ?|mr ?|amol ?|ob n:let|s v|do ?|nomol co|so
+	cop|be&PAST&13S ?|gibt ?|mit n|ma n:prop|Loch .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|7|SUBJ 7|5|COMP
+	8|7|OBJ 9|10|COM 10|8|COMP 11|14|MOD 12|14|MOD 13|14|MOD 14|10|PRED
+	15|1|PUNCT
+*CHI:	ja .
+%mor:	co|ja .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	do hot s Stanga dia muessat jo irgendwo nakehra .
+%mor:	mod|do adj|hot n:let|s n:prop|Stanga ?|dia ?|muessat ?|jo
+	?|irgendwo ?|nakehra .
+%gra:	1|5|AUX 2|5|MOD 3|5|MOD 4|5|MOD 5|0|ROOT 6|5|CONJ 7|6|COORD 8|7|CONJ
+	9|8|COORD 10|5|PUNCT
+*CHI:	des dia Stecka , i woiss fuer was dia Stecka sind .
+%mor:	?|des ?|dia n:prop|Stecka cm|cm n:let|i ?|woiss ?|fuer
+	cop|be&PAST&13S ?|dia n:prop|Stecka ?|sind .
+%gra:	1|0|INCROOT 2|1|NJCT 3|2|POBJ 4|3|LP 5|3|ENUM 6|5|COORD 7|8|SUBJ
+	8|6|COMP 9|11|MOD 10|11|MOD 11|8|PRED 12|1|PUNCT
+*CHI:	aber dia ka ma jo gar id ganz durchschieaba .
+%mor:	?|aber ?|dia ?|ka n|ma ?|jo ?|gar n|id ?|ganz ?|durchschieaba .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|5|CONJ 7|6|COORD
+	8|7|CONJ 9|8|COORD 10|1|PUNCT
+*MUT:	dia basset gar idda mh .
+%mor:	?|dia n|basset ?|gar ?|idda ?|mh .
+%gra:	1|0|INCROOT 2|1|OBJ 3|2|POSTMOD 4|3|CONJ 5|4|COORD 6|1|PUNCT
+*CHI:	vielleicht goht s do nei chchch .
+%mor:	?|vielleicht ?|goht n:let|s v|do ?|nei ?|chchch .
+%gra:	1|0|INCROOT 2|4|LINK 3|4|SUBJ 4|1|COMP 5|4|OBJ 6|4|OBJ 7|1|PUNCT
+*CHI:	haeaeae .
+%mor:	?|haeaeae .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	ond der ?
+%mor:	?|ond ?|der ?
+%gra:	1|0|INCROOT 2|1|OM 3|1|PUNCT
+*CHI:	der kommt au do nei .
+%mor:	?|der ?|kommt ?|au v|do ?|nei .
+%gra:	1|0|INCROOT 2|4|LINK 3|4|SUBJ 4|1|COMP 5|4|OBJ 6|1|PUNCT
+*CHI:	des send wohl xxx xxx xxx dia Dinger drana ge !
+%mor:	?|des v|send ?|wohl ?|dia n:prop|Dinger ?|drana ?|ge !
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|3|CONJ 5|4|COORD 6|5|CONJ 7|6|COORD
+	8|2|PUNCT
+*MUT:	als Schluessl ?
+%mor:	?|als n:prop|Schluessl ?
+%gra:	1|0|INCROOT 2|1|OM 3|1|PUNCT
+*CHI:	ja odr als irgend en Scheiss .
+%mor:	co|ja ?|odr ?|als ?|irgend co|en n:prop|Scheiss .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|6|COM 6|4|COORD 7|1|PUNCT
+*CHI:	oh etzt kriag i s grad nemme ganz raus .
+%mor:	co|oh ?|etzt ?|kriag n:let|i n:let|s n|grad ?|nemme ?|ganz ?|raus .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|5|OBJ 7|6|POSTMOD
+	8|7|CONJ 9|8|COORD 10|1|PUNCT
+*MUT:	der isch z duenn z dick .
+%mor:	?|der ?|isch n:let|z ?|duenn n:let|z n|dick .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|6|MOD 5|6|MOD 6|3|OBJ 7|1|PUNCT
+*CHI:	z dick .
+%mor:	n:let|z n|dick .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
+*MUT:	etzt lega mr des mol do her noch suacha mr was drzua basst .
+%mor:	?|etzt ?|lega ?|mr ?|des ?|mol v|do det:poss|her ?|noch ?|suacha
+	?|mr cop|be&PAST&13S ?|drzua ?|basst .
+%gra:	1|0|INCROOT 2|6|LINK 3|6|SUBJ 4|6|AUX 5|6|SUBJ 6|1|COMP 7|8|DET 8|6|OBJ
+	9|11|LINK 10|11|SUBJ 11|8|COMP 12|13|MOD 13|11|PRED 14|1|PUNCT
+*MUT:	odr ?
+%mor:	?|odr ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	mh .
+%mor:	?|mh .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	hae ?
+%mor:	?|hae ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	ja odr was xxx .
+%mor:	co|ja ?|odr cop|be&PAST&13S .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
+*CHI:	des isch halt emmer dia Messer ge Mama !
+%mor:	?|des ?|isch n|halt ?|emmer ?|dia n:prop|Messer ?|ge n:prop|Mama !
+%gra:	1|0|INCROOT 2|3|MOD 3|1|POBJ 4|3|NJCT 5|4|NJCT 6|7|SUBJ 7|5|POBJ
+	8|7|APP 9|1|PUNCT
+*MUT:	mh .
+%mor:	?|mh .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	komm !
+%mor:	?|komm !
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	hae frueher war emmer .
+%mor:	?|hae ?|frueher n|war ?|emmer .
+%gra:	1|0|INCROOT 2|1|CONJ 3|4|MOD 4|2|COORD 5|1|PUNCT
+*MUT:	die desch schio nom nemma !
+%mor:	n|die ?|desch ?|schio co|nom ?|nemma !
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|5|COM 5|3|OM 6|1|PUNCT
+*CHI:	he fueher do mol do war s ganz andersch gmacht do ho mr gar koin
+	Baurahof baut .
+%mor:	pro:sub|he ?|fueher v|do ?|mol mod|do v|war n:let|s ?|ganz
+	?|andersch ?|gmacht v|do co|ho ?|mr ?|gar ?|koin n:prop|Baurahof
+	?|baut .
+%gra:	1|3|SUBJ 2|3|SUBJ 3|0|ROOT 4|6|SUBJ 5|6|AUX 6|3|COMP 7|6|OBJ 8|7|PRED
+	9|11|LINK 10|11|SUBJ 11|8|COMP 12|17|COM 13|17|MOD 14|17|MOD 15|17|MOD
+	16|17|MOD 17|11|OBJ 18|3|PUNCT
+*CHI:	ge Mama !
+%mor:	?|ge n:prop|Mama !
+%gra:	1|0|INCROOT 2|1|OM 3|1|PUNCT
+*MUT:	wa hamr do gmacht ?
+%mor:	?|wa ?|hamr v|do ?|gmacht ?
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
+*CHI:	irgend so was Dings , irgend so en xxx ho mr do aufbaut .
+%mor:	?|irgend adv|so cop|be&PAST&13S n:prop|Dings cm|cm ?|irgend co|so
+	co|en co|ho ?|mr v|do ?|aufbaut .
+%gra:	1|3|SUBJ 2|3|JCT 3|0|ROOT 4|3|PRED 5|4|LP 6|3|PRED 7|9|COM 8|9|COM
+	9|11|COM 10|11|SUBJ 11|6|CMOD 12|11|OBJ 13|3|PUNCT
+*MUT:	des isch d Baeckerei .
+%mor:	?|des ?|isch n:let|d n:prop|Baeckerei .
+%gra:	1|0|INCROOT 2|1|NJCT 3|4|MOD 4|2|POBJ 5|1|PUNCT
+*CHI:	noits .
+%mor:	?|noits .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	soll mr so s Dach naufmacha ?
+%mor:	?|soll ?|mr adv|so n:let|s n:prop|Dach ?|naufmacha ?
+%gra:	1|0|INCROOT 2|1|OM 3|4|JCT 4|6|MOD 5|6|MOD 6|2|OM 7|1|PUNCT
+*CHI:	oha .
+%mor:	?|oha .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	mh .
+%mor:	?|mh .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	des isch z .
+%mor:	?|des ?|isch n:let|z .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|1|PUNCT
+*MUT:	so !
+%mor:	co|so !
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	so kennt s sei odr ?
+%mor:	adv|so ?|kennt n:let|s ?|sei ?|odr ?
+%gra:	1|2|JCT 2|0|INCROOT 3|2|CONJ 4|3|COORD 5|4|OM 6|2|PUNCT
+*CHI:	ja odr so !
+%mor:	co|ja ?|odr co|so !
+%gra:	1|2|COM 2|0|ROOT 3|2|COM 4|2|PUNCT
+*CHI:	des isch ja .
+%mor:	?|des ?|isch co|ja .
+%gra:	1|0|INCROOT 2|1|ENUM 3|2|COM 4|1|PUNCT
+*CHI:	hae !
+%mor:	?|hae !
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	des basst gar idda .
+%mor:	?|des ?|basst ?|gar ?|idda .
+%gra:	1|0|INCROOT 2|1|POSTMOD 3|2|CONJ 4|3|COORD 5|1|PUNCT
+*CHI:	des isch z gross !
+%mor:	?|des ?|isch n:let|z n|gross !
+%gra:	1|4|MOD 2|4|MOD 3|4|MOD 4|0|INCROOT 5|4|PUNCT
+*CHI:	s Dach oifach des nauf .
+%mor:	n:let|s n:prop|Dach ?|oifach ?|des ?|nauf .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|1|PUNCT
+*MUT:	abr des daet bassa .
+%mor:	?|abr ?|des ?|daet ?|bassa .
+%gra:	1|0|INCROOT 2|1|POSTMOD 3|2|CONJ 4|3|COORD 5|1|PUNCT
+*CHI:	jetzt des , muss des nauf !
+%mor:	?|jetzt ?|des cm|cm v|muss ?|des ?|nauf !
+%gra:	1|0|INCROOT 2|1|OM 3|2|LP 4|2|ENUM 5|4|OBJ 6|5|OM 7|1|PUNCT
+*CHI:	ah fuer was isch des grosse Bauernhaus ?
+%mor:	co|ah ?|fuer cop|be&PAST&13S ?|isch ?|des ?|grosse
+	n:prop|Bauernhaus ?
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|4|OM 6|5|OM 7|6|OM 8|3|PUNCT
+*CHI:	fuer was soll des grosse Garage sei ?
+%mor:	?|fuer cop|be&PAST&13S ?|soll ?|des ?|grosse n:prop|Garage ?|sei ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|3|OM 5|7|MOD 6|7|MOD 7|4|OM 8|2|PUNCT
+*MUT:	des grosse ?
+%mor:	?|des ?|grosse ?
+%gra:	1|0|INCROOT 2|1|OM 3|1|PUNCT
+*CHI:	xxx .
+*MUT:	do moss ma no grosse sucha odr baua .
+%mor:	v|do n|moss n|ma qn|no ?|grosse ?|sucha ?|odr ?|baua .
+%gra:	1|0|ROOT 2|3|MOD 3|1|OBJ 4|5|QUANT 5|3|CONJ 6|5|COORD 7|6|CONJ
+	8|7|COORD 9|1|PUNCT
+*CHI:	gut baua .
+%mor:	n|gut ?|baua .
+%gra:	1|2|MOD 2|0|ROOT 3|2|PUNCT
+*MUT:	woisch mit denne baua .
+%mor:	?|woisch ?|mit ?|denne ?|baua .
+%gra:	1|0|INCROOT 2|1|POSTMOD 3|2|CONJ 4|3|COORD 5|1|PUNCT
+*MUT:	guck amol .
+%mor:	co|guck ?|amol .
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*CHI:	genau do baua mr mit denne a Haus na !
+%mor:	?|genau v|do ?|baua ?|mr ?|mit ?|denne det:art|a n:prop|Haus co|na
+	!
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|3|NJCT 5|4|POBJ 6|5|NJCT 7|8|DET 8|6|POBJ
+	9|8|COM 10|2|PUNCT
+*MUT:	guck .
+%mor:	co|guck .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	i woiss es .
+%mor:	n:let|i ?|woiss ?|es .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|1|PUNCT
+*MUT:	such amol no a paar !
+%mor:	qn|such ?|amol co|no det:art|a ?|paar !
+%gra:	1|2|QUANT 2|0|ROOT 3|5|COM 4|5|DET 5|2|OM 6|2|PUNCT
+*MUT:	hae ?
+%mor:	?|hae ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	ja .
+%mor:	co|ja .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	wenn mir [/] , mir muesset etzt do dia ganze Kletzer verbaua ge !
+%mor:	?|wenn cm|cm ?|mir ?|muesset ?|etzt v|do ?|dia ?|ganze
+	n:prop|Kletzer ?|verbaua ?|ge !
+%gra:	1|6|LINK 2|1|LP 3|6|SUBJ 4|6|AUX 5|6|JCT 6|0|ROOT 7|6|OBJ 8|7|CONJ
+	9|8|COORD 10|9|CONJ 11|10|COORD 12|6|PUNCT
+*CHI:	ge Mama ?
+%mor:	?|ge n:prop|Mama ?
+%gra:	1|0|INCROOT 2|1|OM 3|1|PUNCT
+*MUT:	mh .
+%mor:	?|mh .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	dia ganze Kloetze halt verbaua ond wenn mr s id schaffat haehaehae
+	.
+%mor:	?|dia ?|ganze n:prop|Kloetze n|halt ?|verbaua ?|ond ?|wenn ?|mr
+	n:let|s n|id ?|schaffat ?|haehaehae .
+%gra:	1|0|INCROOT 2|4|MOD 3|4|MOD 4|1|OBJ 5|4|CONJ 6|5|COORD 7|6|CONJ
+	8|7|COORD 9|8|CONJ 10|9|COORD 11|10|CONJ 12|11|COORD 13|1|PUNCT
+*MUT:	jo wa mache mr noch ?
+%mor:	?|jo ?|wa ?|mache ?|mr ?|noch ?
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|1|PUNCT
+*CHI:	des woiss i au idda .
+%mor:	?|des ?|woiss n:let|i ?|au ?|idda .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|1|PUNCT
+*CHI:	des isch dr Kamin .
+%mor:	?|des ?|isch ?|dr n:prop|Kamin .
+%gra:	1|0|INCROOT 2|1|NJCT 3|4|MOD 4|2|POBJ 5|1|PUNCT
+*MUT:	guck i hau denkt , du mol schnell ra .
+%mor:	co|guck n:let|i ?|hau ?|denkt cm|cm ?|du ?|mol ?|schnell ?|ra .
+%gra:	1|2|COM 2|0|ROOT 3|2|CONJ 4|3|COORD 5|4|LP 6|4|ENUM 7|6|COORD 8|7|CONJ
+	9|8|COORD 10|2|PUNCT
+*MUT:	mh des muss ma des muss broiter werra musch .
+%mor:	?|mh ?|des v|muss n|ma ?|des v|muss ?|broiter ?|werra ?|musch .
+%gra:	1|6|LINK 2|3|SUBJ 3|6|CJCT 4|3|OBJ 5|6|SUBJ 6|0|ROOT 7|6|JCT 8|9|MOD
+	9|7|POBJ 10|6|PUNCT
+*MUT:	ja so genau !
+%mor:	co|ja adv|so ?|genau !
+%gra:	1|3|COM 2|3|JCT 3|0|INCROOT 4|3|PUNCT
+*CHI:	Leut do braucht ma duennere do braucht ma duennere <fuer die> [/]
+	fuer die duennere .
+%mor:	n:prop|Leut v|do ?|braucht n|ma ?|duennere v|do ?|braucht n|ma
+	?|duennere ?|fuer n|die ?|duennere .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|MOD 4|2|OBJ 5|6|SUBJ 6|2|COMP 7|12|DET 8|12|MOD
+	9|12|MOD 10|12|MOD 11|12|MOD 12|6|OBJ 13|2|PUNCT
+*MUT:	mh sitzableiba .
+%mor:	?|mh ?|sitzableiba .
+%gra:	1|0|INCROOT 2|1|ENUM 3|1|PUNCT
+*CHI:	was ?
+%mor:	cop|be&PAST&13S ?
+%gra:	1|0|ROOT 2|1|PUNCT
+*MUT:	du musch sitzableiba .
+%mor:	?|du ?|musch ?|sitzableiba .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|1|PUNCT
+*CHI:	0 [=! fluestert] .
+*MUT:	so odr ?
+%mor:	adv|so ?|odr ?
+%gra:	1|2|JCT 2|0|INCROOT 3|2|PUNCT
+*CHI:	dww ja .
+%mor:	?|dww co|ja .
+%gra:	1|0|INCROOT 2|1|COM 3|1|PUNCT
+*CHI:	hoi [/] hoi !
+%mor:	?|hoi !
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	hm des roicht noida .
+%mor:	co|hm ?|des ?|roicht ?|noida .
+%gra:	1|2|COM 2|0|ROOT 3|2|CONJ 4|3|COORD 5|2|PUNCT
+*CHI:	au ohoh !
+%mor:	?|au ?|ohoh !
+%gra:	1|0|INCROOT 2|1|OM 3|1|PUNCT
+*MUT:	nomol oine na !
+%mor:	?|nomol ?|oine co|na !
+%gra:	1|0|INCROOT 2|1|OM 3|2|COM 4|1|PUNCT
+*CHI:	auf dr andra Seita .
+%mor:	?|auf ?|dr ?|andra n:prop|Seita .
+%gra:	1|0|INCROOT 2|1|NJCT 3|4|MOD 4|2|POBJ 5|1|PUNCT
+*MUT:	do mol des zua de , id [/] id du mosch sitzableiba !
+%mor:	mod|do ?|mol ?|des ?|zua det:art|the&aae cm|cm n|id ?|du ?|mosch
+	?|sitzableiba !
+%gra:	1|2|AUX 2|0|ROOT 3|2|OM 4|3|OM 5|8|DET 6|5|LP 7|8|MOD 8|4|OM 9|8|PRED
+	10|9|OM 11|2|PUNCT
+*CHI:	wia soll i des do macha ?
+%mor:	?|wia ?|soll n:let|i ?|des v|do ?|macha ?
+%gra:	1|5|LINK 2|5|SUBJ 3|5|AUX 4|5|SUBJ 5|0|ROOT 6|5|OBJ 7|5|PUNCT
+*MUT:	druebr .
+%mor:	?|druebr .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	guck so .
+%mor:	co|guck co|so .
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*CHI:	ah gib mol nomol ois .
+%mor:	co|ah ?|gib ?|mol ?|nomol ?|ois .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|1|PUNCT
+*CHI:	etzt muss es abr bassa .
+%mor:	?|etzt v|muss ?|es ?|abr ?|bassa .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|3|CONJ 5|4|COORD 6|2|PUNCT
+*CHI:	des isch so a grosses Deng ge Mama !
+%mor:	?|des ?|isch co|so det:art|a v|gross-3S n:prop|Deng ?|ge
+	n:prop|Mama !
+%gra:	1|2|NJCT 2|0|ROOT 3|5|COM 4|5|DET 5|2|COMP 6|5|OBJ 7|6|OM 8|7|OM
+	9|2|PUNCT
+*CHI:	des haut s om .
+%mor:	?|des ?|haut n:let|s ?|om .
+%gra:	1|0|INCROOT 2|1|POSTMOD 3|2|CONJ 4|3|COORD 5|1|PUNCT
+*MUT:	mh des muess mr etzt andersch macha des basst so it .
+%mor:	?|mh ?|des ?|muess ?|mr ?|etzt ?|andersch ?|macha ?|des ?|basst
+	adv|so pro:per|it .
+%gra:	1|0|INCROOT 2|1|POBJ 3|2|NJCT 4|3|POBJ 5|4|NJCT 6|5|POBJ 7|6|NJCT
+	8|7|POBJ 9|8|NJCT 10|11|JCT 11|9|POBJ 12|1|PUNCT
+*MUT:	odr ?
+%mor:	?|odr ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	i woiss es etz isch s bessr .
+%mor:	n:let|i ?|woiss ?|es ?|etz ?|isch n:let|s ?|bessr .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|5|CONJ 7|6|COORD
+	8|1|PUNCT
+*CHI:	hallo !
+%mor:	?|hallo !
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	schee odr !
+%mor:	?|schee ?|odr !
+%gra:	1|0|INCROOT 2|1|OM 3|1|PUNCT
+*CHI:	guck [/] guck vor allem no zuabaua .
+%mor:	co|guck ?|vor ?|allem co|no ?|zuabaua .
+%gra:	1|2|COM 2|0|ROOT 3|2|CONJ 4|5|COM 5|3|COORD 6|2|PUNCT
+*CHI:	dua des Dach no zuabaua .
+%mor:	?|dua ?|des n:prop|Dach qn|no ?|zuabaua .
+%gra:	1|0|INCROOT 2|1|NJCT 3|2|POBJ 4|5|QUANT 5|3|OBJ 6|1|PUNCT
+*MUT:	mh des hebt wahrscheinlich id .
+%mor:	?|mh ?|des ?|hebt ?|wahrscheinlich n|id .
+%gra:	1|5|MOD 2|5|MOD 3|5|MOD 4|5|MOD 5|0|INCROOT 6|5|PUNCT
+*CHI:	ich dur s Dach zuabaua .
+%mor:	?|ich ?|dur n:let|s n:prop|Dach ?|zuabaua .
+%gra:	1|5|LINK 2|5|MOD 3|5|MOD 4|5|MOD 5|0|ROOT 6|5|PUNCT
+*MUT:	muss jo Luft sonsch hon se jo gar koi Luft !
+%mor:	v|muss ?|jo n:prop|Luft ?|sonsch n|hon ?|se ?|jo ?|gar n|koi
+	n:prop|Luft !
+%gra:	1|0|ROOT 2|1|OBJ 3|4|SUBJ 4|2|CONJ 5|4|COORD 6|5|CONJ 7|6|COORD
+	8|10|MOD 9|10|MOD 10|7|OM 11|1|PUNCT
+*CHI:	des isch des Dach do hazuabaua .
+%mor:	?|des ?|isch ?|des n:prop|Dach v|do ?|hazuabaua .
+%gra:	1|5|LINK 2|5|SUBJ 3|5|AUX 4|5|SUBJ 5|0|ROOT 6|5|OBJ 7|5|PUNCT
+*MUT:	hebt glaub idda des .
+%mor:	?|hebt ?|glaub ?|idda ?|des .
+%gra:	1|0|INCROOT 2|1|POSTMOD 3|2|CONJ 4|3|COORD 5|1|PUNCT
+*CHI:	0 [=! fluestert] .
+*CHI:	des sind wiedr dia Messer Mama ge .
+%mor:	?|des ?|sind ?|wiedr ?|dia n:prop|Messer n:prop|Mama ?|ge .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|7|LINK 5|6|MOD 6|7|SUBJ 7|3|COMP
+	8|1|PUNCT
+*CHI:	abr dia do schneidr mr etzt Mama .
+%mor:	?|abr ?|dia v|do ?|schneidr ?|mr ?|etzt n:prop|Mama .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|4|POSTMOD 6|5|NJCT 7|6|POBJ
+	8|3|PUNCT
+*CHI:	Mama des do schneidr mr etzt Mama .
+%mor:	n:prop|Mama ?|des v|do ?|schneidr ?|mr ?|etzt n:prop|Mama .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|4|NJCT 6|7|MOD 7|5|POBJ 8|3|PUNCT
+*CHI:	des do schneidr mr etzt .
+%mor:	?|des v|do ?|schneidr ?|mr ?|etzt .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|3|CONJ 5|4|COORD 6|2|PUNCT
+*MUT:	jae .
+%mor:	?|jae .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	des hebt idda .
+%mor:	?|des ?|hebt ?|idda .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|1|PUNCT
+*CHI:	0 [=! macht Saegegeraeusch] .
+*MUT:	do isch dr Brunna .
+%mor:	mod|do ?|isch ?|dr n:prop|Brunna .
+%gra:	1|2|AUX 2|0|ROOT 3|2|NJCT 4|3|POBJ 5|2|PUNCT
+*CHI:	i dua , i verschneid s grad .
+%mor:	n:let|i ?|dua cm|cm n:let|i ?|verschneid n:let|s n|grad .
+%gra:	1|0|INCROOT 2|1|ENUM 3|2|LP 4|7|MOD 5|7|MOD 6|7|MOD 7|2|ENUM 8|1|PUNCT
+*MUT:	jetzt kummat dia Baeume .
+%mor:	?|jetzt ?|kummat ?|dia n:prop|Baeume .
+%gra:	1|0|INCROOT 2|1|NJCT 3|4|MOD 4|2|POBJ 5|1|PUNCT
+*MUT:	wo soll mr dia Baeume na ?
+%mor:	?|wo ?|soll ?|mr ?|dia n:prop|Baeume co|na ?
+%gra:	1|0|INCROOT 2|1|JCT 3|2|POBJ 4|3|NJCT 5|4|POBJ 6|5|COM 7|1|PUNCT
+*CHI:	so des isch etzt verschnidda krch .
+%mor:	co|so ?|des ?|isch ?|etzt ?|verschnidda ?|krch .
+%gra:	1|2|COM 2|0|ROOT 3|2|CONJ 4|3|COORD 5|4|CONJ 6|5|COORD 7|2|PUNCT
+*CHI:	des isch jetzt verschnidda des Teil do .
+%mor:	?|des ?|isch ?|jetzt ?|verschnidda ?|des n:prop|Teil v|do .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|7|SUBJ 7|5|COMP
+	8|1|PUNCT
+*CHI:	die Baeume ?
+%mor:	n|die n:prop|Baeume ?
+%gra:	1|2|MOD 2|0|ROOT 3|2|PUNCT
+*CHI:	aeh da Tannenbaum her taehae .
+%mor:	?|aeh det:art|the&aae n:prop|Tannenbaum det:poss|her ?|taehae .
+%gra:	1|0|INCROOT 2|3|DET 3|1|OBJ 4|5|DET 5|3|OBJ 6|1|PUNCT
+*MUT:	ja des isch doch schee odr ?
+%mor:	co|ja ?|des ?|isch ?|doch ?|schee ?|odr ?
+%gra:	1|2|COM 2|0|ROOT 3|2|CONJ 4|3|COORD 5|4|CONJ 6|5|COORD 7|2|PUNCT
+*CHI:	was isch denn des ?
+%mor:	cop|be&PAST&13S ?|isch adv|then&aaep ?|des ?
+%gra:	1|0|ROOT 2|1|PRED 3|4|JCT 4|2|OM 5|1|PUNCT
+*CHI:	des sin Lampa !
+%mor:	?|des n|sin n:prop|Lampa !
+%gra:	1|0|INCROOT 2|3|MOD 3|1|OM 4|1|PUNCT
+*MUT:	do kenn mr au no a Haus nabaua .
+%mor:	mod|do ?|kenn ?|mr ?|au co|no det:art|a n:prop|Haus ?|nabaua .
+%gra:	1|0|INCROOT 2|1|CONJ 3|4|NJCT 4|2|COORD 5|8|COM 6|8|DET 7|8|MOD
+	8|4|COMP 9|1|PUNCT
+*CHI:	Mama des sind Lampa Mama Lampa .
+%mor:	n:prop|Mama ?|des ?|sind n:prop|Lampa n:prop|Mama n:prop|Lampa .
+%gra:	1|2|SUBJ 2|6|NAME 3|6|NAME 4|5|NAME 5|6|NAME 6|0|ROOT 7|6|PUNCT
+*CHI:	du Lampa hon e .
+%mor:	?|du n:prop|Lampa n|hon n:let|e .
+%gra:	1|3|MOD 2|3|MOD 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
+*MUT:	Lampa jo .
+%mor:	n:prop|Lampa ?|jo .
+%gra:	1|2|SUBJ 2|0|INCROOT 3|2|PUNCT
+*MUT:	sonsch sieht ma nachts nix .
+%mor:	?|sonsch ?|sieht n|ma ?|nachts v|nix .
+%gra:	1|5|LINK 2|3|MOD 3|5|JCT 4|5|SUBJ 5|0|ROOT 6|5|PUNCT
+*CHI:	dua se grad alle nabaua .
+%mor:	?|dua ?|se n|grad ?|alle ?|nabaua .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|1|PUNCT
+*CHI:	nomol welche .
+%mor:	?|nomol ?|welche .
+%gra:	1|0|INCROOT 2|1|ENUM 3|1|PUNCT
+*MUT:	nomol a Haus .
+%mor:	?|nomol det:art|a n:prop|Haus .
+%gra:	1|0|INCROOT 2|3|DET 3|1|OBJ 4|1|PUNCT
+*CHI:	xxx des isch au , des isch a Nachtischlamp Mama !
+%mor:	?|des ?|isch ?|au cm|cm ?|des ?|isch det:art|a n:prop|Nachtischlamp
+	n:prop|Mama !
+%gra:	1|9|LINK 2|9|NAME 3|9|NAME 4|3|LP 5|9|NAME 6|9|NAME 7|8|DET 8|9|NAME
+	9|0|ROOT 10|9|PUNCT
+*CHI:	Nachtischlamp .
+%mor:	n:prop|Nachtischlamp .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	du kriagsch au a Haus .
+%mor:	?|du ?|kriagsch ?|au det:art|a n:prop|Haus .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|5|DET 5|3|OBJ 6|1|PUNCT
+*MUT:	a Nachtischlampe ?
+%mor:	det:art|a n:prop|Nachtischlampe ?
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
+*CHI:	ja ka ma irgendwo neibaua .
+%mor:	co|ja ?|ka n|ma ?|irgendwo ?|neibaua .
+%gra:	1|3|COM 2|3|MOD 3|0|INCROOT 4|3|CONJ 5|4|COORD 6|3|PUNCT
+*MUT:	ja klar !
+%mor:	co|ja ?|klar !
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*MUT:	dass ma was sieht nachts .
+%mor:	?|dass n|ma cop|be&PAST&13S ?|sieht ?|nachts .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|MOD 5|3|PRED 6|3|PUNCT
+*CHI:	stemmt haehae .
+%mor:	?|stemmt ?|haehae .
+%gra:	1|0|INCROOT 2|1|ENUM 3|1|PUNCT
+*CHI:	witzig .
+%mor:	?|witzig .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	xxx .
+*MUT:	guck des isch dr Herd .
+%mor:	co|guck ?|des ?|isch ?|dr n:prop|Herd .
+%gra:	1|2|COM 2|0|ROOT 3|2|NJCT 4|5|MOD 5|3|POBJ 6|2|PUNCT
+*CHI:	eija .
+%mor:	?|eija .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	den kasch au mit neibaua .
+%mor:	n|den ?|kasch ?|au ?|mit ?|neibaua .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|1|PUNCT
+*CHI:	abr i moss des no so bohra dass des weiter auseinander .
+%mor:	?|abr n:let|i n|moss ?|des co|no adv|so ?|bohra ?|dass ?|des
+	?|weiter ?|auseinander .
+%gra:	1|0|INCROOT 2|3|MOD 3|4|MOD 4|1|COMP 5|7|COM 6|7|JCT 7|4|CONJ 8|7|COORD
+	9|8|CONJ 10|11|MOD 11|9|COORD 12|1|PUNCT
+*MUT:	mh .
+%mor:	?|mh .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	so dua i des so macha .
+%mor:	adv|so ?|dua n:let|i ?|des adv|so ?|macha .
+%gra:	1|2|JCT 2|0|INCROOT 3|2|PRED 4|3|CONJ 5|6|JCT 6|4|COORD 7|2|PUNCT
+*CHI:	wo isch dr Herd jetzt ?
+%mor:	?|wo ?|isch ?|dr n:prop|Herd ?|jetzt ?
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|1|PUNCT
+*CHI:	dass mr den au neibohra kennat .
+%mor:	?|dass ?|mr n|den ?|au ?|neibohra ?|kennat .
+%gra:	1|0|INCROOT 2|3|MOD 3|1|OBJ 4|3|POSTMOD 5|4|CONJ 6|5|COORD 7|1|PUNCT
+*CHI:	i muass dann natuerle au no Luft kriaga Mama !
+%mor:	n:let|i ?|muass ?|dann ?|natuerle ?|au co|no n:prop|Luft ?|kriaga
+	n:prop|Mama !
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|7|COM 7|5|OM 8|7|OM
+	9|8|OM 10|1|PUNCT
+*CHI:	wiedr .
+%mor:	?|wiedr .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	mh .
+%mor:	?|mh .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	xxx .
+*CHI:	so a bissle so [/] so ka ma scho nahocka .
+%mor:	co|so det:art|a ?|bissle adv|so ?|ka n|ma ?|scho ?|nahocka .
+%gra:	1|3|COM 2|3|DET 3|0|INCROOT 4|5|JCT 5|3|ENUM 6|5|OBJ 7|6|CONJ 8|7|COORD
+	9|3|PUNCT
+*MUT:	guck des isch an Trinkbecher oder ?
+%mor:	co|guck ?|des ?|isch det:art|a n:prop|Trinkbecher ?|oder ?
+%gra:	1|2|COM 2|0|ROOT 3|6|LINK 4|5|DET 5|6|SUBJ 6|2|OM 7|2|PUNCT
+*MUT:	ka des sei ?
+%mor:	?|ka ?|des ?|sei ?
+%gra:	1|0|INCROOT 2|1|OM 3|2|OM 4|1|PUNCT
+*CHI:	so Mami i hon s etzt weitr auseinander gmacht .
+%mor:	co|so n:prop|Mami n:let|i n|hon n:let|s ?|etzt ?|weitr
+	?|auseinander ?|gmacht .
+%gra:	1|4|COM 2|4|MOD 3|4|MOD 4|0|INCROOT 5|4|CONJ 6|5|COORD 7|6|CONJ 8|9|MOD
+	9|7|COORD 10|4|PUNCT
+*CHI:	Trinkbecher .
+%mor:	n:prop|Trinkbecher .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	Mama was willsch du en dei Haus nei Mame ?
+%mor:	n:prop|Mama cop|be&PAST&13S ?|willsch ?|du co|en ?|dei n:prop|Haus
+	?|nei n:prop|Mame ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|3|CONJ 5|4|COORD 6|5|CONJ 7|6|COORD
+	8|7|CONJ 9|8|COORD 10|2|PUNCT
+*CHI:	du derfsch als .
+%mor:	?|du ?|derfsch ?|als .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|1|PUNCT
+*MUT:	i mecht au was suacha .
+%mor:	n:let|i ?|mecht ?|au cop|be&PAST&13S ?|suacha .
+%gra:	1|0|INCROOT 2|4|LINK 3|4|SUBJ 4|1|COMP 5|4|PRED 6|1|PUNCT
+*CHI:	hae ?
+%mor:	?|hae ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	was soll i neimacha ?
+%mor:	cop|be&PAST&13S ?|soll n:let|i ?|neimacha ?
+%gra:	1|0|ROOT 2|1|PRED 3|2|OM 4|3|OM 5|1|PUNCT
+*CHI:	irgendwas xxx .
+%mor:	?|irgendwas .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	i moss amol suacha .
+%mor:	n:let|i n|moss ?|amol ?|suacha .
+%gra:	1|0|INCROOT 2|1|OBJ 3|2|CONJ 4|3|COORD 5|1|PUNCT
+*CHI:	etzt mach , etzt bau mr en .
+%mor:	?|etzt ?|mach cm|cm ?|etzt ?|bau ?|mr co|en .
+%gra:	1|0|INCROOT 2|1|ENUM 3|2|LP 4|1|ENUM 5|4|NJCT 6|5|POBJ 7|6|COM
+	8|1|PUNCT
+*MUT:	au en Trinkbecher .
+%mor:	?|au co|en n:prop|Trinkbecher .
+%gra:	1|3|LINK 2|3|COM 3|0|INCROOT 4|3|PUNCT
+*CHI:	abr wer braucht die Nachtischlaemple , i [/] i brauch doch no a
+	Nachtischlaemple .
+%mor:	?|abr ?|wer ?|braucht n|die n:prop|Nachtischlaemple cm|cm n:let|i
+	?|brauch ?|doch co|no det:art|a n:prop|Nachtischlaemple .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|5|MOD 5|3|APP 6|5|LP 7|3|CONJ
+	8|7|COORD 9|8|CONJ 10|12|COM 11|12|DET 12|9|COORD 13|1|PUNCT
+*MUT:	kriag i au no oina ?
+%mor:	?|kriag n:let|i ?|au qn|no ?|oina ?
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|5|QUANT 5|3|OM 6|1|PUNCT
+*CHI:	wenn no oina do isch .
+%mor:	?|wenn co|no ?|oina v|do ?|isch .
+%gra:	1|4|LINK 2|4|COM 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*CHI:	wo hosch du deina ?
+%mor:	?|wo ?|hosch ?|du ?|deina ?
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|OM 5|1|PUNCT
+*CHI:	do mol deina en dei Haus nei !
+%mor:	mod|do ?|mol ?|deina co|en ?|dei n:prop|Haus ?|nei !
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|7|COM 5|7|COM 6|7|SUBJ 7|3|OM
+	8|1|PUNCT
+*CHI:	i such se nomol .
+%mor:	n:let|i qn|such ?|se ?|nomol .
+%gra:	1|0|INCROOT 2|3|QUANT 3|1|CONJ 4|3|COORD 5|1|PUNCT
+*MUT:	do isch nomol oina .
+%mor:	mod|do ?|isch ?|nomol ?|oina .
+%gra:	1|2|AUX 2|0|ROOT 3|2|CONJ 4|3|COORD 5|2|PUNCT
+*CHI:	ge dia kommt do nei .
+%mor:	?|ge ?|dia ?|kommt v|do ?|nei .
+%gra:	1|0|INCROOT 2|4|LINK 3|4|SUBJ 4|1|COMP 5|4|OBJ 6|1|PUNCT
+*CHI:	odr dia kommt do nei ?
+%mor:	?|odr ?|dia ?|kommt v|do ?|nei ?
+%gra:	1|4|LINK 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|PUNCT
+*MUT:	so .
+%mor:	co|so .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	ja .
+%mor:	co|ja .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	dr Baum .
+%mor:	?|dr n:prop|Baum .
+%gra:	1|0|INCROOT 2|1|OBJ 3|1|PUNCT
+*CHI:	ja xxx .
+%mor:	co|ja .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	dr kleine Minibaum .
+%mor:	?|dr ?|kleine n:prop|Minibaum .
+%gra:	1|0|INCROOT 2|1|NJCT 3|2|POBJ 4|1|PUNCT
+*CHI:	ond dr s kleines Daechle !
+%mor:	?|ond ?|dr n:let|s ?|kleines n:prop|Daechle !
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|1|PUNCT
+*MUT:	guck do kenntasch au no a Dach naufmacha .
+%mor:	co|guck v|do ?|kenntasch ?|au co|no det:art|a n:prop|Dach
+	?|naufmacha .
+%gra:	1|2|COM 2|0|ROOT 3|4|NJCT 4|2|OBJ 5|8|COM 6|7|DET 7|8|SUBJ 8|4|ENUM
+	9|2|PUNCT
+*CHI:	gib her , was isch des fuer ois ?
+%mor:	?|gib pro:obj|her cm|cm cop|be&PAST&13S ?|isch ?|des ?|fuer ?|ois ?
+%gra:	1|4|LINK 2|4|SUBJ 3|2|LP 4|0|ROOT 5|4|PRED 6|5|OM 7|6|OM 8|7|OM
+	9|4|PUNCT
+*CHI:	hae !
+%mor:	?|hae !
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	odr do des isch au no .
+%mor:	?|odr v|do ?|des ?|isch ?|au co|no .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|3|CONJ 5|4|COORD 6|5|COM 7|2|PUNCT
+*CHI:	des isch was anderes die xxx .
+%mor:	?|des ?|isch cop|be&PAST&13S ?|anderes n|die .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|MOD 5|3|PRED 6|3|PUNCT
+*MUT:	moss ma so rom nadoa ?
+%mor:	n|moss n|ma adv|so ?|rom ?|nadoa ?
+%gra:	1|2|MOD 2|0|ROOT 3|4|JCT 4|2|CONJ 5|4|COORD 6|2|PUNCT
+*CHI:	ja .
+%mor:	co|ja .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	des isch a Blumalaedele .
+%mor:	?|des ?|isch det:art|a n:prop|Blumalaedele .
+%gra:	1|0|INCROOT 2|1|NJCT 3|4|DET 4|2|POBJ 5|1|PUNCT
+*CHI:	des isch nomol <a Dach> [/] a Dach .
+%mor:	?|des ?|isch ?|nomol det:art|a n:prop|Dach .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|5|DET 5|3|OBJ 6|1|PUNCT
+*MUT:	guck .
+%mor:	co|guck .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	Dach .
+%mor:	n:prop|Dach .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	so .
+%mor:	co|so .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	ja hihi des sieht witzig aus !
+%mor:	co|ja ?|hihi ?|des ?|sieht ?|witzig ?|aus !
+%gra:	1|2|COM 2|0|ROOT 3|2|CONJ 4|3|COORD 5|4|CONJ 6|5|COORD 7|2|PUNCT
+*CHI:	ge Mama .
+%mor:	?|ge n:prop|Mama .
+%gra:	1|0|INCROOT 2|1|OBJ 3|1|PUNCT
+*MUT:	mh .
+%mor:	?|mh .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	jetzt brauch mr no Kuehe brauch mr no .
+%mor:	?|jetzt ?|brauch ?|mr co|no n:prop|Kuehe ?|brauch ?|mr co|no .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|5|COM 5|3|COMP 6|5|CONJ 7|6|COORD
+	8|7|COM 9|1|PUNCT
+*MUT:	jo eaba .
+%mor:	?|jo ?|eaba .
+%gra:	1|0|INCROOT 2|1|ENUM 3|1|PUNCT
+*CHI:	ond wo hot s .
+%mor:	?|ond ?|wo adj|hot n:let|s .
+%gra:	1|0|INCROOT 2|1|CONJ 3|4|MOD 4|2|COORD 5|1|PUNCT
+*CHI:	xxx .
+*CHI:	was isch des ?
+%mor:	cop|be&PAST&13S ?|isch ?|des ?
+%gra:	1|0|ROOT 2|1|PRED 3|2|OM 4|1|PUNCT
+*CHI:	des kenna mr au nemma .
+%mor:	?|des ?|kenna ?|mr ?|au ?|nemma .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|1|PUNCT
+*MUT:	des isch en Brunna .
+%mor:	?|des ?|isch co|en n:prop|Brunna .
+%gra:	1|0|INCROOT 2|1|CONJ 3|4|COM 4|2|COORD 5|1|PUNCT
+*CHI:	ja do brauch mr etzt no a klois Eimerle .
+%mor:	co|ja v|do ?|brauch ?|mr ?|etzt co|no det:art|a ?|klois
+	n:prop|Eimerle .
+%gra:	1|2|COM 2|0|ROOT 3|2|OBJ 4|3|CONJ 5|4|COORD 6|9|COM 7|9|DET 8|9|MOD
+	9|5|COMP 10|2|PUNCT
+*CHI:	war mol letzschdes Johr so a klois Eimerle neibaut ge .
+%mor:	v|war ?|mol ?|letzschdes n:prop|Johr conj|so det:art|a ?|klois
+	n:prop|Eimerle ?|neibaut ?|ge .
+%gra:	1|0|ROOT 2|1|OBJ 3|2|NJCT 4|3|POBJ 5|1|JCT 6|7|DET 7|5|POBJ 8|7|OBJ
+	9|8|CONJ 10|9|COORD 11|1|PUNCT
+*MUT:	hamr s , guck amol .
+%mor:	?|hamr n:let|s cm|cm co|guck ?|amol .
+%gra:	1|0|INCROOT 2|1|PUNCT 3|2|LP 4|5|COM 5|2|INCROOT 6|5|PUNCT
+*MUT:	des woiss i nemme .
+%mor:	?|des ?|woiss n:let|i ?|nemme .
+%gra:	1|0|INCROOT 2|1|POSTMOD 3|2|CONJ 4|3|COORD 5|1|PUNCT
+*CHI:	irgend so a runds Ding war des .
+%mor:	?|irgend co|so det:art|a ?|runds n:prop|Ding n|war ?|des .
+%gra:	1|0|INCROOT 2|6|COM 3|6|DET 4|6|MOD 5|6|MOD 6|1|ENUM 7|6|POSTMOD
+	8|1|PUNCT
+*MUT:	echt ?
+%mor:	?|echt ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	ei <i hau s> [/] i hau s !
+%mor:	?|ei n:let|i ?|hau n:let|s !
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|OM 5|1|PUNCT
+*CHI:	a kleis Haeusle xxx .
+%mor:	det:art|a ?|kleis n:prop|Haeusle .
+%gra:	1|3|DET 2|3|MOD 3|0|INCROOT 4|3|PUNCT
+*MUT:	i glaub des .
+%mor:	n:let|i ?|glaub ?|des .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|1|PUNCT
+*CHI:	muss gucka wo s .
+%mor:	v|muss ?|gucka ?|wo n:let|s .
+%gra:	1|0|ROOT 2|1|OBJ 3|2|CONJ 4|3|COORD 5|1|PUNCT
+*MUT:	guck [/] guck .
+%mor:	co|guck .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	ja desen Eimer !
+%mor:	co|ja ?|desen n:prop|Eimer !
+%gra:	1|2|COM 2|0|ROOT 3|2|OM 4|2|PUNCT
+*MUT:	hae ?
+%mor:	?|hae ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+*CHI:	ja desen .
+%mor:	co|ja ?|desen .
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
+*MUT:	ond do hamr no meh .
+%mor:	?|ond v|do ?|hamr co|no co|meh&sing=emphasis .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT 4|5|COM 5|3|INCROOT 6|5|PUNCT
+*CHI:	i such des .
+%mor:	n:let|i qn|such ?|des .
+%gra:	1|3|LINK 2|3|QUANT 3|0|INCROOT 4|3|PUNCT
+*MUT:	guck do !
+%mor:	co|guck v|do !
+%gra:	1|2|COM 2|0|ROOT 3|2|PUNCT
+*MUT:	do dua mr des nei .
+%mor:	mod|do ?|dua ?|mr ?|des ?|nei .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|3|CONJ 5|4|COORD 6|1|PUNCT
+*CHI:	i .
+%mor:	n:let|i .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	mechscht au no en Brunna an dei Haus ?
+%mor:	?|mechscht ?|au co|no co|en n:prop|Brunna det:art|a ?|dei
+	n:prop|Haus ?
+%gra:	1|0|INCROOT 2|1|CONJ 3|5|COM 4|5|COM 5|2|COORD 6|7|DET 7|5|OM 8|7|OM
+	9|1|PUNCT
+*CHI:	ja .
+%mor:	co|ja .
+%gra:	1|0|INCROOT 2|1|PUNCT
+*MUT:	zom Wasserhola .
+%mor:	?|zom n:prop|Wasserhola .
+%gra:	1|0|INCROOT 2|1|OBJ 3|1|PUNCT
+*CHI:	i hab scho ois so was .
+%mor:	n:let|i ?|hab ?|scho ?|ois adv|so cop|be&PAST&13S .
+%gra:	1|0|INCROOT 2|1|ENUM 3|6|LINK 4|6|SUBJ 5|6|JCT 6|2|COMP 7|1|PUNCT
+*CHI:	do braucht ma abr no was .
+%mor:	mod|do ?|braucht n|ma ?|abr co|no cop|be&PAST&13S .
+%gra:	1|3|AUX 2|3|MOD 3|0|INCROOT 4|3|POSTMOD 5|6|COM 6|4|COMP 7|3|PUNCT
+*CHI:	xxx .
+*MUT:	koiner meh do ?
+%mor:	?|koiner co|meh&sing=emphasis v|do ?
+%gra:	1|3|LINK 2|3|COM 3|0|ROOT 4|3|PUNCT
+*CHI:	ja koiner mehr .
+%mor:	co|ja ?|koiner ?|mehr .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|1|PUNCT
+*MUT:	no nemma mr etzt mol dia Kuehe raus .
+%mor:	co|no ?|nemma ?|mr ?|etzt ?|mol ?|dia n:prop|Kuehe ?|raus .
+%gra:	1|0|INCROOT 2|1|PUNCT 3|2|INCROOT 4|3|INCROOT 5|4|INCROOT 6|8|LINK
+	7|8|SUBJ 8|5|INCROOT 9|8|PUNCT
+*MUT:	do isch no en Brunna !
+%mor:	v|do ?|isch co|no co|en n:prop|Brunna !
+%gra:	1|0|ROOT 2|1|OBJ 3|5|COM 4|5|COM 5|2|OM 6|1|PUNCT
+*CHI:	ich als xxx .
+%mor:	?|ich ?|als .
+%gra:	1|0|INCROOT 2|1|ENUM 3|1|PUNCT
+*MUT:	hae ?
+%mor:	?|hae ?
+%gra:	1|0|INCROOT 2|1|PUNCT
+@End

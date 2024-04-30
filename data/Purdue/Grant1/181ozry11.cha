@@ -15,247 +15,358 @@
 @Types:	long, interview, CWS
 *CHI:	golds .
 %mor:	n|gold-PL .
+%gra:	1|0|INCROOT 2|1|PUNCT
 %com:	error in plural usage ., CHI uses nonspeech sounds frequently (animals, etc .) .
 *CHI:	a [/] a boat .
 %mor:	det:art|a n|boat .
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
 %com:	BATHROOM BREAK, TRACK RESTARTS, dad asks many questions, CHI often doesn't respond .
 *CHI:	[^ dp] a xxx +/.
 %mor:	det:art|a +/.
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	the [^ dp] slide .
 %mor:	det:art|the n|slide .
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
 %com:	long prolongation on l in slide .
 *CHI:	spank me .
 %mor:	v|spank pro:obj|me .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
 *CHI:	mommy .
 %mor:	n|mommy .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	hotel .
 %mor:	n|hotel .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	yes [^ dp] daddy .
 %mor:	co|yes n|daddy .
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
 %com:	prolongation on vowel a in daddy .
 *CHI:	hey this xxx .
 %mor:	co|hey pro:dem|this .
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
 *CHI:	this .
 %mor:	pro:dem|this .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	[^ dp] a [^ dp] ladder .
 %mor:	det:art|a n|ladder .
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
 *CHI:	hey, no shoes .
 %mor:	co|hey cm|cm qn|no n|shoe-PL .
+%gra:	1|4|COM 2|1|LP 3|4|QUANT 4|0|INCROOT 5|4|PUNCT
 *CHI:	ray .
 %mor:	n|ray .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	uhuh the [/] the [^ dp] picture .
 %mor:	co|uhuh det:art|the n|picture .
+%gra:	1|3|COM 2|3|DET 3|0|INCROOT 4|3|PUNCT
 %com:	dad repeats CHI's utterances .
 *CHI:	john Sina .
 %mor:	n|john n:prop|Sina .
+%gra:	1|2|MOD 2|0|ROOT 3|2|PUNCT
 *CHI:	[^ dp] Randy_Orton .
 %mor:	n:prop|Randy_Orton .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	big show .
 %mor:	adj|big n|show .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
 *CHI:	[^ dp] triple h@l .
 %mor:	n|triple n:let|h .
+%gra:	1|2|MOD 2|0|ROOT 3|2|PUNCT
 *CHI:	[^ dp] and Cain .
 %mor:	coord|and n:prop|Cain .
+%gra:	1|2|LINK 2|0|INCROOT 3|2|PUNCT
 *CHI:	xxx .
 *CHI:	there's &-uh xxx +...
 %mor:	pro:exist|there~cop|be&3S +...
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
 *CHI:	hard to get it open .
 %mor:	adv|hard inf|to v|get pro:per|it adj|open .
+%gra:	1|0|INCROOT 2|3|INF 3|1|COMP 4|3|OBJ 5|3|JCT 6|1|PUNCT
 *CHI:	[^ dp] eagle .
 %mor:	n|eagle .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	[^ dp] binoculars .
 %mor:	n|binocular-PL .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	hey there's a xxx .
 %mor:	co|hey pro:exist|there~cop|be&3S det:art|a .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|3|PUNCT
 %com:	SPEAKiNG QUiETLY
 *CHI:	[^ dp] camera .
 %mor:	n|camera .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	tiger .
 %mor:	n|tiger .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	[^ dp] tiger .
 %mor:	n|tiger .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	awesome xxx .
 %mor:	adj|awesome .
+%gra:	1|0|INCROOT 2|1|PUNCT
 %com:	CHI AW .
 *CHI:	mine is too .
 %mor:	n|mine cop|be&3S adv|too .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|2|PUNCT
 *CHI:	mine .
 %mor:	pro:poss|mine .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	the sea .
 %mor:	det:art|the n|sea .
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
 *CHI:	[^ dp] ↫h↫Hiltonhead .
 %mor:	n:prop|Hiltonhead .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	[^ dp] salty dog .
 %mor:	adj|salt&dn-Y n|dog .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
 *CHI:	[^ dp] ice cream .
 %mor:	n|ice n|cream .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
 *CHI:	grandma .
 %mor:	grand#n|ma .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	you .
 %mor:	pro:per|you .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	pans .
 %mor:	n|pan-PL .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	snake .
 %mor:	n|snake .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	daddy you knocked it down .
 %mor:	n|daddy pro:per|you v|knock-PAST pro:per|it adv|down .
+%gra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|JCT 6|3|PUNCT
 *CHI:	you knocked it down .
 %mor:	pro:per|you v|knock-PAST pro:per|it adv|down .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|JCT 5|2|PUNCT
 %com:	REPEATED FOR EMPHASiS
 *CHI:	a [^ dp] scarecrow .
 %mor:	det:art|a n|+v|scare+n|crow .
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
 %com:	most instances of DP occur on vowels .
 *CHI:	you xxx +...
 %mor:	pro:per|you +...
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	a [/] a hair .
 %mor:	det:art|a n|hair .
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
 *CHI:	beer .
 %mor:	n|beer .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	pop .
 %mor:	n|pop .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	pop .
 %mor:	n|pop .
+%gra:	1|0|INCROOT 2|1|PUNCT
 %com:	REPEATED FOR EMPHASiS
 *CHI:	xxx .
 *CHI:	two xxx .
 %mor:	det:num|two .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	daddy .
 %mor:	n|daddy .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	I wanna go ↫I↫in the water .
 %mor:	pro:sub|I v|want~inf|to v|go prep|in det:art|the n|water .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|INF 4|2|COMP 5|4|JCT 6|7|DET 7|5|POBJ 8|2|PUNCT
 *CHI:	you xxx .
 %mor:	pro:per|you .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	oh that's me .
 %mor:	co|oh pro:dem|that~cop|be&3S pro:obj|me .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|3|PUNCT
 *CHI:	xxx .
 *CHI:	good .
 %mor:	adj|good .
+%gra:	1|0|INCROOT 2|1|PUNCT
 %com:	GiGGLiNG
 *CHI:	xxx .
 *CHI:	I [/] I can hang .
 %mor:	pro:sub|I mod|can v|hang .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|PUNCT
 *CHI:	not yet .
 %mor:	neg|not adv:tem|yet .
+%gra:	1|2|NEG 2|0|INCROOT 3|2|PUNCT
 *CHI:	you can't get it .
 %mor:	pro:per|you mod|can~neg|not v|get pro:per|it .
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|4|OBJ 6|4|PUNCT
 *CHI:	let's hang .
 %mor:	v|let~pro:obj|us v|hang .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|COMP 4|1|PUNCT
 *CHI:	let's hang on here .
 %mor:	v|let~pro:obj|us v|hang prep|on n|here .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|COMP 4|3|JCT 5|4|POBJ 6|1|PUNCT
 *CHI:	you can't get it .
 %mor:	pro:per|you mod|can~neg|not v|get pro:per|it .
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|4|OBJ 6|4|PUNCT
 *CHI:	I'm hanging .
 %mor:	pro:sub|I~aux|be&1S part|hang-PRESP .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|PUNCT
 *CHI:	stop it .
 %mor:	v|stop pro:per|it .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
 *CHI:	oh [^ dp] &~wi xxx +...
 %mor:	co|oh +...
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	[^ dp] will .
 %mor:	mod|will .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	mom .
 %mor:	n|mom .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	[^ dp] or parker .
 %mor:	coord|or n|park&dv-AGT .
+%gra:	1|2|LINK 2|0|INCROOT 3|2|PUNCT
 *CHI:	barbies .
 %mor:	n|barbie-PL .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	what ?
 %mor:	pro:int|what ?
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	can't see me .
 %mor:	mod|can~neg|not v|see pro:obj|me .
+%gra:	1|3|AUX 2|1|NEG 3|0|ROOT 4|3|OBJ 5|3|PUNCT
 *CHI:	xxx .
 *CHI:	beer .
 %mor:	n|beer .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	[^ dp] daddy .
 %mor:	n|daddy .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	[^ dp] see [^ dp] that xxx .
 %mor:	v|see comp|that .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
 *CHI:	a [^ dp] magnet .
 %mor:	det:art|a n|magnet .
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
 *CHI:	what's this ?
 %mor:	pro:int|what~cop|be&3S pro:dem|this ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
 *CHI:	fishing .
 %mor:	part|fish-PRESP .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	I caught him .
 %mor:	pro:sub|I v|catch&PAST pro:obj|him .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
 *CHI:	jump .
 %mor:	n|jump .
+%gra:	1|0|INCROOT 2|1|PUNCT
 %com:	GiGGLES
 *CHI:	where ?
 %mor:	pro:rel|where ?
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	xxx .
 *CHI:	no you .
 %mor:	co|no pro:per|you .
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
 *CHI:	yeah sleep .
 %mor:	co|yeah n|sleep .
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
 *CHI:	no let him stay here .
 %mor:	co|no v|let&ZERO pro:obj|him v|stay adv|here .
+%gra:	1|2|COM 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|4|JCT 6|2|PUNCT
 *CHI:	let's go to the secret lab .
 %mor:	v|let~pro:obj|us v|go prep|to det:art|the adj|secret n|lab .
+%gra:	1|0|ROOT 2|3|SUBJ 3|1|COMP 4|3|JCT 5|7|DET 6|7|MOD 7|4|POBJ 8|1|PUNCT
 *CHI:	here .
 %mor:	adv|here .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	get him .
 %mor:	v|get pro:obj|him .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|PUNCT
 *CHI:	down .
 %mor:	adv|down .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	xxx .
 *CHI:	hey fish .
 %mor:	co|hey n|fish .
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
 *CHI:	there [/] there [^ dp] ↫l↫ladder up .
 %mor:	adv|there n|ladder adv|up .
+%gra:	1|2|SUBJ 2|0|INCROOT 3|2|JCT 4|2|PUNCT
 %com:	end of sample ., DVD transcribed ., EMG SPEECH SAMPLE, DOE: 03/29/2011
 *CHI:	a circle .
 %mor:	det:art|a n|circle .
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
 *CHI:	icecream cone .
 %mor:	n|+n|ice+n|cream n|cone .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
 %com:	DOESN'T SPEAK AGAiN UNTiL ABOUT 7 AND A HALF MiNS
 *CHI:	[^ dp] water .
 %mor:	n|water .
+%gra:	1|0|INCROOT 2|1|PUNCT
 %com:	SPEAKS AGAiN AROUND 11 MiNS
 *CHI:	ice cream .
 %mor:	n|ice n|cream .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
 *CHI:	ice cream .
 %mor:	n|ice n|cream .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
 *CHI:	blue .
 %mor:	adj|blue .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	it's red .
 %mor:	pro:per|it~cop|be&3S adj|red .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
 *CHI:	spaghetti .
 %mor:	n|spaghetti .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	what ?
 %mor:	pro:int|what ?
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	chicken .
 %mor:	n|chicken .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	french fries .
 %mor:	adj|french n|fry-PL .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
 *CHI:	[^ dp] chicken nuggets .
 %mor:	n|chicken n|nugget-PL .
+%gra:	1|2|MOD 2|0|INCROOT 3|2|PUNCT
 *CHI:	spaghetti .
 %mor:	n|spaghetti .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	a popsicle .
 %mor:	det:art|a n|popsicle .
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
 *CHI:	a pop one .
 %mor:	det:art|a n|pop pro:indef|one .
+%gra:	1|3|DET 2|3|MOD 3|0|INCROOT 4|3|PUNCT
 *CHI:	red .
 %mor:	adj|red .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	numbers .
 %mor:	n|number-PL .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	<[^ p1] a [/] a &~pop> [/?] a popsicle .
 %mor:	det:art|a n|popsicle .
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
 *CHI:	mushroom .
 %mor:	n|mushroom .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	orange .
 %mor:	adj|orange .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	pizza .
 %mor:	n|pizza .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	cheese .
 %mor:	n|cheese .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	chips .
 %mor:	n|chip-PL .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	bread .
 %mor:	n|bread .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	[^ dp] miles .
 %mor:	n|mile-PL .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	no I don't .
 %mor:	co|no pro:sub|I mod|do~neg|not .
+%gra:	1|0|INCROOT 2|5|SUBJ 3|5|AUX 4|3|NEG 5|1|PUNCT
 %com:	end of EMG speech sample ., DVD transcribed .
 @End

@@ -17,56 +17,169 @@
 @Types:	long, interview, CWS
 *CHI:	a little bit kindergarten <because you will> [//] because you get
 	two recesses .
+%mor:	det:art|a adj|little n|bit n|kindergarten conj|because pro:per|you
+	v|get det:num|two n|recess-PL .
+%gra:	1|4|DET 2|3|MOD 3|4|MOD 4|0|INCROOT 5|7|LINK 6|7|SUBJ 7|4|CMOD
+	8|9|QUANT 9|7|OBJ 10|4|PUNCT
 *CHI:	<[^ p1] but in &~fir> [/?] but in first <and second and third and
 	fourth> [/?] they don't .
+%mor:	conj|but prep|in adv|first pro:sub|they mod|do~neg|not .
+%gra:	1|0|INCROOT 2|7|JCT 3|2|POBJ 4|7|SUBJ 5|7|AUX 6|5|NEG 7|1|PUNCT
 *CHI:	&-uh in the afternoon before lunchtime .
+%mor:	prep|in det:art|the n|+prep|after+n|noon prep|before
+	n|+n|lunch+n|time .
+%gra:	1|0|INCROOT 2|3|DET 3|1|POBJ 4|3|NJCT 5|4|POBJ 6|1|PUNCT
 *CHI:	I don't know what to say .
+%mor:	pro:sub|I mod|do~neg|not v|know pro:int|what inf|to v|say .
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|7|LINK 6|7|INF 7|4|COMP 8|4|PUNCT
 %com:	Child and examiner intermittently playing game .
 *CHI:	yeah I have a grey ↫o↫one that's named Ashley .
+%mor:	co|yeah pro:sub|I v|have det:art|a adj|grey pro:indef|one
+	pro:rel|that~aux|be&3S part|name-PASTP n:prop|Ashley .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|3|OBJ 7|9|LINK 8|9|AUX
+	9|6|CMOD 10|9|OBJ 11|3|PUNCT
 *CHI:	and I have a little one that's named ace .
+%mor:	coord|and pro:sub|I v|have det:art|a adj|little pro:indef|one
+	pro:rel|that~aux|be&3S part|name-PASTP n|ace .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|3|OBJ 7|9|LINK 8|9|AUX
+	9|6|CMOD 10|9|OBJ 11|3|PUNCT
 *CHI:	they're both one years old .
+%mor:	pro:sub|they~cop|be&PRES qn|both det:num|one n|year-PL adj|old .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|QUANT 4|5|QUANT 5|6|MOD 6|2|PRED 7|2|PUNCT
 *CHI:	I just got them last year .
+%mor:	pro:sub|I adv|just v|get&PAST pro:obj|them adj|last n|year .
+%gra:	1|3|SUBJ 2|3|JCT 3|0|ROOT 4|3|OBJ2 5|6|MOD 6|3|OBJ 7|3|PUNCT
 %com:	CHI Yeah .
 *CHI:	but Aceo sleeps a_lot .
+%mor:	conj|but n:prop|Aceo v|sleep-3S adv|a_lot .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|3|PUNCT
 %com:	Child refers to the same cat as Ace and Aceo ., CHI {% Laughter} yeah .
 *CHI:	&-uh ace is a boy .
+%mor:	n|ace cop|be&3S det:art|a n|boy .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
 *CHI:	Ashley's a girl .
+%mor:	n:prop|Ashley~cop|be&3S det:art|a n|girl .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
 *CHI:	they're both brother and sister but one of the sisters was just
 	grey .
+%mor:	pro:sub|they~cop|be&PRES qn|both n|brother coord|and n|sister
+	conj|but det:num|one prep|of det:art|the n|sister-PL cop|be&PAST&13S
+	adv|just adj|grey .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|QUANT 4|2|PRED 5|4|CONJ 6|5|COORD 7|12|LINK
+	8|12|SUBJ 9|8|NJCT 10|11|DET 11|9|POBJ 12|2|CJCT 13|14|JCT 14|12|PRED
+	15|2|PUNCT
 *CHI:	and someone already adopted her .
+%mor:	coord|and pro:indef|someone adv|already v|adopt-PAST pro:obj|her .
+%gra:	1|4|LINK 2|4|SUBJ 3|4|JCT 4|0|ROOT 5|4|OBJ 6|4|PUNCT
 *CHI:	ours are nice .
+%mor:	pro:poss|ours cop|be&PRES adj|nice .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
 %com:	Child uses two syllables for ours .
 *CHI:	they sleep right next_to each_other sometimes .
+%mor:	pro:sub|they n|sleep adv|right prep|next_to pro:refl|each_other
+	adv:tem|sometimes .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|JCT 4|2|NJCT 5|4|POBJ 6|5|JCT 7|2|PUNCT
 %com:	CHI Yeah .
 *CHI:	[^ m1] sometimes Aceo is sleeping and Ashley just hops on the bed .
+%mor:	adv:tem|sometimes n:prop|Aceo aux|be&3S part|sleep-PRESP coord|and
+	n:prop|Ashley adv|just v|hop-3S prep|on det:art|the n|bed .
+%gra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|8|LINK 6|8|SUBJ 7|8|JCT 8|4|CJCT
+	9|8|JCT 10|11|DET 11|9|POBJ 12|4|PUNCT
 *CHI:	and just wakes Aceo up .
+%mor:	coord|and adv|just v|wake-3S n:prop|Aceo adv|up .
+%gra:	1|3|LINK 2|3|JCT 3|0|ROOT 4|3|OBJ 5|3|JCT 6|3|PUNCT
 *CHI:	and he's like <I'm napping here> [/] I'm napping !
+%mor:	coord|and pro:sub|he~cop|be&3S conj|like pro:sub|I~aux|be&1S
+	part|nap-PRESP !
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|7|LINK 5|7|SUBJ 6|7|AUX 7|3|CJCT 8|3|PUNCT
 %com:	Child speaking in character voice ., CHI Yeah sometimes .
 *CHI:	but sometimes Ashley just goes away .
+%mor:	conj|but adv:tem|sometimes n:prop|Ashley adv|just v|go-3S adv|away
+	.
+%gra:	1|5|LINK 2|5|JCT 3|5|SUBJ 4|5|JCT 5|0|ROOT 6|5|JCT 7|5|PUNCT
 %com:	Child talking while laughing ., CHI Yeah .
 *CHI:	&-um they don't sleep on our bed .
+%mor:	pro:sub|they mod|do~neg|not v|sleep prep|on det:poss|our n|bed .
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|4|JCT 6|7|DET 7|5|POBJ 8|4|PUNCT
 *CHI:	Aceo sleeps on couches but we only have <like> [/?] one playhouse
 	for them .
+%mor:	n:prop|Aceo v|sleep-3S prep|on n|couch-PL conj|but pro:sub|we
+	adv|only v|have det:num|one n|+n|play+n|house prep|for pro:obj|them
+	.
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|3|POBJ 5|8|LINK 6|8|SUBJ 7|8|JCT 8|2|CJCT
+	9|10|QUANT 10|8|OBJ 11|10|NJCT 12|11|POBJ 13|2|PUNCT
 *CHI:	so they hafta take turns in the bed .
+%mor:	co|so pro:sub|they mod|have~inf|to v|take n|turn-PL prep|in
+	det:art|the n|bed .
+%gra:	1|5|LINK 2|5|SUBJ 3|5|AUX 4|5|INF 5|0|ROOT 6|5|OBJ 7|5|JCT 8|9|DET
+	9|7|POBJ 10|5|PUNCT
 *CHI:	if Aceo doesn't get the bed then he'll normally sit on the couch
 	that's not near the window .
+%mor:	conj|if n:prop|Aceo mod|do&3S~neg|not v|get det:art|the n|bed
+	adv:tem|then pro:sub|he~mod|will adv|normal&dadj-LY v|sit prep|on
+	det:art|the n|couch pro:rel|that~cop|be&3S neg|not adj|near
+	det:art|the n|window .
+%gra:	1|5|LINK 2|5|SUBJ 3|5|AUX 4|3|NEG 5|12|CJCT 6|7|DET 7|5|OBJ 8|12|JCT
+	9|12|SUBJ 10|12|AUX 11|12|JCT 12|0|ROOT 13|12|JCT 14|15|DET 15|13|POBJ
+	16|17|LINK 17|15|CMOD 18|17|NEG 19|21|MOD 20|21|DET 21|17|PRED 22|12|PUNCT
 *CHI:	<if Aceo> [//] I meant if Aceo gets the bed and Ashley doesn't
 	she'll just go by the couch that's the closest to the window .
+%mor:	pro:sub|I v|mean&PAST comp|if n:prop|Aceo v|get-3S det:art|the
+	n|bed coord|and n:prop|Ashley mod|do&3S~neg|not pro:sub|she~mod|will
+	adv|just v|go prep|by det:art|the n|couch pro:rel|that~cop|be&3S
+	det:art|the adj|close-SP prep|to det:art|the n|window .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|LINK 4|5|SUBJ 5|2|COMP 6|7|DET 7|5|OBJ 8|15|LINK
+	9|15|SUBJ 10|15|AUX 11|10|NEG 12|15|SUBJ 13|15|AUX 14|15|JCT 15|5|CJCT
+	16|15|JCT 17|18|DET 18|16|POBJ 19|20|LINK 20|18|CMOD 21|22|DET 22|20|PRED
+	23|22|JCT 24|25|DET 25|23|POBJ 26|2|PUNCT
 *CHI:	<and get the &~s> [//] and gets the sunny spot .
+%mor:	coord|and v|get-3S det:art|the adj|sun&dn-Y n|spot .
+%gra:	1|2|LINK 2|0|ROOT 3|5|DET 4|5|MOD 5|2|OBJ 6|2|PUNCT
 *CHI:	she likes the sunny spot .
+%mor:	pro:sub|she v|like-3S det:art|the adj|sun&dn-Y n|spot .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|DET 4|5|MOD 5|2|OBJ 6|2|PUNCT
 *CHI:	but Aceo doesn't really like to .
+%mor:	conj|but n:prop|Aceo mod|do&3S~neg|not adv|real&dadj-LY v|like
+	inf|to .
+%gra:	1|6|LINK 2|6|SUBJ 3|6|AUX 4|3|NEG 5|6|JCT 6|0|ROOT 7|6|OBJ 8|6|PUNCT
 *CHI:	no not really .
+%mor:	co|no neg|not adv|real&dadj-LY .
+%gra:	1|3|COM 2|3|NEG 3|0|INCROOT 4|3|PUNCT
 %com:	CHI Mhm .
 *CHI:	well I don't actually know .
+%mor:	co|well pro:sub|I mod|do~neg|not adv|actual&dadj-LY v|know .
+%gra:	1|6|COM 2|6|SUBJ 3|6|AUX 4|3|NEG 5|6|JCT 6|0|ROOT 7|6|PUNCT
 *CHI:	mostly every spot he sleeps in is not near a window with sun .
+%mor:	adv|mostly qn|every n|spot pro:sub|he n|sleep-PL adv|in aux|be&3S
+	neg|not adj|near det:art|a n|window prep|with n|sun .
+%gra:	1|3|JCT 2|3|QUANT 3|0|INCROOT 4|5|SUBJ 5|3|CMOD 6|9|JCT 7|9|AUX 8|7|NEG
+	9|5|POSTMOD 10|11|DET 11|9|OBJ 12|11|NJCT 13|12|POBJ 14|3|PUNCT
 *CHI:	yeah <yeah> [/?] Ashley loves it &=laughs .
+%mor:	co|yeah n:prop|Ashley v|love-3S pro:per|it .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
 *CHI:	&-uh <we don't &~nor> [//] we normally play with mom and dad if we
 	play .
+%mor:	pro:sub|we adv|normal&dadj-LY v|play prep|with n|mom coord|and
+	n|dad conj|if pro:sub|we v|play .
+%gra:	1|3|SUBJ 2|3|JCT 3|0|ROOT 4|3|JCT 5|4|POBJ 6|5|CONJ 7|6|COORD 8|10|LINK
+	9|10|SUBJ 10|3|CJCT 11|3|PUNCT
 *CHI:	&-um like some kind of game like xxx +...
+%mor:	prep|like qn|some n|kind prep|of n|game prep|like +...
+%gra:	1|6|JCT 2|3|QUANT 3|1|POBJ 4|3|NJCT 5|4|POBJ 6|0|INCROOT 7|6|PUNCT
 *CHI:	I don't know what it's called but it's kinda <like> [/?] rainbowish
 	or something .
+%mor:	pro:sub|I mod|do~neg|not v|know pro:int|what pro:per|it~aux|be&3S
+	part|call-PASTP conj|but pro:per|it~cop|be&3S adv|kinda
+	adj|+n|rain+n|bow&dn-ISH coord|or pro:indef|something .
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|8|LINK 6|8|SUBJ 7|8|AUX 8|4|COMP
+	9|11|LINK 10|11|SUBJ 11|4|CJCT 12|13|JCT 13|11|PRED 14|11|CONJ 15|14|COORD
+	16|4|PUNCT
 %com:	CHI Mhm or something ., CHI Yeah Candyland !
 *CHI:	well <[^ p1] we &~d> [/?] we do just we lost some .
+%mor:	co|well pro:sub|we v|do adv|just pro:sub|we v|lose&PAST qn|some .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|6|SUBJ 6|3|COMP 7|6|OBJ 8|3|PUNCT
 *CHI:	what's Ants_In_The_Pants ?
+%mor:	pro:int|what~cop|be&3S n:prop|Ants_In_The_Pants ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
 %com:	Speech sample ends .
 @End

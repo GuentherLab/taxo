@@ -15,214 +15,672 @@
 @Time Start:	0:00
 @Types:	long, interview, CWS
 *CHI:	a fish .
+%mor:	det:art|a n|fish .
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
 *CHI:	a fishie !
+%mor:	det:art|a n|fish-DIM !
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
 *CHI:	&-um a wolf .
+%mor:	det:art|a n|wolf .
+%gra:	1|2|DET 2|0|INCROOT 3|2|PUNCT
 *CHI:	hey look !
+%mor:	co|hey n|look !
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
 %com:	one two three .
 *CHI:	fishes .
+%mor:	n|fish-PL .
+%gra:	1|0|INCROOT 2|1|PUNCT
 %com:	CHI Fishes ., Plural error .
 *CHI:	&-um oh water !
+%mor:	co|oh n|water !
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
 *CHI:	and a computer .
+%mor:	coord|and det:art|a n|compute&dv-AGT .
+%gra:	1|3|LINK 2|3|DET 3|0|INCROOT 4|3|PUNCT
 %com:	CHI And a computer .
 *CHI:	and rocks .
+%mor:	coord|and n|rock-PL .
+%gra:	1|2|LINK 2|0|INCROOT 3|2|PUNCT
 *CHI:	food .
+%mor:	n|food .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	table .
+%mor:	n|table .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	shovel .
+%mor:	n|shovel .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	I [/] I see .
+%mor:	pro:sub|I v|see .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
 *CHI:	&-um &-um let's go fishing .
+%mor:	v|let~pro:obj|us v|go part|fish-PRESP .
+%gra:	1|0|ROOT 2|1|OBJ 3|4|SRL 4|1|COMP 5|1|PUNCT
 *CHI:	and xxx +/.
+%mor:	coord|and +/.
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	rocks .
+%mor:	n|rock-PL .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	xxx .
 %com:	Onetwo .
 *CHI:	three [/] three .
+%mor:	det:num|three .
+%gra:	1|0|INCROOT 2|1|PUNCT
 %com:	one two three four five .
 *CHI:	huh ?
+%mor:	co|huh ?
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	this one !
+%mor:	pro:dem|this pro:indef|one !
+%gra:	1|2|SUBJ 2|0|INCROOT 3|2|PUNCT
 *CHI:	&-um in here .
+%mor:	prep|in n|here .
+%gra:	1|0|INCROOT 2|1|POBJ 3|1|PUNCT
 *CHI:	in this box .
+%mor:	prep|in det:dem|this n|box .
+%gra:	1|0|INCROOT 2|3|DET 3|1|POBJ 4|1|PUNCT
 *CHI:	mom wait I hafta close it but I don't know how .
+%mor:	n|mom v|wait pro:sub|I mod|have~inf|to v|close pro:per|it conj|but
+	pro:sub|I mod|do~neg|not v|know pro:rel|how .
+%gra:	1|2|SUBJ 2|0|ROOT 3|6|SUBJ 4|6|AUX 5|6|INF 6|2|COMP 7|6|OBJ 8|12|LINK
+	9|12|SUBJ 10|12|AUX 11|10|NEG 12|2|CJCT 13|12|OBJ 14|2|PUNCT
 *CHI:	mom I [/] I wanna be this one .
+%mor:	n|mom pro:sub|I v|want~inf|to aux|be det:dem|this pro:indef|one .
+%gra:	1|0|INCROOT 2|3|SUBJ 3|1|CMOD 4|5|INF 5|3|COMP 6|7|DET 7|5|PRED
+	8|1|PUNCT
 *CHI:	wait and [/] and you be gold one mommy .
+%mor:	v|wait coord|and pro:per|you cop|be adj|gold det:num|one n|mommy .
+%gra:	1|0|ROOT 2|4|LINK 3|4|SUBJ 4|1|CJCT 5|7|MOD 6|7|QUANT 7|4|PRED
+	8|1|PUNCT
 *CHI:	and daddy you be the shovel one .
+%mor:	coord|and n|daddy pro:per|you cop|be det:art|the n|shovel
+	det:num|one .
+%gra:	1|4|LINK 2|4|COM 3|4|SUBJ 4|0|ROOT 5|7|DET 6|7|MOD 7|4|PRED 8|4|PUNCT
 *CHI:	so [/] so [/] so [/] so I'm the one that hasta find treasure .
+%mor:	adv|so pro:sub|I~cop|be&1S det:art|the pro:indef|one pro:rel|that
+	mod|have&3S~inf|to v|find n|treasure .
+%gra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|PRED 6|9|LINK 7|9|AUX 8|9|INF
+	9|5|CMOD 10|9|OBJ 11|3|PUNCT
 *CHI:	<[^ p1] and you're the one &~tha> [/?] and you're the one that
 	hasta go fishing .
+%mor:	coord|and pro:per|you~cop|be&PRES det:art|the pro:indef|one
+	pro:rel|that mod|have&3S~inf|to v|go part|fish-PRESP .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|PRED 6|10|LINK 7|10|AUX 8|10|INF
+	9|10|SRL 10|5|CMOD 11|3|PUNCT
 *CHI:	and you're the one <[^ p1] that [/] that hasta> [/?] that hasta
 	live in the [/] the treehouse .
+%mor:	coord|and pro:per|you~cop|be&PRES det:art|the pro:indef|one
+	pro:rel|that mod|have&3S~inf|to v|live prep|in det:art|the
+	n|+n|tree+n|house .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|PRED 6|9|LINK 7|9|AUX 8|9|INF
+	9|5|CMOD 10|9|JCT 11|12|DET 12|10|POBJ 13|3|PUNCT
 *CHI:	and [/] and [/] and lay down .
+%mor:	coord|and v|lay adv|down .
+%gra:	1|2|LINK 2|0|ROOT 3|2|JCT 4|2|PUNCT
 *CHI:	so [/] so xxx +/.
+%mor:	co|so +/.
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	it's a treehouse !
+%mor:	pro:per|it~cop|be&3S det:art|a n|+n|tree+n|house !
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
 *CHI:	that's a camera !
+%mor:	pro:dem|that~cop|be&3S det:art|a n|camera !
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
 *CHI:	<[^ p1] and I'm and I'm> [//] and then I'm the one that hasta find
 	the treasure .
+%mor:	coord|and adv:tem|then pro:sub|I~cop|be&1S det:art|the
+	pro:indef|one pro:rel|that mod|have&3S~inf|to v|find det:art|the
+	n|treasure .
+%gra:	1|4|LINK 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|6|DET 6|4|PRED 7|10|LINK 8|10|AUX
+	9|10|INF 10|6|CMOD 11|12|DET 12|10|OBJ 13|4|PUNCT
 *CHI:	so I hafta find the treasure .
+%mor:	co|so pro:sub|I mod|have~inf|to v|find det:art|the n|treasure .
+%gra:	1|5|COM 2|5|SUBJ 3|5|AUX 4|5|INF 5|0|ROOT 6|7|DET 7|5|OBJ 8|5|PUNCT
 *CHI:	so you guys can't find the treasure only I can .
+%mor:	co|so pro:per|you n|guy-PL mod|can~neg|not v|find det:art|the
+	n|treasure adv|only pro:sub|I mod|can .
+%gra:	1|3|COM 2|3|SUBJ 3|6|SUBJ 4|6|AUX 5|4|NEG 6|0|ROOT 7|8|DET 8|6|OBJ
+	9|11|JCT 10|11|SUBJ 11|6|ENUM 12|6|PUNCT
 *CHI:	oh and [/] and I [/] I I'm gonna pretend [^ dp] this is the
 	treasure too .
+%mor:	co|oh coord|and pro:sub|I pro:sub|I~aux|be&1S part|go&PRESP~inf|to
+	v|pretend pro:dem|this cop|be&3S det:art|the n|treasure adv|too .
+%gra:	1|0|INCROOT 2|1|CONJ 3|2|COORD 4|6|SUBJ 5|6|AUX 6|3|CMOD 7|8|INF
+	8|6|COMP 9|10|SUBJ 10|8|COMP 11|12|DET 12|10|PRED 13|12|NJCT 14|1|PUNCT
 %com:	prolongation on th .
 *CHI:	no daddy ↫y-y↫you hafta dig somewhere else ↫c-c↫(be)cause I'm
 	looking for [/] for the treasure .
+%mor:	qn|no n|daddy pro:per|you mod|have~inf|to v|dig adv|somewhere
+	post|else conj|because pro:sub|I~aux|be&1S part|look-PRESP prep|for
+	det:art|the n|treasure .
+%gra:	1|2|QUANT 2|6|JCT 3|6|SUBJ 4|6|AUX 5|6|INF 6|0|ROOT 7|6|JCT 8|7|PQ
+	9|12|LINK 10|12|SUBJ 11|12|AUX 12|6|CJCT 13|12|JCT 14|15|DET 15|13|POBJ
+	16|6|PUNCT
 *CHI:	I think that's not a good hiding place .
+%mor:	pro:sub|I v|think pro:dem|that~cop|be&3S neg|not det:art|a adj|good
+	part|hide-PRESP n|place .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|SUBJ 4|2|COMP 5|4|NEG 6|9|DET 7|9|MOD 8|9|MOD
+	9|4|PRED 10|2|PUNCT
 *CHI:	I think somewhere else is better .
+%mor:	pro:sub|I v|think adv|somewhere post|else aux|be&3S adj|good&CP .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|2|JCT 5|2|JCT 6|5|PRED 7|2|PUNCT
 *CHI:	what ?
+%mor:	pro:int|what ?
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	squirrels .
+%mor:	n|squirrel-PL .
+%gra:	1|0|INCROOT 2|1|PUNCT
 %com:	Onetwo .
 *CHI:	there's the squirrels .
+%mor:	pro:exist|there~cop|be&3S det:art|the n|squirrel-PL .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
 *CHI:	hey look and they come off !
+%mor:	co|hey n|look coord|and pro:sub|they v|come adv|off !
+%gra:	1|2|COM 2|0|INCROOT 3|5|LINK 4|5|SUBJ 5|2|CJCT 6|5|JCT 7|2|PUNCT
 *CHI:	squirrelies .
+%mor:	n|squirrel-DIM-PL .
+%gra:	1|0|INCROOT 2|1|PUNCT
 %com:	CHI (Squirrely squirrely) squirrel .
 *CHI:	I'm putting them back on the tree .
+%mor:	pro:sub|I~aux|be&1S part|put-PRESP pro:obj|them adv|back prep|on
+	det:art|the n|tree .
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|JCT 6|3|JCT 7|8|DET 8|6|POBJ
+	9|3|PUNCT
 *CHI:	there you go squirrely !
+%mor:	adv|there pro:per|you v|go adj|squirrel&dn-Y !
+%gra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|JCT 5|3|PUNCT
 *CHI:	owl ↫a↫and a worm .
+%mor:	n|owl coord|and det:art|a n|worm .
+%gra:	1|0|INCROOT 2|1|CONJ 3|4|DET 4|2|COORD 5|1|PUNCT
 *CHI:	[^ m1] ↫m↫mommy look I'm gonna hide this and you find the treasure
 	.
+%mor:	n|mommy n|look pro:sub|I~aux|be&1S part|go&PRESP~inf|to v|hide
+	det:dem|this coord|and pro:per|you v|find det:art|the n|treasure .
+%gra:	1|2|MOD 2|0|ROOT 3|5|SUBJ 4|5|AUX 5|2|CMOD 6|7|INF 7|5|COMP 8|11|DET
+	9|11|LINK 10|11|SUBJ 11|7|COMP 12|13|DET 13|11|OBJ 14|2|PUNCT
 *CHI:	and I dropped one .
+%mor:	coord|and pro:sub|I v|drop-PAST pro:indef|one .
+%gra:	1|3|LINK 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
 *CHI:	and then xxx +...
+%mor:	coord|and adv:tem|then +...
+%gra:	1|2|LINK 2|0|INCROOT 3|2|PUNCT
 *CHI:	and xxx +...
+%mor:	coord|and +...
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	<↫s-s↫so [/] ↫s-s↫so mom> [//] so dad is gonna look for the food
 	treasure .
+%mor:	co|so n|dad aux|be&3S part|go&PRESP~prep|to n|look prep|for
+	det:art|the n|food n|treasure .
+%gra:	1|4|COM 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|JCT 6|5|POBJ 7|4|JCT 8|10|DET
+	9|10|MOD 10|7|POBJ 11|4|PUNCT
 *CHI:	and I'm gonna look for the gold treasure .
+%mor:	coord|and pro:sub|I~aux|be&1S part|go&PRESP~prep|to n|look prep|for
+	det:art|the n|gold n|treasure .
+%gra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|JCT 6|5|POBJ 7|4|JCT 8|10|DET
+	9|10|MOD 10|7|POBJ 11|4|PUNCT
 *CHI:	so [/] so [/] so are you gonna try ↫a↫and find these so dad's gonna
 	go first .
+%mor:	adv|so cop|be&PRES pro:per|you part|go&PRESP~inf|to v|try coord|and
+	v|find det:dem|these adv|so n|dad~aux|be&3S part|go&PRESP~inf|to
+	v|go adv|first .
+%gra:	1|2|JCT 2|0|ROOT 3|2|PRED 4|3|XMOD 5|6|INF 6|4|COMP 7|6|CONJ 8|7|COORD
+	9|11|DET 10|11|JCT 11|13|SUBJ 12|13|AUX 13|8|COMP 14|15|INF 15|13|COMP
+	16|15|JCT 17|2|PUNCT
 *CHI:	and then I'm gonna go .
+%mor:	coord|and adv:tem|then pro:sub|I~aux|be&1S part|go&PRESP~inf|to
+	v|go .
+%gra:	1|5|LINK 2|5|JCT 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|7|INF 7|5|COMP 8|5|PUNCT
 *CHI:	<[^ p1] and then> [/?] and then we're gonna switch .
+%mor:	coord|and adv:tem|then pro:sub|we~aux|be&PRES part|go&PRESP~inf|to
+	v|switch .
+%gra:	1|5|LINK 2|5|JCT 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|7|INF 7|5|COMP 8|5|PUNCT
 *CHI:	and then mom's gonna go after you [/] you so [/] so when dad's find
 	[* m:03s] this ↫y-y↫you hafta give it to her .
+%mor:	coord|and adv:tem|then n|mom~aux|be&3S part|go&PRESP~inf|to v|go
+	prep|after pro:per|you adv|so pro:rel|when n|dad~cop|be&3S v|find
+	det:dem|this pro:per|you mod|have~inf|to v|give pro:per|it inf|to
+	pro:obj|her .
+%gra:	1|5|LINK 2|5|JCT 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|7|INF 7|5|COMP 8|7|JCT
+	9|8|POBJ 10|7|JCT 11|13|LINK 12|13|SUBJ 13|10|CMOD 14|13|SUBJ 15|19|DET
+	16|19|SUBJ 17|19|AUX 18|19|INF 19|13|CPRED 20|22|SUBJ 21|22|INF 22|19|OBJ
+	23|5|PUNCT
 %com:	marked 3s on Dad instead of find ., CHI uses very rapid rate of speech .
 *CHI:	<[^ p1] and when and when> [//] and then when I find this I hafta
 	give it to dad .
+%mor:	coord|and adv:tem|then conj|when pro:sub|I v|find det:dem|this
+	pro:sub|I mod|have~inf|to v|give pro:per|it prep|to n|dad .
+%gra:	1|0|INCROOT 2|1|COORD 3|5|LINK 4|5|SUBJ 5|2|CJCT 6|10|DET 7|10|SUBJ
+	8|10|AUX 9|10|INF 10|5|COMP 11|10|OBJ 12|10|JCT 13|12|POBJ 14|1|PUNCT
 *CHI:	okay ?
+%mor:	co|okay ?
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	first dad go [* m:03s] .
+%mor:	adv|first n|dad v|go .
+%gra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PUNCT
 *CHI:	dad ↫y-y-y↫you hafta try to find the treasure .
+%mor:	n|dad pro:per|you mod|have~inf|to v|try inf|to v|find det:art|the
+	n|treasure .
+%gra:	1|5|LINK 2|5|SUBJ 3|5|AUX 4|5|INF 5|0|ROOT 6|7|INF 7|5|COMP 8|9|DET
+	9|7|OBJ 10|5|PUNCT
 *CHI:	no ↫d↫dad you have climb down and look for it .
+%mor:	qn|no n|dad pro:per|you v|have v|climb adv|down coord|and v|look
+	prep|for pro:per|it .
+%gra:	1|2|QUANT 2|5|SUBJ 3|4|SUBJ 4|2|CMOD 5|0|ROOT 6|5|JCT 7|5|CONJ
+	8|7|COORD 9|8|JCT 10|9|POBJ 11|5|PUNCT
 *CHI:	you can't find the treasure .
+%mor:	pro:per|you mod|can~neg|not v|find det:art|the n|treasure .
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
 *CHI:	hey ↫d↫dad check in here .
+%mor:	co|hey n|dad n|check prep|in n|here .
+%gra:	1|3|COM 2|3|MOD 3|0|INCROOT 4|3|NJCT 5|4|POBJ 6|3|PUNCT
 *CHI:	in these rocks .
+%mor:	prep|in det:dem|these n|rock-PL .
+%gra:	1|0|INCROOT 2|3|DET 3|1|POBJ 4|1|PUNCT
 *CHI:	you found it !
+%mor:	pro:per|you v|find&PAST pro:per|it !
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
 *CHI:	[^ dp] ↫n↫now <here &~th> [//] xxx +...
+%mor:	adv:tem|now +...
+%gra:	1|0|INCROOT 2|1|PUNCT
 %com:	prolongation on n .
 *CHI:	I was hiding in the ↫d↫dirt so [/] so now it's my turn to find mine
 	.
+%mor:	pro:sub|I aux|be&PAST&13S part|hide-PRESP prep|in det:art|the
+	n|dirt adv|so adv:tem|now pro:per|it~cop|be&3S det:poss|my n|turn
+	inf|to v|find pro:poss|mine .
+%gra:	1|3|SUBJ 2|3|AUX 3|10|XJCT 4|3|JCT 5|6|DET 6|4|POBJ 7|8|JCT 8|3|JCT
+	9|10|SUBJ 10|0|ROOT 11|12|DET 12|10|PRED 13|14|INF 14|12|XMOD 15|14|OBJ
+	16|10|PUNCT
 *CHI:	it's my turn to find mine !
+%mor:	pro:per|it~cop|be&3S det:poss|my n|turn inf|to v|find pro:poss|mine
+	!
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|6|INF 6|4|XMOD 7|6|OBJ 8|2|PUNCT
 *CHI:	where's my treasure ?
+%mor:	pro:int|where~cop|be&3S det:poss|my n|treasure ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
 *CHI:	is that it ?
+%mor:	cop|be&3S comp|that pro:per|it ?
+%gra:	1|0|ROOT 2|1|PRED 3|2|OBJ 4|1|PUNCT
 *CHI:	let me ↫c↫climb up the ladder .
+%mor:	v|let&ZERO pro:obj|me v|climb prep|up det:art|the n|ladder .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|COMP 4|3|JCT 5|6|DET 6|4|POBJ 7|1|PUNCT
 *CHI:	climb up the ladder .
+%mor:	v|climb prep|up det:art|the n|ladder .
+%gra:	1|0|ROOT 2|1|JCT 3|4|DET 4|2|POBJ 5|1|PUNCT
 *CHI:	one xxx +...
+%mor:	det:num|one +...
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	here I found my treasure !
+%mor:	adv|here pro:sub|I v|find&PAST det:poss|my n|treasure !
+%gra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
 *CHI:	now let's open it .
+%mor:	adv:tem|now v|let~pro:obj|us v|open pro:per|it .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|COMP 5|4|OBJ 6|2|PUNCT
 *CHI:	rocks !
+%mor:	n|rock-PL !
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	I found my gold .
+%mor:	pro:sub|I v|find&PAST det:poss|my n|gold .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
 *CHI:	so [/] so [/] so [/] so daddy .
+%mor:	co|so n|daddy .
+%gra:	1|2|COM 2|0|INCROOT 3|2|PUNCT
 *CHI:	now you [^ dp] hafta give yours to mom .
+%mor:	adv:tem|now pro:per|you mod|have~inf|to v|give pro:poss|yours
+	prep|to n|mom .
+%gra:	1|5|LINK 2|5|SUBJ 3|5|AUX 4|5|INF 5|0|ROOT 6|5|OBJ 7|6|JCT 8|7|POBJ
+	9|5|PUNCT
 %com:	prolongation on a in have .
 *CHI:	and ↫n-n↫no and ↫y↫you hafta put them in <and then dad> [//] and
 	then mom's gonna get you .
+%mor:	coord|and co|no coord|and pro:per|you mod|have~inf|to v|put&ZERO
+	pro:obj|them adv|in coord|and adv:tem|then n|mom~aux|be&3S
+	part|go&PRESP~inf|to aux|get pro:per|you .
+%gra:	1|7|LINK 2|7|COM 3|7|LINK 4|7|SUBJ 5|7|AUX 6|7|INF 7|0|ROOT 8|7|OBJ
+	9|7|JCT 10|14|LINK 11|14|JCT 12|14|SUBJ 13|14|AUX 14|7|CJCT 15|16|INF
+	16|14|COMP 17|16|PRED 18|7|PUNCT
 *CHI:	<and then dad> [//] and then mom's gonna get you one right back
 	okay ?
+%mor:	coord|and adv:tem|then adj|mom&dn-POSS part|go&PRESP~inf|to v|get
+	pro:per|you pro:indef|one adv|right adv|back adj|okay ?
+%gra:	1|4|LINK 2|4|JCT 3|4|MOD 4|0|ROOT 5|6|INF 6|4|COMP 7|8|SUBJ 8|6|OBJ
+	9|10|JCT 10|6|JCT 11|6|JCT 12|4|PUNCT
 *CHI:	so where is the food treasure ?
+%mor:	adv|so pro:int|where cop|be&3S det:art|the n|food n|treasure ?
+%gra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|3|PRED 7|3|PUNCT
 *CHI:	oh mom you can find the little computer and the fish .
+%mor:	co|oh n|mom pro:per|you mod|can v|find det:art|the adj|little
+	n|compute&dv-AGT coord|and det:art|the n|fish .
+%gra:	1|5|COM 2|5|COM 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|8|DET 7|8|MOD 8|5|OBJ
+	9|8|CONJ 10|11|DET 11|9|COORD 12|5|PUNCT
 *CHI:	and the fishing pole and the table .
+%mor:	coord|and det:art|the part|fish-PRESP n|pole coord|and det:art|the
+	n|table .
+%gra:	1|4|LINK 2|4|DET 3|4|MOD 4|0|INCROOT 5|4|CONJ 6|7|DET 7|5|COORD
+	8|4|PUNCT
 *CHI:	and the boat .
+%mor:	coord|and det:art|the n|boat .
+%gra:	1|3|LINK 2|3|DET 3|0|INCROOT 4|3|PUNCT
 *CHI:	and the boat okay ?
+%mor:	coord|and det:art|the n|boat adj|okay ?
+%gra:	1|0|INCROOT 2|3|DET 3|1|COORD 4|3|POSTMOD 5|1|PUNCT
 *CHI:	so I'm gonna hide the boat .
+%mor:	adv|so pro:sub|I~aux|be&1S part|go&PRESP~inf|to v|hide det:art|the
+	n|boat .
+%gra:	1|4|JCT 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|6|INF 6|4|COMP 7|8|DET 8|6|OBJ
+	9|4|PUNCT
 *CHI:	this is a xxx +...
+%mor:	pro:dem|this cop|be&3S det:art|a +...
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
 *CHI:	now fish in here .
+%mor:	adv:tem|now v|fish prep|in n|here .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|3|POBJ 5|2|PUNCT
 *CHI:	I mean [^ m1] over that side .
+%mor:	pro:sub|I v|mean adv|over det:dem|that n|side .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|5|DET 5|2|JCT 6|2|PUNCT
 *CHI:	I'm gonna get something .
+%mor:	pro:sub|I~aux|be&1S part|go&PRESP~inf|to v|get pro:indef|something
+	.
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|5|INF 5|3|COMP 6|5|OBJ 7|3|PUNCT
 *CHI:	okay I'm gonna hide it on over xxx +...
+%mor:	co|okay pro:sub|I~aux|be&1S part|go&PRESP~inf|to v|hide pro:per|it
+	adv|on adv|over +...
+%gra:	1|4|COM 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|6|INF 6|4|COMP 7|6|OBJ 8|6|JCT
+	9|6|JCT 10|4|PUNCT
 *CHI:	it's [/] it's mom's turn to find it .
+%mor:	pro:per|it~cop|be&3S adj|mom&dn-POSS n|turn inf|to v|find
+	pro:per|it .
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|MOD 4|2|PRED 5|6|INF 6|4|XMOD 7|6|OBJ 8|2|PUNCT
 *CHI:	↫n-n↫now the computer will be here .
+%mor:	adv:tem|now det:art|the n|compute&dv-AGT mod|will cop|be adv|here .
+%gra:	1|5|LINK 2|3|DET 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|5|JCT 7|5|PUNCT
 *CHI:	and why ?
+%mor:	coord|and pro:rel|why ?
+%gra:	1|2|LINK 2|0|INCROOT 3|2|PUNCT
 *CHI:	and xxx +/.
+%mor:	coord|and +/.
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	<and then this one> [//] this hides in here .
+%mor:	det:dem|this n|hide-PL prep|in n|here .
+%gra:	1|2|DET 2|0|INCROOT 3|2|NJCT 4|3|POBJ 5|2|PUNCT
 *CHI:	so you can find it and then this hide [* m:03s] in the cave so you
 	can't find it, okay ?
+%mor:	co|so pro:per|you mod|can v|find pro:per|it coord|and adv:tem|then
+	det:dem|this n|hide prep|in det:art|the n|cave adv|so pro:per|you
+	mod|can~neg|not v|find pro:per|it cm|cm co|okay ?
+%gra:	1|4|COM 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|OBJ 6|17|LINK 7|9|JCT 8|9|DET
+	9|17|SUBJ 10|9|NJCT 11|12|DET 12|10|POBJ 13|17|JCT 14|17|SUBJ 15|17|AUX
+	16|15|NEG 17|4|CJCT 18|17|OBJ 19|17|LP 20|17|COM 21|4|PUNCT
 %com:	directing her parents on how to play and who can play with which toy ., always wore the same pink Purdue outfit to every testing session .
 *CHI:	you hafta find xxx +...
+%mor:	pro:per|you mod|have~inf|to v|find +...
+%gra:	1|4|SUBJ 2|4|AUX 3|4|INF 4|0|ROOT 5|4|PUNCT
 *CHI:	and then this one's gonna hide <[^ dp] in> [//] up here .
+%mor:	coord|and adv:tem|then pro:dem|this pro:indef|one~aux|be&3S
+	part|go&PRESP~inf|to v|hide prep|up n|here .
+%gra:	1|3|LINK 2|3|JCT 3|6|LINK 4|6|SUBJ 5|6|AUX 6|0|ROOT 7|8|INF 8|6|COMP
+	9|8|JCT 10|9|POBJ 11|6|PUNCT
 *CHI:	okay .
+%mor:	co|okay .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	yeah so where do we hang it at ?
+%mor:	co|yeah adv|so pro:int|where mod|do pro:sub|we v|hang pro:per|it
+	prep|at ?
+%gra:	1|6|COM 2|6|JCT 3|6|JCT 4|6|AUX 5|6|SUBJ 6|0|ROOT 7|6|OBJ 8|6|JCT
+	9|6|PUNCT
 %com:	Difficult to understand .
 *CHI:	what do we hang it at ?
+%mor:	pro:int|what mod|do pro:sub|we v|hang pro:per|it prep|at ?
+%gra:	1|4|LINK 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|JCT 7|4|PUNCT
 *CHI:	so it came and then you're gonna find the golden rock .
+%mor:	co|so pro:per|it v|come&PAST coord|and adv:tem|then
+	pro:per|you~aux|be&PRES part|go&PRESP~inf|to v|find det:art|the
+	adj|golden n|rock .
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|8|LINK 5|8|JCT 6|8|SUBJ 7|8|AUX 8|3|CJCT
+	9|10|INF 10|8|COMP 11|13|DET 12|13|MOD 13|10|OBJ 14|3|PUNCT
 *CHI:	and then <[^ p1] I'm gonna put the fish> [/?] I'm gonna put the
 	fish xxx +...
+%mor:	coord|and adv:tem|then pro:sub|I~aux|be&1S part|go&PRESP~inf|to
+	v|put&ZERO det:art|the n|fish +...
+%gra:	1|5|LINK 2|5|JCT 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|7|INF 7|5|COMP 8|9|DET
+	9|7|OBJ 10|5|PUNCT
 *CHI:	and I'm gonna put the xxx +...
+%mor:	coord|and pro:sub|I~aux|be&1S part|go&PRESP~inf|to v|put&ZERO
+	det:art|the +...
+%gra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|6|INF 6|4|COMP 7|6|OBJ 8|4|PUNCT
 *CHI:	can you open it for me ?
+%mor:	mod|can pro:per|you v|open pro:per|it prep|for pro:obj|me ?
+%gra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|JCT 6|5|POBJ 7|3|PUNCT
 *CHI:	↫a↫and I'm gonna put the fish in here .
+%mor:	coord|and pro:sub|I~aux|be&1S part|go&PRESP~inf|to v|put&ZERO
+	det:art|the n|fish prep|in n|here .
+%gra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|6|INF 6|4|COMP 7|8|DET 8|6|OBJ
+	9|6|JCT 10|9|POBJ 11|4|PUNCT
 %com:	rolled her eyes at end of utterance in odd way .
 *CHI:	<[^ p1] and then> [/?] and then you're gonna find it, okay ?
+%mor:	coord|and adv:tem|then pro:per|you~aux|be&PRES part|go&PRESP~inf|to
+	v|find pro:per|it cm|cm adj|okay ?
+%gra:	1|5|LINK 2|5|JCT 3|5|SUBJ 4|5|AUX 5|0|ROOT 6|7|INF 7|5|COMP 8|7|OBJ
+	9|7|LP 10|7|JCT 11|5|PUNCT
 *CHI:	so I'm gonna hide this back [/] back here okay ?
+%mor:	co|so pro:sub|I~aux|be&1S part|go&PRESP~inf|to v|hide det:dem|this
+	adj|back adv|here co|okay ?
+%gra:	1|4|COM 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|6|INF 6|4|COMP 7|8|DET 8|6|JCT
+	9|6|JCT 10|6|COM 11|4|PUNCT
 *CHI:	so I [^ dp] hafta find it .
+%mor:	co|so pro:sub|I mod|have~inf|to v|find pro:per|it .
+%gra:	1|5|LINK 2|5|SUBJ 3|5|AUX 4|5|INF 5|0|ROOT 6|5|OBJ 7|5|PUNCT
 %com:	prolongation on a in have .
 *CHI:	just [/] just find it .
+%mor:	adv|just v|find pro:per|it .
+%gra:	1|2|JCT 2|0|ROOT 3|2|OBJ 4|2|PUNCT
 *CHI:	hey ↫y↫you found the gold mom !
+%mor:	co|hey pro:per|you v|find&PAST det:art|the adj|gold n|mom !
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|6|DET 5|6|MOD 6|3|OBJ 7|3|PUNCT
 *CHI:	I told you .
+%mor:	pro:sub|I v|tell&PAST pro:per|you .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
 *CHI:	and find the fish !
+%mor:	coord|and v|find det:art|the n|fish !
+%gra:	1|2|LINK 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
 %com:	CHI Fish !
 *CHI:	[^ dp] ↫a↫and find the fish .
+%mor:	coord|and v|find det:art|the n|fish .
+%gra:	1|2|LINK 2|0|ROOT 3|4|DET 4|2|OBJ 5|2|PUNCT
 %com:	tension and prolongation on and .
 *CHI:	you [/] you ↫f↫find it .
+%mor:	pro:per|you v|find pro:per|it .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|OBJ 4|2|PUNCT
 *CHI:	<[^ p1] and then> [/?] and then find the computer .
+%mor:	coord|and adv:tem|then v|find det:art|the n|compute&dv-AGT .
+%gra:	1|3|LINK 2|3|JCT 3|0|ROOT 4|5|DET 5|3|OBJ 6|3|PUNCT
 *CHI:	it's under the bridge !
+%mor:	pro:per|it~cop|be&3S prep|under det:art|the n|bridge !
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|5|DET 5|3|POBJ 6|2|PUNCT
 *CHI:	<now let> [//] now we'll find <the &~b> [//] the treasure box .
+%mor:	adv:tem|now pro:sub|we~mod|will v|find det:art|the n|treasure n|box
+	.
+%gra:	1|4|LINK 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|7|DET 6|7|MOD 7|4|OBJ 8|4|PUNCT
 *CHI:	<↫a-a↫and then> [/] <↫a-a↫and then> [/] ↫a-a↫and then <find the>
 	[/] and then find the fishing pole .
+%mor:	coord|and adv:tem|then coord|and adv:tem|then v|find det:art|the
+	part|fish-PRESP n|pole .
+%gra:	1|5|LINK 2|5|JCT 3|2|CONJ 4|3|COORD 5|0|ROOT 6|8|DET 7|8|MOD 8|5|OBJ
+	9|5|PUNCT
 %com:	CHI laughing .
 *CHI:	okay .
+%mor:	co|okay .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	it's [/] s my turn to find the treasure !
+%mor:	n:let|s det:poss|my n|turn inf|to v|find det:art|the n|treasure !
+%gra:	1|5|LINK 2|3|DET 3|5|SUBJ 4|5|INF 5|0|ROOT 6|7|DET 7|5|OBJ 8|5|PUNCT
 *CHI:	mommy wait xxx .
+%mor:	n|mommy v|wait .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PUNCT
 *CHI:	oh yes I can .
+%mor:	co|oh co|yes pro:sub|I mod|can .
+%gra:	1|4|COM 2|4|COM 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
 *CHI:	I have a great hiding place .
+%mor:	pro:sub|I v|have det:art|a adj|great part|hide-PRESP n|place .
+%gra:	1|2|SUBJ 2|0|ROOT 3|6|DET 4|6|MOD 5|6|MOD 6|2|OBJ 7|2|PUNCT
 *CHI:	<[^ p1] well I can find> [/?] well I can find the food .
+%mor:	co|well pro:sub|I mod|can v|find det:art|the n|food .
+%gra:	1|4|COM 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
 *CHI:	well I can find it .
+%mor:	co|well pro:sub|I mod|can v|find pro:per|it .
+%gra:	1|4|COM 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|OBJ 6|4|PUNCT
 *CHI:	now let me get on my bridge .
+%mor:	adv:tem|now v|let&ZERO pro:obj|me v|get prep|on det:poss|my
+	n|bridge .
+%gra:	1|2|JCT 2|0|ROOT 3|2|OBJ 4|2|COMP 5|4|JCT 6|7|DET 7|5|POBJ 8|2|PUNCT
 *CHI:	and now where is it ?
+%mor:	coord|and adv:tem|now pro:int|where cop|be&3S pro:per|it ?
+%gra:	1|4|LINK 2|4|JCT 3|4|SUBJ 4|0|ROOT 5|4|PRED 6|4|PUNCT
 *CHI:	can I find it ?
+%mor:	mod|can pro:sub|I v|find pro:per|it ?
+%gra:	1|3|AUX 2|3|SUBJ 3|0|ROOT 4|3|OBJ 5|3|PUNCT
 *CHI:	where is it ?
+%mor:	pro:int|where cop|be&3S pro:per|it ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|2|PUNCT
 %com:	CHI Where is it ?
 *CHI:	where is the treasure ?
+%mor:	pro:int|where cop|be&3S det:art|the n|treasure ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
 *CHI:	now where is it ?
+%mor:	adv:tem|now pro:int|where cop|be&3S pro:per|it ?
+%gra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|3|PUNCT
 *CHI:	not over here .
+%mor:	neg|not prep|over n|here .
+%gra:	1|2|NEG 2|0|INCROOT 3|2|POBJ 4|2|PUNCT
 %com:	CHI Not over here .
 *CHI:	that .
+%mor:	comp|that .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	[^ m1] daddy xxx .
+%mor:	n|daddy .
+%gra:	1|0|INCROOT 2|1|PUNCT
 %com:	CHI sometimes has her tongue outside her mouth while playing or concentrating on something .
 *CHI:	where is the treasure ?
+%mor:	pro:int|where cop|be&3S det:art|the n|treasure ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
 *CHI:	hey daddy <[^ p1] can [/] can I> [/?] can I find the food again ?
+%mor:	co|hey n|daddy mod|can pro:sub|I v|find det:art|the n|food
+	adv:tem|again ?
+%gra:	1|5|COM 2|5|SUBJ 3|5|AUX 4|5|SUBJ 5|0|ROOT 6|7|DET 7|5|OBJ 8|7|JCT
+	9|5|PUNCT
 *CHI:	sure .
+%mor:	adj|sure .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	now where is it again ?
+%mor:	adv:tem|now pro:int|where cop|be&3S pro:per|it adv:tem|again ?
+%gra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|3|PRED 5|4|JCT 6|3|PUNCT
 *CHI:	now where's the food ?
+%mor:	adv:tem|now pro:int|where~cop|be&3S det:art|the n|food ?
+%gra:	1|3|JCT 2|3|SUBJ 3|0|ROOT 4|5|DET 5|3|PRED 6|3|PUNCT
 *CHI:	where's my food ?
+%mor:	pro:int|where~cop|be&3S det:poss|my n|food ?
+%gra:	1|2|SUBJ 2|0|ROOT 3|4|DET 4|2|PRED 5|2|PUNCT
 *CHI:	I will find it !
+%mor:	pro:sub|I mod|will v|find pro:per|it !
+%gra:	1|3|SUBJ 2|3|AUX 3|0|ROOT 4|3|OBJ 5|3|PUNCT
 *CHI:	oh yes I can .
+%mor:	co|oh co|yes pro:sub|I mod|can .
+%gra:	1|4|COM 2|4|COM 3|4|SUBJ 4|0|ROOT 5|4|PUNCT
 *CHI:	&-um I wonder if it is behind that tree .
+%mor:	pro:sub|I n|wonder conj|if pro:per|it cop|be&3S adv|behind
+	det:dem|that n|tree .
+%gra:	1|2|SUBJ 2|0|ROOT 3|5|LINK 4|5|SUBJ 5|2|CMOD 6|5|JCT 7|8|DET 8|6|POBJ
+	9|2|PUNCT
 *CHI:	is that food ?
+%mor:	cop|be&3S comp|that n|food ?
+%gra:	1|0|ROOT 2|3|MOD 3|1|PRED 4|1|PUNCT
 *CHI:	where did you hide the food ?
+%mor:	pro:int|where mod|do&PAST pro:per|you v|hide det:art|the n|food ?
+%gra:	1|4|LINK 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
 *CHI:	is it over here ?
+%mor:	aux|be&3S pro:per|it prep|over n|here ?
+%gra:	1|0|INCROOT 2|1|PRED 3|2|JCT 4|3|POBJ 5|1|PUNCT
 *CHI:	yeah where is it ?
+%mor:	co|yeah pro:rel|where cop|be&3S pro:per|it ?
+%gra:	1|3|COM 2|3|LINK 3|0|ROOT 4|3|PRED 5|3|PUNCT
 %com:	CHI Where ?
 *CHI:	&-um xxx I can't .
+%mor:	pro:sub|I mod|can~neg|not .
+%gra:	1|0|INCROOT 2|4|AUX 3|2|NEG 4|1|PUNCT
 *CHI:	so [/] so [/] so ↫n↫now it's your turn to find the treasure .
+%mor:	adv|so adv:tem|now pro:per|it~cop|be&3S det:poss|your n|turn inf|to
+	v|find det:art|the n|treasure .
+%gra:	1|2|JCT 2|0|INCROOT 3|4|SUBJ 4|2|CMOD 5|6|DET 6|4|PRED 7|8|INF 8|6|XMOD
+	9|10|DET 10|8|OBJ 11|2|PUNCT
 *CHI:	so where do I hide it ?
+%mor:	adv|so pro:int|where mod|do pro:sub|I v|hide pro:per|it ?
+%gra:	1|5|JCT 2|5|JCT 3|5|AUX 4|5|SUBJ 5|0|ROOT 6|5|OBJ 7|5|PUNCT
 *CHI:	in here .
+%mor:	prep|in n|here .
+%gra:	1|0|INCROOT 2|1|POBJ 3|1|PUNCT
 *CHI:	in here xxx .
+%mor:	prep|in n|here .
+%gra:	1|0|INCROOT 2|1|POBJ 3|1|PUNCT
 *CHI:	so [/] so dad ↫y-y↫you can't look over here [^ m1] because I'm
 	hiding it in [/] in here .
+%mor:	co|so n|dad pro:per|you mod|can~neg|not v|look prep|over n|here
+	conj|because pro:sub|I~aux|be&1S part|hide-PRESP pro:per|it prep|in
+	n|here .
+%gra:	1|2|COM 2|0|INCROOT 3|6|SUBJ 4|6|AUX 5|4|NEG 6|2|CMOD 7|6|JCT 8|7|POBJ
+	9|12|LINK 10|12|SUBJ 11|12|AUX 12|2|CJCT 13|12|OBJ 14|12|JCT 15|14|POBJ
+	16|2|PUNCT
 *CHI:	the rock is stuck !
+%mor:	det:art|the n|rock aux|be&3S part|stick&PASTP !
+%gra:	1|2|DET 2|4|SUBJ 3|4|AUX 4|0|ROOT 5|4|PUNCT
 *CHI:	I [/] I can't hide it .
+%mor:	pro:sub|I mod|can~neg|not v|hide pro:per|it .
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|4|OBJ 6|4|PUNCT
 *CHI:	oh dad [^ dp] you've never seen that !
+%mor:	co|oh n|dad pro:per|you~aux|have adv:tem|never part|see&PASTP
+	pro:dem|that !
+%gra:	1|6|COM 2|6|AUX 3|6|SUBJ 4|6|AUX 5|6|AUX 6|0|ROOT 7|6|OBJ 8|6|PUNCT
 *CHI:	I don't know .
+%mor:	pro:sub|I mod|do~neg|not v|know .
+%gra:	1|4|SUBJ 2|4|AUX 3|2|NEG 4|0|ROOT 5|4|PUNCT
 *CHI:	it looks like a xxx or a purse .
+%mor:	pro:per|it v|look-3S prep|like det:art|a coord|or det:art|a n|purse
+	.
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|JCT 4|5|DET 5|3|POBJ 6|7|DET 7|5|COORD 8|2|PUNCT
 *CHI:	okay and this one xxx +...
+%mor:	co|okay coord|and det:dem|this pro:indef|one +...
+%gra:	1|0|INCROOT 2|1|CONJ 3|4|DET 4|2|COORD 5|1|PUNCT
 *CHI:	look mom I'm [/] m hiding the food in here .
+%mor:	v|look n|mom n:let|m part|hide-PRESP det:art|the n|food prep|in
+	n|here .
+%gra:	1|0|ROOT 2|1|OBJ 3|1|ENUM 4|3|XMOD 5|6|DET 6|4|OBJ 7|4|JCT 8|7|POBJ
+	9|1|PUNCT
 *CHI:	so daddy is this a great hiding place ?
+%mor:	co|so n|daddy cop|be&3S det:dem|this det:art|a adj|great
+	part|hide-PRESP n|place ?
+%gra:	1|3|COM 2|3|SUBJ 3|0|ROOT 4|8|DET 5|8|DET 6|8|MOD 7|8|MOD 8|3|PRED
+	9|3|PUNCT
 *CHI:	okay .
+%mor:	co|okay .
+%gra:	1|0|INCROOT 2|1|PUNCT
 *CHI:	mom can you close this daddy ?
+%mor:	n|mom mod|can pro:per|you v|close det:dem|this n|daddy ?
+%gra:	1|4|SUBJ 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|6|DET 6|4|OBJ 7|4|PUNCT
 *CHI:	dad can you close this ?
+%mor:	n|dad mod|can pro:per|you v|close pro:dem|this ?
+%gra:	1|4|SUBJ 2|4|AUX 3|4|SUBJ 4|0|ROOT 5|4|OBJ 6|4|PUNCT
 *CHI:	dad you [/] you never can find it .
+%mor:	n|dad pro:per|you adv:tem|never mod|can v|find pro:per|it .
+%gra:	1|5|LINK 2|5|SUBJ 3|5|JCT 4|5|AUX 5|0|ROOT 6|5|OBJ 7|5|PUNCT
 *CHI:	you're [/] you're never gonna find the treasure .
+%mor:	pro:per|you~cop|be&PRES adv:tem|never part|go&PRESP~inf|to v|find
+	det:art|the n|treasure .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|3|XMOD 5|6|INF 6|4|COMP 7|8|DET 8|6|OBJ
+	9|2|PUNCT
 *CHI:	you're never gonna find the treasure .
+%mor:	pro:per|you~cop|be&PRES adv:tem|never part|go&PRESP~inf|to v|find
+	det:art|the n|treasure .
+%gra:	1|2|SUBJ 2|0|ROOT 3|2|PRED 4|3|XMOD 5|6|INF 6|4|COMP 7|8|DET 8|6|OBJ
+	9|2|PUNCT
 %com:	Sample 1 ends ., transcribed blb .
 @End
